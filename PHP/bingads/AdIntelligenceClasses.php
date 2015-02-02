@@ -3,7 +3,6 @@
 
 namespace BingAds\AdIntelligence
 {
-    use DateTime;
 
     final class AdIntelligenceServiceSettings
     {
@@ -15,7 +14,7 @@ namespace BingAds\AdIntelligence
     /**
      * Defines the possible time periods that determine the pool of data that the service uses to get the performance statistics of a keyword.
      * @link http://msdn.microsoft.com/en-us/library/gg670967(v=msads.90).aspx TimeInterval Value Set
-     * 
+     *
      * @used-by GetHistoricalKeywordPerformanceRequest
      * @used-by GetPublisherKeywordPerformanceRequest
      */
@@ -43,7 +42,7 @@ namespace BingAds\AdIntelligence
     /**
      * Defines the possible positions where you can target an ad to appear in the search results or on a content-based webpage.
      * @link http://msdn.microsoft.com/en-us/library/gg986819(v=msads.90).aspx TargetAdPosition Value Set
-     * 
+     *
      * @used-by GetEstimatedBidByKeywordIdsRequest
      * @used-by GetEstimatedBidByKeywordsRequest
      */
@@ -62,7 +61,7 @@ namespace BingAds\AdIntelligence
     /**
      * Defines the possible keyword match type values.
      * @link http://msdn.microsoft.com/en-us/library/gg712238(v=msads.90).aspx MatchType Value Set
-     * 
+     *
      * @used-by EstimatedBidAndTraffic
      * @used-by EstimatedPositionAndTraffic
      * @used-by KeywordAndMatchType
@@ -91,7 +90,7 @@ namespace BingAds\AdIntelligence
     /**
      * Defines a selection of currency values.
      * @link http://msdn.microsoft.com/en-us/library/gg712234(v=msads.90).aspx Currency Value Set
-     * 
+     *
      * @used-by AdGroupEstimatedBid
      * @used-by BidLandscapePoint
      * @used-by EstimatedBidAndTraffic
@@ -198,7 +197,7 @@ namespace BingAds\AdIntelligence
     /**
      * Defines the possible positions of an ad in the search results or on a content-based webpage.
      * @link http://msdn.microsoft.com/en-us/library/gg712236(v=msads.90).aspx AdPosition Value Set
-     * 
+     *
      * @used-by KeywordKPI
      * @used-by GetHistoricalKeywordPerformanceRequest
      */
@@ -256,7 +255,7 @@ namespace BingAds\AdIntelligence
     /**
      * Defines the possible values that indicate whether all or a subset of an ad group's existing keywords are used to determine the bid landscape.
      * @link http://msdn.microsoft.com/en-us/library/dn743748(v=msads.90).aspx AdGroupBidLandscapeType Value Set
-     * 
+     *
      * @used-by AdGroupBidLandscape
      * @used-by AdGroupBidLandscapeInput
      */
@@ -321,7 +320,7 @@ namespace BingAds\AdIntelligence
     /**
      * Defines an error object that contains the details that explain why the service operation failed.
      * @link http://msdn.microsoft.com/en-us/library/dn169086(v=msads.90).aspx AdApiError Data Object
-     * 
+     *
      * @used-by AdApiFaultDetail
      */
     final class AdApiError
@@ -367,7 +366,7 @@ namespace BingAds\AdIntelligence
     /**
      * Defines a fault object that operations return when generic errors occur, such as an authentication error.
      * @link http://msdn.microsoft.com/en-us/library/dn169084(v=msads.90).aspx AdApiFaultDetail Data Object
-     * 
+     *
      * @uses AdApiError
      */
     final class AdApiFaultDetail extends ApplicationFault
@@ -382,7 +381,7 @@ namespace BingAds\AdIntelligence
     /**
      * Defines an object that contains a list of estimated clicks, cost, and impressions from 1 to 7 days for the ad group identifier given the suggested bid.
      * @link http://msdn.microsoft.com/en-us/library/dn743746(v=msads.90).aspx AdGroupBidLandscape Data Object
-     * 
+     *
      * @uses AdGroupBidLandscapeType
      * @uses DayMonthAndYear
      * @uses BidLandscapePoint
@@ -424,7 +423,7 @@ namespace BingAds\AdIntelligence
     /**
      * Defines an object that contains the requested bid landscape type for the corresponding ad group identifier.
      * @link http://msdn.microsoft.com/en-us/library/dn743747(v=msads.90).aspx AdGroupBidLandscapeInput Data Object
-     * 
+     *
      * @uses AdGroupBidLandscapeType
      * @used-by GetBidLandscapeByAdGroupIdsRequest
      */
@@ -446,7 +445,7 @@ namespace BingAds\AdIntelligence
     /**
      * Defines an object that contains estimates of clicks, average cost per click (CPC), impressions, click-through rate (CTR), and total cost for the specified ad group given the suggested bid.
      * @link http://msdn.microsoft.com/en-us/library/dn144841(v=msads.90).aspx AdGroupEstimatedBid Data Object
-     * 
+     *
      * @uses Currency
      * @used-by GetEstimatedBidByKeywordsResponse
      */
@@ -516,7 +515,7 @@ namespace BingAds\AdIntelligence
     /**
      * Defines a fault object that operations return when web service-specific errors occur, such as when the request message contains incomplete or invalid data.
      * @link http://msdn.microsoft.com/en-us/library/dn169087(v=msads.90).aspx ApiFaultDetail Data Object
-     * 
+     *
      * @uses BatchError
      * @uses OperationError
      */
@@ -587,7 +586,7 @@ namespace BingAds\AdIntelligence
     /**
      * Defines an error object that identifies the item within the batch of items in the request message that caused the operation to fail, and describes the reason for the failure.
      * @link http://msdn.microsoft.com/en-us/library/dn169090(v=msads.90).aspx BatchError Data Object
-     * 
+     *
      * @used-by ApiFaultDetail
      */
     final class BatchError
@@ -626,7 +625,7 @@ namespace BingAds\AdIntelligence
     /**
      * Defines an object that contains estimates of clicks, cost, and impressions given the suggested bid.
      * @link http://msdn.microsoft.com/en-us/library/dn631947(v=msads.90).aspx BidLandscapePoint Data Object
-     * 
+     *
      * @uses Currency
      * @used-by AdGroupBidLandscape
      * @used-by KeywordBidLandscape
@@ -685,7 +684,7 @@ namespace BingAds\AdIntelligence
     /**
      * Defines an object that you use to specify the start and end dates of a date range.
      * @link http://msdn.microsoft.com/en-us/library/hh921738(v=msads.90).aspx DayMonthAndYear Data Object
-     * 
+     *
      * @used-by AdGroupBidLandscape
      * @used-by HistoricalSearchCountPeriodic
      * @used-by KeywordBidLandscape
@@ -715,7 +714,7 @@ namespace BingAds\AdIntelligence
     /**
      * Defines an object that contains estimates of clicks, average cost per click (CPC), impressions, click-through rate (CTR), and total cost for the specified keyword given the suggested bid.
      * @link http://msdn.microsoft.com/en-us/library/gg986821(v=msads.90).aspx EstimatedBidAndTraffic Data Object
-     * 
+     *
      * @uses MatchType
      * @uses Currency
      * @used-by KeywordEstimatedBid
@@ -792,7 +791,7 @@ namespace BingAds\AdIntelligence
     /**
      * Defines an object that contains the estimated search results position and estimated keyword statistics such as clicks, average cost per click (CPC), impressions, click-through rate (CTR), and total cost for the specified keyword given the specified bid.
      * @link http://msdn.microsoft.com/en-us/library/gg986823(v=msads.90).aspx EstimatedPositionAndTraffic Data Object
-     * 
+     *
      * @uses MatchType
      * @uses Currency
      * @used-by KeywordEstimatedPosition
@@ -869,7 +868,7 @@ namespace BingAds\AdIntelligence
     /**
      * Defines an object that contains the number of times that the keyword was used in a search query during the specified time period.
      * @link http://msdn.microsoft.com/en-us/library/hh921728(v=msads.90).aspx HistoricalSearchCountPeriodic Data Object
-     * 
+     *
      * @uses DayMonthAndYear
      * @used-by KeywordSearchCount
      */
@@ -891,7 +890,7 @@ namespace BingAds\AdIntelligence
     /**
      * Defines an object that contains a suggested keyword and a confidence score.
      * @link http://msdn.microsoft.com/en-us/library/gg670952(v=msads.90).aspx KeywordAndConfidence Data Object
-     * 
+     *
      * @used-by KeywordSuggestion
      * @used-by SuggestKeywordsForUrlResponse
      */
@@ -913,7 +912,7 @@ namespace BingAds\AdIntelligence
     /**
      * Defines an object that contains a keyword and corresponding match types.
      * @link http://msdn.microsoft.com/en-us/library/dn320461(v=msads.90).aspx KeywordAndMatchType Data Object
-     * 
+     *
      * @uses MatchType
      * @used-by GetEstimatedBidByKeywordsRequest
      */
@@ -935,7 +934,7 @@ namespace BingAds\AdIntelligence
     /**
      * Defines an object that contains a list of estimated clicks, cost, and impressions from 1 to 7 days for the keyword identifier given the suggested bid.
      * @link http://msdn.microsoft.com/en-us/library/dn631946(v=msads.90).aspx KeywordBidLandscape Data Object
-     * 
+     *
      * @uses DayMonthAndYear
      * @uses BidLandscapePoint
      * @used-by KeywordIdBidEstimation
@@ -971,7 +970,7 @@ namespace BingAds\AdIntelligence
     /**
      * Defines an object that contains a keyword category and a confidence score.
      * @link http://msdn.microsoft.com/en-us/library/hh921730(v=msads.90).aspx KeywordCategory Data Object
-     * 
+     *
      * @used-by KeywordCategoryResult
      */
     final class KeywordCategory
@@ -992,7 +991,7 @@ namespace BingAds\AdIntelligence
     /**
      * Defines an object that contains the keyword and a list of keyword categories that the keyword might belong to.
      * @link http://msdn.microsoft.com/en-us/library/hh921731(v=msads.90).aspx KeywordCategoryResult Data Object
-     * 
+     *
      * @uses KeywordCategory
      * @used-by GetKeywordCategoriesResponse
      */
@@ -1014,7 +1013,7 @@ namespace BingAds\AdIntelligence
     /**
      * Defines an object that contains the age and gender of the user who entered the search query, if known.
      * @link http://msdn.microsoft.com/en-us/library/hh921729(v=msads.90).aspx KeywordDemographic Data Object
-     * 
+     *
      * @used-by KeywordDemographicResult
      */
     final class KeywordDemographic
@@ -1077,7 +1076,7 @@ namespace BingAds\AdIntelligence
     /**
      * Defines an object that contains the keyword and percentage of users by age and gender (if known) who searched for the specified keyword on the specified device.
      * @link http://msdn.microsoft.com/en-us/library/hh921732(v=msads.90).aspx KeywordDemographicResult Data Object
-     * 
+     *
      * @uses KeywordDemographic
      * @used-by GetKeywordDemographicsResponse
      */
@@ -1105,7 +1104,7 @@ namespace BingAds\AdIntelligence
     /**
      * Defines an object that contains the keyword and the estimated bid value for each match type.
      * @link http://msdn.microsoft.com/en-us/library/gg986832(v=msads.90).aspx KeywordEstimatedBid Data Object
-     * 
+     *
      * @uses EstimatedBidAndTraffic
      * @used-by KeywordIdEstimatedBid
      * @used-by GetEstimatedBidByKeywordsResponse
@@ -1128,7 +1127,7 @@ namespace BingAds\AdIntelligence
     /**
      * Defines an object that contains the keyword and the estimated position in the search results for each match type.
      * @link http://msdn.microsoft.com/en-us/library/gg986826(v=msads.90).aspx KeywordEstimatedPosition Data Object
-     * 
+     *
      * @uses EstimatedPositionAndTraffic
      * @used-by KeywordIdEstimatedPosition
      * @used-by GetEstimatedPositionByKeywordsResponse
@@ -1151,7 +1150,7 @@ namespace BingAds\AdIntelligence
     /**
      * Defines an object that contains the key performance index data for the specified keyword and device.
      * @link http://msdn.microsoft.com/en-us/library/gg986820(v=msads.90).aspx KeywordHistoricalPerformance Data Object
-     * 
+     *
      * @uses KeywordKPI
      * @used-by GetHistoricalKeywordPerformanceResponse
      */
@@ -1198,7 +1197,7 @@ namespace BingAds\AdIntelligence
     /**
      * Defines an object that contains the identifier of the keyword and the suggested bid value for the keyword and match type.
      * @link http://msdn.microsoft.com/en-us/library/gg986827(v=msads.90).aspx KeywordIdEstimatedBid Data Object
-     * 
+     *
      * @uses KeywordEstimatedBid
      * @used-by KeywordIdBidSuggestion
      * @used-by GetEstimatedBidByKeywordIdsResponse
@@ -1221,7 +1220,7 @@ namespace BingAds\AdIntelligence
     /**
      * Defines an object that contains the identifier of a keyword and the estimated search results position for the keyword and match type.
      * @link http://msdn.microsoft.com/en-us/library/gg986824(v=msads.90).aspx KeywordIdEstimatedPosition Data Object
-     * 
+     *
      * @uses KeywordEstimatedPosition
      * @used-by GetEstimatedPositionByKeywordIdsResponse
      */
@@ -1243,7 +1242,7 @@ namespace BingAds\AdIntelligence
     /**
      * Defines a key performance index object for a keyword.
      * @link http://msdn.microsoft.com/en-us/library/gg986837(v=msads.90).aspx KeywordKPI Data Object
-     * 
+     *
      * @uses MatchType
      * @uses AdPosition
      * @used-by KeywordHistoricalPerformance
@@ -1302,7 +1301,7 @@ namespace BingAds\AdIntelligence
     /**
      * Defines an object that contains the location and the percentage of time that a user in the specified location entered a search query with the specified keyword.
      * @link http://msdn.microsoft.com/en-us/library/hh921736(v=msads.90).aspx KeywordLocation Data Object
-     * 
+     *
      * @used-by KeywordLocationResult
      */
     final class KeywordLocation
@@ -1323,7 +1322,7 @@ namespace BingAds\AdIntelligence
     /**
      * Defines an object that contains the locations where users were located when they searched for the specified keyword using the specified type of device.
      * @link http://msdn.microsoft.com/en-us/library/hh921735(v=msads.90).aspx KeywordLocationResult Data Object
-     * 
+     *
      * @uses KeywordLocation
      * @used-by GetKeywordLocationsResponse
      */
@@ -1359,7 +1358,7 @@ namespace BingAds\AdIntelligence
     /**
      * Defines an object that contains the number of times the keyword was included in a search query on the specified device type.
      * @link http://msdn.microsoft.com/en-us/library/gg712245(v=msads.90).aspx KeywordSearchCount Data Object
-     * 
+     *
      * @uses HistoricalSearchCountPeriodic
      * @used-by GetHistoricalSearchCountResponse
      */
@@ -1387,7 +1386,7 @@ namespace BingAds\AdIntelligence
     /**
      * Defines an object that contains a list of suggested keywords that may perform better than the specified keyword.
      * @link http://msdn.microsoft.com/en-us/library/gg712233(v=msads.90).aspx KeywordSuggestion Data Object
-     * 
+     *
      * @uses KeywordAndConfidence
      * @used-by SuggestKeywordsFromExistingKeywordsResponse
      */
@@ -1409,7 +1408,7 @@ namespace BingAds\AdIntelligence
     /**
      * Defines an error object that contains the details that explain why the service operation failed.
      * @link http://msdn.microsoft.com/en-us/library/dn169088(v=msads.90).aspx OperationError Data Object
-     * 
+     *
      * @used-by ApiFaultDetail
      */
     final class OperationError
@@ -1500,7 +1499,7 @@ namespace BingAds\AdIntelligence
     /**
      * Given a list of existing ad groups, this operation returns for each a list of suggested bids and estimated performance statistics.
      * @link http://msdn.microsoft.com/en-us/library/dn743755(v=msads.90).aspx GetBidLandscapeByAdGroupIds Request Object
-     * 
+     *
      * @uses AdGroupBidLandscapeInput
      * @used-by BingAdsAdIntelligenceService::GetBidLandscapeByAdGroupIds
      */
@@ -1516,7 +1515,7 @@ namespace BingAds\AdIntelligence
     /**
      * Given a list of existing ad groups, this operation returns for each a list of suggested bids and estimated performance statistics.
      * @link http://msdn.microsoft.com/en-us/library/dn743755(v=msads.90).aspx GetBidLandscapeByAdGroupIds Response Object
-     * 
+     *
      * @uses AdGroupBidLandscape
      * @used-by BingAdsAdIntelligenceService::GetBidLandscapeByAdGroupIds
      */
@@ -1532,7 +1531,7 @@ namespace BingAds\AdIntelligence
     /**
      * Given a list of existing keywords, this operation returns for each a list of suggested bids and estimated performance statistics.
      * @link http://msdn.microsoft.com/en-us/library/dn631945(v=msads.90).aspx GetBidLandscapeByKeywordIds Request Object
-     * 
+     *
      * @used-by BingAdsAdIntelligenceService::GetBidLandscapeByKeywordIds
      */
     final class GetBidLandscapeByKeywordIdsRequest
@@ -1547,7 +1546,7 @@ namespace BingAds\AdIntelligence
     /**
      * Given a list of existing keywords, this operation returns for each a list of suggested bids and estimated performance statistics.
      * @link http://msdn.microsoft.com/en-us/library/dn631945(v=msads.90).aspx GetBidLandscapeByKeywordIds Response Object
-     * 
+     *
      * @uses KeywordBidLandscape
      * @used-by BingAdsAdIntelligenceService::GetBidLandscapeByKeywordIds
      */
@@ -1573,7 +1572,7 @@ namespace BingAds\AdIntelligence
     /**
      * Gets the estimated bid value of one or more keywords - specified by keyword identifier - that could have resulted in an ad appearing in the targeted position in the search results in the last 7 days.
      * @link http://msdn.microsoft.com/en-us/library/dn336995(v=msads.90).aspx GetEstimatedBidByKeywordIds Request Object
-     * 
+     *
      * @uses TargetAdPosition
      * @used-by BingAdsAdIntelligenceService::GetEstimatedBidByKeywordIds
      */
@@ -1595,7 +1594,7 @@ namespace BingAds\AdIntelligence
     /**
      * Gets the estimated bid value of one or more keywords - specified by keyword identifier - that could have resulted in an ad appearing in the targeted position in the search results in the last 7 days.
      * @link http://msdn.microsoft.com/en-us/library/dn336995(v=msads.90).aspx GetEstimatedBidByKeywordIds Response Object
-     * 
+     *
      * @uses KeywordIdEstimatedBid
      * @used-by BingAdsAdIntelligenceService::GetEstimatedBidByKeywordIds
      */
@@ -1611,7 +1610,7 @@ namespace BingAds\AdIntelligence
     /**
      * Gets the estimated bid value of one or more keywords that could result in an ad appearing in the targeted position in the search results.
      * @link http://msdn.microsoft.com/en-us/library/dn336987(v=msads.90).aspx GetEstimatedBidByKeywords Request Object
-     * 
+     *
      * @uses KeywordAndMatchType
      * @uses TargetAdPosition
      * @uses Currency
@@ -1666,7 +1665,7 @@ namespace BingAds\AdIntelligence
     /**
      * Gets the estimated bid value of one or more keywords that could result in an ad appearing in the targeted position in the search results.
      * @link http://msdn.microsoft.com/en-us/library/dn336987(v=msads.90).aspx GetEstimatedBidByKeywords Response Object
-     * 
+     *
      * @uses KeywordEstimatedBid
      * @uses AdGroupEstimatedBid
      * @used-by BingAdsAdIntelligenceService::GetEstimatedBidByKeywords
@@ -1689,7 +1688,7 @@ namespace BingAds\AdIntelligence
     /**
      * Gets the estimated position in the search results if the specified bid value had been used for the keywords in the last 7 days.
      * @link http://msdn.microsoft.com/en-us/library/dn336989(v=msads.90).aspx GetEstimatedPositionByKeywordIds Request Object
-     * 
+     *
      * @used-by BingAdsAdIntelligenceService::GetEstimatedPositionByKeywordIds
      */
     final class GetEstimatedPositionByKeywordIdsRequest
@@ -1710,7 +1709,7 @@ namespace BingAds\AdIntelligence
     /**
      * Gets the estimated position in the search results if the specified bid value had been used for the keywords in the last 7 days.
      * @link http://msdn.microsoft.com/en-us/library/dn336989(v=msads.90).aspx GetEstimatedPositionByKeywordIds Response Object
-     * 
+     *
      * @uses KeywordIdEstimatedPosition
      * @used-by BingAdsAdIntelligenceService::GetEstimatedPositionByKeywordIds
      */
@@ -1726,7 +1725,7 @@ namespace BingAds\AdIntelligence
     /**
      * Gets the estimated position in the search results if the specified bid value would be used for the specified keywords.
      * @link http://msdn.microsoft.com/en-us/library/dn337006(v=msads.90).aspx GetEstimatedPositionByKeywords Request Object
-     * 
+     *
      * @uses Currency
      * @uses MatchType
      * @used-by BingAdsAdIntelligenceService::GetEstimatedPositionByKeywords
@@ -1780,7 +1779,7 @@ namespace BingAds\AdIntelligence
     /**
      * Gets the estimated position in the search results if the specified bid value would be used for the specified keywords.
      * @link http://msdn.microsoft.com/en-us/library/dn337006(v=msads.90).aspx GetEstimatedPositionByKeywords Response Object
-     * 
+     *
      * @uses KeywordEstimatedPosition
      * @used-by BingAdsAdIntelligenceService::GetEstimatedPositionByKeywords
      */
@@ -1796,7 +1795,7 @@ namespace BingAds\AdIntelligence
     /**
      * Gets the historical performance of the normalized search term.
      * @link http://msdn.microsoft.com/en-us/library/dn336996(v=msads.90).aspx GetHistoricalKeywordPerformance Request Object
-     * 
+     *
      * @uses TimeInterval
      * @uses AdPosition
      * @uses MatchType
@@ -1850,7 +1849,7 @@ namespace BingAds\AdIntelligence
     /**
      * Gets the historical performance of the normalized search term.
      * @link http://msdn.microsoft.com/en-us/library/dn336996(v=msads.90).aspx GetHistoricalKeywordPerformance Response Object
-     * 
+     *
      * @uses KeywordHistoricalPerformance
      * @used-by BingAdsAdIntelligenceService::GetHistoricalKeywordPerformance
      */
@@ -1866,7 +1865,7 @@ namespace BingAds\AdIntelligence
     /**
      * Gets the number of times the normalized term was used in a search during the specified time period.
      * @link http://msdn.microsoft.com/en-us/library/dn336988(v=msads.90).aspx GetHistoricalSearchCount Request Object
-     * 
+     *
      * @uses DayMonthAndYear
      * @used-by BingAdsAdIntelligenceService::GetHistoricalSearchCount
      */
@@ -1918,7 +1917,7 @@ namespace BingAds\AdIntelligence
     /**
      * Gets the number of times the normalized term was used in a search during the specified time period.
      * @link http://msdn.microsoft.com/en-us/library/dn336988(v=msads.90).aspx GetHistoricalSearchCount Response Object
-     * 
+     *
      * @uses KeywordSearchCount
      * @used-by BingAdsAdIntelligenceService::GetHistoricalSearchCount
      */
@@ -1944,7 +1943,7 @@ namespace BingAds\AdIntelligence
     /**
      * Gets the keyword categories to which the specified keywords belong.
      * @link http://msdn.microsoft.com/en-us/library/dn336992(v=msads.90).aspx GetKeywordCategories Request Object
-     * 
+     *
      * @used-by BingAdsAdIntelligenceService::GetKeywordCategories
      */
     final class GetKeywordCategoriesRequest
@@ -1977,7 +1976,7 @@ namespace BingAds\AdIntelligence
     /**
      * Gets the keyword categories to which the specified keywords belong.
      * @link http://msdn.microsoft.com/en-us/library/dn336992(v=msads.90).aspx GetKeywordCategories Response Object
-     * 
+     *
      * @uses KeywordCategoryResult
      * @used-by BingAdsAdIntelligenceService::GetKeywordCategories
      */
@@ -1993,7 +1992,7 @@ namespace BingAds\AdIntelligence
     /**
      * Gets the age and gender of users who have searched for the specified keywords.
      * @link http://msdn.microsoft.com/en-us/library/dn336994(v=msads.90).aspx GetKeywordDemographics Request Object
-     * 
+     *
      * @used-by BingAdsAdIntelligenceService::GetKeywordDemographics
      */
     final class GetKeywordDemographicsRequest
@@ -2026,7 +2025,7 @@ namespace BingAds\AdIntelligence
     /**
      * Gets the age and gender of users who have searched for the specified keywords.
      * @link http://msdn.microsoft.com/en-us/library/dn336994(v=msads.90).aspx GetKeywordDemographics Response Object
-     * 
+     *
      * @uses KeywordDemographicResult
      * @used-by BingAdsAdIntelligenceService::GetKeywordDemographics
      */
@@ -2052,7 +2051,7 @@ namespace BingAds\AdIntelligence
     /**
      * Gets the geographical locations of users who have searched for the specified keywords.
      * @link http://msdn.microsoft.com/en-us/library/dn336993(v=msads.90).aspx GetKeywordLocations Request Object
-     * 
+     *
      * @used-by BingAdsAdIntelligenceService::GetKeywordLocations
      */
     final class GetKeywordLocationsRequest
@@ -2103,7 +2102,7 @@ namespace BingAds\AdIntelligence
     /**
      * Gets the geographical locations of users who have searched for the specified keywords.
      * @link http://msdn.microsoft.com/en-us/library/dn336993(v=msads.90).aspx GetKeywordLocations Response Object
-     * 
+     *
      * @uses KeywordLocationResult
      * @used-by BingAdsAdIntelligenceService::GetKeywordLocations
      */
@@ -2130,7 +2129,7 @@ namespace BingAds\AdIntelligence
     /**
      * Suggests the possible keywords for the content located at the specified URL.
      * @link http://msdn.microsoft.com/en-us/library/dn336991(v=msads.90).aspx SuggestKeywordsForUrl Request Object
-     * 
+     *
      * @used-by BingAdsAdIntelligenceService::SuggestKeywordsForUrl
      */
     final class SuggestKeywordsForUrlRequest
@@ -2169,7 +2168,7 @@ namespace BingAds\AdIntelligence
     /**
      * Suggests the possible keywords for the content located at the specified URL.
      * @link http://msdn.microsoft.com/en-us/library/dn336991(v=msads.90).aspx SuggestKeywordsForUrl Response Object
-     * 
+     *
      * @uses KeywordAndConfidence
      * @used-by BingAdsAdIntelligenceService::SuggestKeywordsForUrl
      */
@@ -2185,7 +2184,7 @@ namespace BingAds\AdIntelligence
     /**
      * Suggests keywords that could perform better than the specified keywords.
      * @link http://msdn.microsoft.com/en-us/library/dn336990(v=msads.90).aspx SuggestKeywordsFromExistingKeywords Request Object
-     * 
+     *
      * @used-by BingAdsAdIntelligenceService::SuggestKeywordsFromExistingKeywords
      */
     final class SuggestKeywordsFromExistingKeywordsRequest
@@ -2248,7 +2247,7 @@ namespace BingAds\AdIntelligence
     /**
      * Suggests keywords that could perform better than the specified keywords.
      * @link http://msdn.microsoft.com/en-us/library/dn336990(v=msads.90).aspx SuggestKeywordsFromExistingKeywords Response Object
-     * 
+     *
      * @uses KeywordSuggestion
      * @used-by BingAdsAdIntelligenceService::SuggestKeywordsFromExistingKeywords
      */

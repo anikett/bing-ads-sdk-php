@@ -15,7 +15,7 @@ namespace BingAds\CustomerBilling
     /**
      * Defines the possible formats in which to generate the billing document.
      * @link http://msdn.microsoft.com/en-us/library/ee704172(v=msads.90).aspx DataType Value Set
-     * 
+     *
      * @used-by BillingDocument
      * @used-by GetBillingDocumentsRequest
      * @used-by GetDisplayInvoicesRequest
@@ -32,7 +32,7 @@ namespace BingAds\CustomerBilling
     /**
      * Defines the possible status values of an InsertionOrder.
      * @link http://msdn.microsoft.com/en-us/library/dn743761(v=msads.90).aspx InsertionOrderStatus Value Set
-     * 
+     *
      * @used-by InsertionOrder
      */
     final class InsertionOrderStatus
@@ -59,7 +59,7 @@ namespace BingAds\CustomerBilling
     /**
      * Defines the condition of results for insertion orders returned using SearchInsertionOrders.
      * @link http://msdn.microsoft.com/en-us/library/dn743753(v=msads.90).aspx PredicateOperator Value Set
-     * 
+     *
      * @used-by Predicate
      */
     final class PredicateOperator
@@ -77,7 +77,7 @@ namespace BingAds\CustomerBilling
     /**
      * Defines the field order of insertion orders returned using SearchInsertionOrders.
      * @link http://msdn.microsoft.com/en-us/library/dn743750(v=msads.90).aspx OrderByField Value Set
-     * 
+     *
      * @used-by OrderBy
      */
     final class OrderByField
@@ -98,7 +98,7 @@ namespace BingAds\CustomerBilling
     /**
      * Defines the ascending or descending sort order of results for SearchInsertionOrders.
      * @link http://msdn.microsoft.com/en-us/library/dn743751(v=msads.90).aspx SortOrder Value Set
-     * 
+     *
      * @used-by OrderBy
      */
     final class SortOrder
@@ -110,7 +110,7 @@ namespace BingAds\CustomerBilling
     /**
      * Defines an error object that contains the details that explain why the service operation failed.
      * @link http://msdn.microsoft.com/en-us/library/dn169104(v=msads.90).aspx AdApiError Data Object
-     * 
+     *
      * @used-by AdApiFaultDetail
      */
     final class AdApiError
@@ -156,7 +156,7 @@ namespace BingAds\CustomerBilling
     /**
      * Defines a fault object that operations return when generic errors occur, such as an authentication error.
      * @link http://msdn.microsoft.com/en-us/library/dn169105(v=msads.90).aspx AdApiFaultDetail Data Object
-     * 
+     *
      * @uses AdApiError
      */
     final class AdApiFaultDetail extends ApplicationFault
@@ -171,7 +171,7 @@ namespace BingAds\CustomerBilling
     /**
      * Defines a fault object that operations return when web service-specific errors occur, such as when the request message contains incomplete or invalid data.
      * @link http://msdn.microsoft.com/en-us/library/dn169108(v=msads.90).aspx ApiFault Data Object
-     * 
+     *
      * @uses OperationError
      */
     class ApiFault extends ApplicationFault
@@ -182,7 +182,7 @@ namespace BingAds\CustomerBilling
     /**
      * Defines a fault object that operations return when web service-specific errors occur, such as when the request message contains incomplete or invalid data.
      * @link http://msdn.microsoft.com/en-us/library/dn169102(v=msads.90).aspx ApiBatchFault Data Object
-     * 
+     *
      * @uses BatchError
      */
     final class ApiBatchFault extends ApiFault
@@ -197,7 +197,7 @@ namespace BingAds\CustomerBilling
     /**
      * Defines an error object that identifies the item within the batch of items in the request message that caused the operation to fail, and describes the reason for the failure.
      * @link http://msdn.microsoft.com/en-us/library/dn169101(v=msads.90).aspx BatchError Data Object
-     * 
+     *
      * @used-by ApiBatchFault
      */
     final class BatchError
@@ -230,7 +230,7 @@ namespace BingAds\CustomerBilling
     /**
      * Defines a billing document.
      * @link http://msdn.microsoft.com/en-us/library/dn469177(v=msads.90).aspx BillingDocument Data Object
-     * 
+     *
      * @uses DataType
      * @used-by GetBillingDocumentsResponse
      * @used-by GetDisplayInvoicesResponse
@@ -260,7 +260,7 @@ namespace BingAds\CustomerBilling
     /**
      * Defines a billing document identification object that contains information about a billing document, such as the billing document identifier, billing document amount, and account identifier.
      * @link http://msdn.microsoft.com/en-us/library/dn469176(v=msads.90).aspx BillingDocumentInfo Data Object
-     * 
+     *
      * @used-by GetBillingDocumentsInfoResponse
      */
     final class BillingDocumentInfo
@@ -311,7 +311,7 @@ namespace BingAds\CustomerBilling
     /**
      * Defines an insertion order.
      * @link http://msdn.microsoft.com/en-us/library/ff728378(v=msads.90).aspx InsertionOrder Data Object
-     * 
+     *
      * @uses InsertionOrderStatus
      * @used-by AddInsertionOrderRequest
      * @used-by GetInsertionOrdersByAccountResponse
@@ -414,7 +414,7 @@ namespace BingAds\CustomerBilling
     /**
      * Defines an error object that contains the details that explain why the service operation failed.
      * @link http://msdn.microsoft.com/en-us/library/dn169103(v=msads.90).aspx OperationError Data Object
-     * 
+     *
      * @used-by ApiFault
      */
     final class OperationError
@@ -441,7 +441,7 @@ namespace BingAds\CustomerBilling
     /**
      * Defines an order for the list of insertion orders returned using SearchInsertionOrders.
      * @link http://msdn.microsoft.com/en-us/library/dn743752(v=msads.90).aspx OrderBy Data Object
-     * 
+     *
      * @uses OrderByField
      * @uses SortOrder
      * @used-by SearchInsertionOrdersRequest
@@ -464,7 +464,7 @@ namespace BingAds\CustomerBilling
     /**
      * Defines a paging object for the list of insertion orders returned using SearchInsertionOrders.
      * @link http://msdn.microsoft.com/en-us/library/dn743749(v=msads.90).aspx Paging Data Object
-     * 
+     *
      * @used-by SearchInsertionOrdersRequest
      */
     final class Paging
@@ -485,7 +485,7 @@ namespace BingAds\CustomerBilling
     /**
      * Defines a predicate for the list of insertion orders returned using SearchInsertionOrders.
      * @link http://msdn.microsoft.com/en-us/library/dn743756(v=msads.90).aspx Predicate Data Object
-     * 
+     *
      * @uses PredicateOperator
      * @used-by SearchInsertionOrdersRequest
      */
@@ -513,7 +513,7 @@ namespace BingAds\CustomerBilling
     /**
      * Adds an insertion order to the specified account.
      * @link http://msdn.microsoft.com/en-us/library/dn743758(v=msads.90).aspx AddInsertionOrder Request Object
-     * 
+     *
      * @uses InsertionOrder
      * @used-by BingAdsCustomerBillingService::AddInsertionOrder
      */
@@ -529,7 +529,7 @@ namespace BingAds\CustomerBilling
     /**
      * Adds an insertion order to the specified account.
      * @link http://msdn.microsoft.com/en-us/library/dn743758(v=msads.90).aspx AddInsertionOrder Response Object
-     * 
+     *
      * @used-by BingAdsCustomerBillingService::AddInsertionOrder
      */
     final class AddInsertionOrderResponse
@@ -550,7 +550,7 @@ namespace BingAds\CustomerBilling
     /**
      * Gets the amount spent by the account in the specified month.
      * @link http://msdn.microsoft.com/en-us/library/dn451264(v=msads.90).aspx GetAccountMonthlySpend Request Object
-     * 
+     *
      * @used-by BingAdsCustomerBillingService::GetAccountMonthlySpend
      */
     final class GetAccountMonthlySpendRequest
@@ -562,7 +562,7 @@ namespace BingAds\CustomerBilling
     /**
      * Gets the amount spent by the account in the specified month.
      * @link http://msdn.microsoft.com/en-us/library/dn451264(v=msads.90).aspx GetAccountMonthlySpend Response Object
-     * 
+     *
      * @used-by BingAdsCustomerBillingService::GetAccountMonthlySpend
      */
     final class GetAccountMonthlySpendResponse
@@ -577,7 +577,7 @@ namespace BingAds\CustomerBilling
     /**
      * Gets the specified billing documents.
      * @link http://msdn.microsoft.com/en-us/library/dn451265(v=msads.90).aspx GetBillingDocuments Request Object
-     * 
+     *
      * @uses DataType
      * @used-by BingAdsCustomerBillingService::GetBillingDocuments
      */
@@ -599,7 +599,7 @@ namespace BingAds\CustomerBilling
     /**
      * Gets the specified billing documents.
      * @link http://msdn.microsoft.com/en-us/library/dn451265(v=msads.90).aspx GetBillingDocuments Response Object
-     * 
+     *
      * @uses BillingDocument
      * @used-by BingAdsCustomerBillingService::GetBillingDocuments
      */
@@ -615,7 +615,7 @@ namespace BingAds\CustomerBilling
     /**
      * Gets a list of objects that contains billing document identification information, for example the billing document identifier, amount, and account identifier.
      * @link http://msdn.microsoft.com/en-us/library/dn451271(v=msads.90).aspx GetBillingDocumentsInfo Request Object
-     * 
+     *
      * @used-by BingAdsCustomerBillingService::GetBillingDocumentsInfo
      */
     final class GetBillingDocumentsInfoRequest
@@ -642,7 +642,7 @@ namespace BingAds\CustomerBilling
     /**
      * Gets a list of objects that contains billing document identification information, for example the billing document identifier, amount, and account identifier.
      * @link http://msdn.microsoft.com/en-us/library/dn451271(v=msads.90).aspx GetBillingDocumentsInfo Response Object
-     * 
+     *
      * @uses BillingDocumentInfo
      * @used-by BingAdsCustomerBillingService::GetBillingDocumentsInfo
      */
@@ -669,7 +669,7 @@ namespace BingAds\CustomerBilling
     /**
      * Gets a list of insertion orders for the specified account.
      * @link http://msdn.microsoft.com/en-us/library/dn451269(v=msads.90).aspx GetInsertionOrdersByAccount Request Object
-     * 
+     *
      * @used-by BingAdsCustomerBillingService::GetInsertionOrdersByAccount
      */
     final class GetInsertionOrdersByAccountRequest
@@ -690,7 +690,7 @@ namespace BingAds\CustomerBilling
     /**
      * Gets a list of insertion orders for the specified account.
      * @link http://msdn.microsoft.com/en-us/library/dn451269(v=msads.90).aspx GetInsertionOrdersByAccount Response Object
-     * 
+     *
      * @uses InsertionOrder
      * @used-by BingAdsCustomerBillingService::GetInsertionOrdersByAccount
      */
@@ -716,7 +716,7 @@ namespace BingAds\CustomerBilling
     /**
      * Searches for insertion orders that match a specified criteria.
      * @link http://msdn.microsoft.com/en-us/library/dn743759(v=msads.90).aspx SearchInsertionOrders Request Object
-     * 
+     *
      * @uses Predicate
      * @uses OrderBy
      * @uses Paging
@@ -746,7 +746,7 @@ namespace BingAds\CustomerBilling
     /**
      * Searches for insertion orders that match a specified criteria.
      * @link http://msdn.microsoft.com/en-us/library/dn743759(v=msads.90).aspx SearchInsertionOrders Response Object
-     * 
+     *
      * @uses InsertionOrder
      * @used-by BingAdsCustomerBillingService::SearchInsertionOrders
      */
@@ -762,7 +762,7 @@ namespace BingAds\CustomerBilling
     /**
      * Updates an insertion order within the specified account.
      * @link http://msdn.microsoft.com/en-us/library/dn743760(v=msads.90).aspx UpdateInsertionOrder Request Object
-     * 
+     *
      * @uses InsertionOrder
      * @used-by BingAdsCustomerBillingService::UpdateInsertionOrder
      */
@@ -778,7 +778,7 @@ namespace BingAds\CustomerBilling
     /**
      * Updates an insertion order within the specified account.
      * @link http://msdn.microsoft.com/en-us/library/dn743760(v=msads.90).aspx UpdateInsertionOrder Response Object
-     * 
+     *
      * @used-by BingAdsCustomerBillingService::UpdateInsertionOrder
      */
     final class UpdateInsertionOrderResponse

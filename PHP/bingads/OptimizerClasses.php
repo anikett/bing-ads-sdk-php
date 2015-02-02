@@ -15,7 +15,7 @@ namespace BingAds\Optimizer
     /**
      * Defines the possible values of a campaign budget point.
      * @link http://msdn.microsoft.com/en-us/library/dn434661(v=msads.90).aspx BudgetPointType Value Set
-     * 
+     *
      * @used-by BudgetPoint
      */
     final class BudgetPointType
@@ -36,7 +36,7 @@ namespace BingAds\Optimizer
     /**
      * Defines the possible bid opportunity types you can request when calling GetBidOpportunities.
      * @link http://msdn.microsoft.com/en-us/library/dn766183(v=msads.90).aspx BidOpportunityType Value Set
-     * 
+     *
      * @used-by GetBidOpportunitiesRequest
      */
     final class BidOpportunityType
@@ -57,7 +57,7 @@ namespace BingAds\Optimizer
     /**
      * Defines the possible keyword opportunity types you can request when calling GetKeywordOpportunities.
      * @link http://msdn.microsoft.com/en-us/library/dn766184(v=msads.90).aspx KeywordOpportunityType Value Set
-     * 
+     *
      * @used-by GetKeywordOpportunitiesRequest
      */
     final class KeywordOpportunityType
@@ -78,7 +78,7 @@ namespace BingAds\Optimizer
     /**
      * Defines the possible types of campaign budgets.
      * @link http://msdn.microsoft.com/en-us/library/hh418067(v=msads.90).aspx BudgetLimitType Value Set
-     * 
+     *
      * @used-by BudgetOpportunity
      */
     final class BudgetLimitType
@@ -96,7 +96,7 @@ namespace BingAds\Optimizer
     /**
      * Defines an error object that contains the details that explain why the service operation failed.
      * @link http://msdn.microsoft.com/en-us/library/dn169130(v=msads.90).aspx AdApiError Data Object
-     * 
+     *
      * @used-by AdApiFaultDetail
      */
     final class AdApiError
@@ -142,7 +142,7 @@ namespace BingAds\Optimizer
     /**
      * Defines a fault object that operations return when generic errors occur, such as an authentication error.
      * @link http://msdn.microsoft.com/en-us/library/dn169129(v=msads.90).aspx AdApiFaultDetail Data Object
-     * 
+     *
      * @uses AdApiError
      */
     final class AdApiFaultDetail extends ApplicationFault
@@ -157,7 +157,7 @@ namespace BingAds\Optimizer
     /**
      * Defines a fault object that operations return when web service-specific errors occur, such as when the request message contains incomplete or invalid data.
      * @link http://msdn.microsoft.com/en-us/library/dn169127(v=msads.90).aspx ApiFaultDetail Data Object
-     * 
+     *
      * @uses BatchError
      * @uses OperationError
      */
@@ -186,7 +186,7 @@ namespace BingAds\Optimizer
     /**
      * Defines an error object that identifies the item within the batch of items in the request message that caused the operation to fail, and describes the reason for the failure.
      * @link http://msdn.microsoft.com/en-us/library/dn169131(v=msads.90).aspx BatchError Data Object
-     * 
+     *
      * @used-by ApiFaultDetail
      */
     final class BatchError
@@ -244,7 +244,7 @@ namespace BingAds\Optimizer
     /**
      * Defines an object that contains the suggested bid with estimated clicks and impressions opportunities.
      * @link http://msdn.microsoft.com/en-us/library/hh802384(v=msads.90).aspx BidOpportunity Data Object
-     * 
+     *
      * @used-by GetBidOpportunitiesResponse
      */
     final class BidOpportunity extends Opportunity
@@ -301,7 +301,7 @@ namespace BingAds\Optimizer
     /**
      * Defines an object that contains the key used to identify the opportunity to be applied.
      * @link http://msdn.microsoft.com/en-us/library/dn766182(v=msads.90).aspx OpportunityModifier Data Object
-     * 
+     *
      * @used-by ApplyOpportunitiesRequest
      * @used-by ApplyOpportunityModifiersRequest
      */
@@ -330,7 +330,7 @@ namespace BingAds\Optimizer
     /**
      * Defines an object that contains a suggested keyword and bid value.
      * @link http://msdn.microsoft.com/en-us/library/jj649133(v=msads.90).aspx KeywordOpportunity Data Object
-     * 
+     *
      * @used-by GetKeywordOpportunitiesResponse
      */
     class KeywordOpportunity extends Opportunity
@@ -381,7 +381,7 @@ namespace BingAds\Optimizer
     /**
      * Defines an object that contains the marketplace impact statistics of including broad match type keyword bids.
      * @link http://msdn.microsoft.com/en-us/library/dn766186(v=msads.90).aspx BroadMatchKeywordOpportunity Data Object
-     * 
+     *
      * @uses BroadMatchSearchQueryKPI
      */
     final class BroadMatchKeywordOpportunity extends KeywordOpportunity
@@ -497,7 +497,7 @@ namespace BingAds\Optimizer
     /**
      * Defines an object that contains search query statistics of including broad match type keyword bids.
      * @link http://msdn.microsoft.com/en-us/library/dn766187(v=msads.90).aspx BroadMatchSearchQueryKPI Data Object
-     * 
+     *
      * @used-by BroadMatchKeywordOpportunity
      * @used-by BroadMatchSearchQuery
      */
@@ -537,7 +537,7 @@ namespace BingAds\Optimizer
     /**
      * Defines an object that contains daily impressions and clicks estimates for one of the last 15 days.
      * @link http://msdn.microsoft.com/en-us/library/dn434658(v=msads.90).aspx BudgetLandscapePoint Data Object
-     * 
+     *
      * @used-by BudgetPoint
      */
     final class BudgetLandscapePoint
@@ -576,7 +576,7 @@ namespace BingAds\Optimizer
     /**
      * Defines an object that contains the suggested budget with estimated clicks and impressions opportunities.
      * @link http://msdn.microsoft.com/en-us/library/hh418054(v=msads.90).aspx BudgetOpportunity Data Object
-     * 
+     *
      * @uses BudgetLimitType
      * @used-by GetBudgetOpportunitiesResponse
      */
@@ -647,7 +647,7 @@ namespace BingAds\Optimizer
     /**
      * Defines an object that contains a budget amount and an estimate of daily impressions, clicks, and cost for this budget amount averaged over the last 15 days.
      * @link http://msdn.microsoft.com/en-us/library/dn434659(v=msads.90).aspx BudgetPoint Data Object
-     * 
+     *
      * @uses BudgetLandscapePoint
      * @uses BudgetPointType
      * @used-by CampaignBudgetLandscape
@@ -694,7 +694,7 @@ namespace BingAds\Optimizer
     /**
      * Defines an object that contains a list of budget points for a campaign.
      * @link http://msdn.microsoft.com/en-us/library/dn434660(v=msads.90).aspx CampaignBudgetLandscape Data Object
-     * 
+     *
      * @uses BudgetPoint
      * @used-by GetBudgetLandscapeResponse
      */
@@ -740,7 +740,7 @@ namespace BingAds\Optimizer
     /**
      * Defines an error object that contains the details that explain why the service operation failed.
      * @link http://msdn.microsoft.com/en-us/library/dn169126(v=msads.90).aspx OperationError Data Object
-     * 
+     *
      * @used-by ApiFaultDetail
      */
     final class OperationError
@@ -773,7 +773,7 @@ namespace BingAds\Optimizer
     /**
      * Applies the recommended opportunities that the get opportunities operations returned, for example the OpportunityKeys returned by the GetBidOpportunities operation.
      * @link http://msdn.microsoft.com/en-us/library/dn376334(v=msads.90).aspx ApplyOpportunities Request Object
-     * 
+     *
      * @uses OpportunityModifier
      * @used-by BingAdsOptimizerService::ApplyOpportunities
      */
@@ -801,7 +801,7 @@ namespace BingAds\Optimizer
     /**
      * Applies the recommended opportunities that the get opportunities operations returned, for example the OpportunityKeys returned by the GetBidOpportunities operation.
      * @link http://msdn.microsoft.com/en-us/library/dn376334(v=msads.90).aspx ApplyOpportunities Response Object
-     * 
+     *
      * @used-by BingAdsOptimizerService::ApplyOpportunities
      */
     final class ApplyOpportunitiesResponse
@@ -823,7 +823,7 @@ namespace BingAds\Optimizer
     /**
      * Gets the keyword bid opportunities of the specified ad group.
      * @link http://msdn.microsoft.com/en-us/library/dn376337(v=msads.90).aspx GetBidOpportunities Request Object
-     * 
+     *
      * @uses BidOpportunityType
      * @used-by BingAdsOptimizerService::GetBidOpportunities
      */
@@ -857,7 +857,7 @@ namespace BingAds\Optimizer
     /**
      * Gets the keyword bid opportunities of the specified ad group.
      * @link http://msdn.microsoft.com/en-us/library/dn376337(v=msads.90).aspx GetBidOpportunities Response Object
-     * 
+     *
      * @uses BidOpportunity
      * @used-by BingAdsOptimizerService::GetBidOpportunities
      */
@@ -897,7 +897,7 @@ namespace BingAds\Optimizer
     /**
      * Gets the campaign budget landscape and corresponding budget points for the specified campaign in an account.
      * @link http://msdn.microsoft.com/en-us/library/dn434657(v=msads.90).aspx GetBudgetLandscape Request Object
-     * 
+     *
      * @used-by BingAdsOptimizerService::GetBudgetLandscape
      */
     final class GetBudgetLandscapeRequest
@@ -918,7 +918,7 @@ namespace BingAds\Optimizer
     /**
      * Gets the campaign budget landscape and corresponding budget points for the specified campaign in an account.
      * @link http://msdn.microsoft.com/en-us/library/dn434657(v=msads.90).aspx GetBudgetLandscape Response Object
-     * 
+     *
      * @uses CampaignBudgetLandscape
      * @used-by BingAdsOptimizerService::GetBudgetLandscape
      */
@@ -934,7 +934,7 @@ namespace BingAds\Optimizer
     /**
      * Gets the campaign budget opportunities of the specified account.
      * @link http://msdn.microsoft.com/en-us/library/dn376335(v=msads.90).aspx GetBudgetOpportunities Request Object
-     * 
+     *
      * @used-by BingAdsOptimizerService::GetBudgetOpportunities
      */
     final class GetBudgetOpportunitiesRequest
@@ -949,7 +949,7 @@ namespace BingAds\Optimizer
     /**
      * Gets the campaign budget opportunities of the specified account.
      * @link http://msdn.microsoft.com/en-us/library/dn376335(v=msads.90).aspx GetBudgetOpportunities Response Object
-     * 
+     *
      * @uses BudgetOpportunity
      * @used-by BingAdsOptimizerService::GetBudgetOpportunities
      */
@@ -965,7 +965,7 @@ namespace BingAds\Optimizer
     /**
      * Gets a list of keyword suggestions that are relevant to the specified ad group.
      * @link http://msdn.microsoft.com/en-us/library/dn376336(v=msads.90).aspx GetKeywordOpportunities Request Object
-     * 
+     *
      * @uses KeywordOpportunityType
      * @used-by BingAdsOptimizerService::GetKeywordOpportunities
      */
@@ -999,7 +999,7 @@ namespace BingAds\Optimizer
     /**
      * Gets a list of keyword suggestions that are relevant to the specified ad group.
      * @link http://msdn.microsoft.com/en-us/library/dn376336(v=msads.90).aspx GetKeywordOpportunities Response Object
-     * 
+     *
      * @uses KeywordOpportunity
      * @used-by BingAdsOptimizerService::GetKeywordOpportunities
      */

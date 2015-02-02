@@ -3,14 +3,14 @@
 
 namespace BingAds\Proxy;
 
-use \DOMDocument;
-use \DOMXPath;
-use \SoapHeader;
-use \SoapClient;
+use DOMDocument;
+use DOMXPath;
+use SoapHeader;
+use SoapClient;
 
 // Define the proxy class for the provided Bing Ads service.
 
-Class ClientProxy
+class ClientProxy
 {
     private $authenticationToken;
     private $username;
@@ -26,14 +26,14 @@ Class ClientProxy
 
     private function from_long_xml($xmlFragmentString)
     {
-        return (string)strip_tags($xmlFragmentString);
+        return (string) strip_tags($xmlFragmentString);
     }
 
     // Converts PHP string types to long types in SOAP requests.
 
     private function to_long_xml($longVal)
     {
-        return '<long>' . $longVal . '</long>';
+        return '<long>'.$longVal.'</long>';
     }
 
     public function __construct($wsdl)
@@ -83,18 +83,33 @@ Class ClientProxy
         return $thisClient;
     }
 
-    public function GetAccountId() { return $this->accountId; }
-    public function GetCustomerId() { return $this->customerId; }
-    public function GetService() { return $this->service; }
-    public function GetNamespace() { return $this->namespace; }
-    public function GetWsdl() { return $this->wsdlUrl; }
+    public function GetAccountId()
+    {
+        return $this->accountId;
+    }
+    public function GetCustomerId()
+    {
+        return $this->customerId;
+    }
+    public function GetService()
+    {
+        return $this->service;
+    }
+    public function GetNamespace()
+    {
+        return $this->namespace;
+    }
+    public function GetWsdl()
+    {
+        return $this->wsdlUrl;
+    }
 
     // This function gets the namespace from the WSDL, so you do
     // not have to hardcode it in the client.
 
     private function GetServiceNamespace($url)
     {
-        $doc = new DOMDocument;
+        $doc = new DOMDocument();
         $doc->Load($url);
 
         $xpath = new DOMXPath($doc);
@@ -104,8 +119,7 @@ Class ClientProxy
 
         // The query will return only one node in the node list.
 
-        foreach($attrs as $attr)
-        {
+        foreach ($attrs as $attr) {
             $namespace = $attr->value;
         }
 
@@ -157,14 +171,13 @@ Class ClientProxy
             $this->authenticationToken
         );
 
-
         // By default, PHP does not return single item arrays as an array type.
         // To force PHP to always return an array for an array type in the
         // response, specify the SOAP_SINGLE_ELEMENT_ARRAYS feature.
 
         $options = array(
-            'trace' => TRUE,
-            'exceptions' => TRUE,
+            'trace' => true,
+            'exceptions' => true,
             'features' => SOAP_SINGLE_ELEMENT_ARRAYS,
 
             // Map long type to string type. For details, see
@@ -175,9 +188,9 @@ Class ClientProxy
                     'type_ns' => 'http://www.w3.org/2001/XMLSchema',
                     'type_name' => 'xs:long',
                     'to_xml' => 'to_long_xml',
-                    'from_xml' => 'from_long_xml'
+                    'from_xml' => 'from_long_xml',
                 ),
-            )
+            ),
         );
 
         $proxy = @new SOAPClient($this->wsdlUrl, $options);
@@ -187,5 +200,3 @@ Class ClientProxy
         return $proxy;
     }
 }
-
-?>

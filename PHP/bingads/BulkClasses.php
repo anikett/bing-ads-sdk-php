@@ -15,7 +15,7 @@ namespace BingAds\Bulk
     /**
      * Defines the scope or types of data to download.
      * @link http://msdn.microsoft.com/en-us/library/dn249976(v=msads.90).aspx DataScope Value Set
-     * 
+     *
      * @used-by DownloadCampaignsByAccountIdsRequest
      * @used-by DownloadCampaignsByCampaignIdsRequest
      */
@@ -37,7 +37,7 @@ namespace BingAds\Bulk
     /**
      * Defines the file formats for a download request.
      * @link http://msdn.microsoft.com/en-us/library/jj919219(v=msads.90).aspx DownloadFileType Value Set
-     * 
+     *
      * @used-by DownloadCampaignsByAccountIdsRequest
      * @used-by DownloadCampaignsByCampaignIdsRequest
      */
@@ -53,7 +53,7 @@ namespace BingAds\Bulk
     /**
      * Defines the entities that may be downloaded in bulk.
      * @link http://msdn.microsoft.com/en-us/library/dn249982(v=msads.90).aspx BulkDownloadEntity Value Set
-     * 
+     *
      * @used-by DownloadCampaignsByAccountIdsRequest
      * @used-by DownloadCampaignsByCampaignIdsRequest
      */
@@ -136,7 +136,7 @@ namespace BingAds\Bulk
     /**
      * Defines the date range values for the requested performance data in a bulk download.
      * @link http://msdn.microsoft.com/en-us/library/dn249977(v=msads.90).aspx ReportTimePeriod Value Set
-     * 
+     *
      * @used-by PerformanceStatsDateRange
      */
     final class ReportTimePeriod
@@ -181,7 +181,7 @@ namespace BingAds\Bulk
     /**
      * Defines elements to specify whether the bulk service should return upload errors with their corresponding data.
      * @link http://msdn.microsoft.com/en-us/library/dn249983(v=msads.90).aspx ResponseMode Value Set
-     * 
+     *
      * @used-by GetBulkUploadUrlRequest
      */
     final class ResponseMode
@@ -196,7 +196,7 @@ namespace BingAds\Bulk
     /**
      * Defines an error object that contains the details that explain why the service operation failed.
      * @link http://msdn.microsoft.com/en-us/library/dn169097(v=msads.90).aspx AdApiError Data Object
-     * 
+     *
      * @used-by AdApiFaultDetail
      */
     final class AdApiError
@@ -242,7 +242,7 @@ namespace BingAds\Bulk
     /**
      * Defines a fault object that operations return when generic errors occur, such as an authentication error.
      * @link http://msdn.microsoft.com/en-us/library/dn169095(v=msads.90).aspx AdApiFaultDetail Data Object
-     * 
+     *
      * @uses AdApiError
      */
     final class AdApiFaultDetail extends ApplicationFault
@@ -257,7 +257,7 @@ namespace BingAds\Bulk
     /**
      * Defines a fault object that operations return when web service-specific errors occur, such as when the request message contains incomplete or invalid data.
      * @link http://msdn.microsoft.com/en-us/library/dn169094(v=msads.90).aspx ApiFaultDetail Data Object
-     * 
+     *
      * @uses BatchError
      * @uses OperationError
      */
@@ -279,7 +279,7 @@ namespace BingAds\Bulk
     /**
      * Defines an error object that identifies the item within the batch of items in the request message that caused the operation to fail, and describes the reason for the failure.
      * @link http://msdn.microsoft.com/en-us/library/dn169096(v=msads.90).aspx BatchError Data Object
-     * 
+     *
      * @used-by ApiFaultDetail
      */
     class BatchError
@@ -324,7 +324,7 @@ namespace BingAds\Bulk
     /**
      * Defines an object that identifies a campaign to download.
      * @link http://msdn.microsoft.com/en-us/library/jj134990(v=msads.90).aspx CampaignScope Data Object
-     * 
+     *
      * @used-by DownloadCampaignsByCampaignIdsRequest
      */
     final class CampaignScope
@@ -345,7 +345,7 @@ namespace BingAds\Bulk
     /**
      * Defines a calendar date by month, day, and year.
      * @link http://msdn.microsoft.com/en-us/library/jj134989(v=msads.90).aspx Date Data Object
-     * 
+     *
      * @used-by PerformanceStatsDateRange
      */
     final class Date
@@ -415,7 +415,7 @@ namespace BingAds\Bulk
     /**
      * Defines an error object that contains the details that explain why the service operation failed.
      * @link http://msdn.microsoft.com/en-us/library/dn169098(v=msads.90).aspx OperationError Data Object
-     * 
+     *
      * @used-by ApiFaultDetail
      * @used-by GetDetailedBulkDownloadStatusResponse
      * @used-by GetDetailedBulkUploadStatusResponse
@@ -450,7 +450,7 @@ namespace BingAds\Bulk
     /**
      * Defines the date range values for the requested performance data in a bulk download.
      * @link http://msdn.microsoft.com/en-us/library/dn249975(v=msads.90).aspx PerformanceStatsDateRange Data Object
-     * 
+     *
      * @uses Date
      * @uses ReportTimePeriod
      * @used-by DownloadCampaignsByAccountIdsRequest
@@ -480,7 +480,7 @@ namespace BingAds\Bulk
     /**
      * Downloads an account's campaign data.
      * @link http://msdn.microsoft.com/en-us/library/jj885755(v=msads.90).aspx DownloadCampaignsByAccountIds Request Object
-     * 
+     *
      * @uses DataScope
      * @uses DownloadFileType
      * @uses BulkDownloadEntity
@@ -541,7 +541,7 @@ namespace BingAds\Bulk
     /**
      * Downloads an account's campaign data.
      * @link http://msdn.microsoft.com/en-us/library/jj885755(v=msads.90).aspx DownloadCampaignsByAccountIds Response Object
-     * 
+     *
      * @used-by BingAdsBulkService::DownloadCampaignsByAccountIds
      */
     final class DownloadCampaignsByAccountIdsResponse
@@ -556,7 +556,7 @@ namespace BingAds\Bulk
     /**
      * Downloads the specified campaigns' data.
      * @link http://msdn.microsoft.com/en-us/library/jj885756(v=msads.90).aspx DownloadCampaignsByCampaignIds Request Object
-     * 
+     *
      * @uses CampaignScope
      * @uses DataScope
      * @uses DownloadFileType
@@ -618,7 +618,7 @@ namespace BingAds\Bulk
     /**
      * Downloads the specified campaigns' data.
      * @link http://msdn.microsoft.com/en-us/library/jj885756(v=msads.90).aspx DownloadCampaignsByCampaignIds Response Object
-     * 
+     *
      * @used-by BingAdsBulkService::DownloadCampaignsByCampaignIds
      */
     final class DownloadCampaignsByCampaignIdsResponse
@@ -633,7 +633,7 @@ namespace BingAds\Bulk
     /**
      * This operation is deprecated, and you should use GetDetailedBulkUploadStatus instead.
      * @link http://msdn.microsoft.com/en-us/library/dn249979(v=msads.90).aspx GetBulkUploadStatus Request Object
-     * 
+     *
      * @used-by BingAdsBulkService::GetBulkUploadStatus
      */
     final class GetBulkUploadStatusRequest
@@ -648,7 +648,7 @@ namespace BingAds\Bulk
     /**
      * This operation is deprecated, and you should use GetDetailedBulkUploadStatus instead.
      * @link http://msdn.microsoft.com/en-us/library/dn249979(v=msads.90).aspx GetBulkUploadStatus Response Object
-     * 
+     *
      * @used-by BingAdsBulkService::GetBulkUploadStatus
      */
     final class GetBulkUploadStatusResponse
@@ -669,7 +669,7 @@ namespace BingAds\Bulk
     /**
      * Submits a request for a URL where a bulk upload file may be posted.
      * @link http://msdn.microsoft.com/en-us/library/dn249978(v=msads.90).aspx GetBulkUploadUrl Request Object
-     * 
+     *
      * @uses ResponseMode
      * @used-by BingAdsBulkService::GetBulkUploadUrl
      */
@@ -691,7 +691,7 @@ namespace BingAds\Bulk
     /**
      * Submits a request for a URL where a bulk upload file may be posted.
      * @link http://msdn.microsoft.com/en-us/library/dn249978(v=msads.90).aspx GetBulkUploadUrl Response Object
-     * 
+     *
      * @used-by BingAdsBulkService::GetBulkUploadUrl
      */
     final class GetBulkUploadUrlResponse
@@ -712,7 +712,7 @@ namespace BingAds\Bulk
     /**
      * Gets the status of a bulk download request.
      * @link http://msdn.microsoft.com/en-us/library/dn600289(v=msads.90).aspx GetDetailedBulkDownloadStatus Request Object
-     * 
+     *
      * @used-by BingAdsBulkService::GetDetailedBulkDownloadStatus
      */
     final class GetDetailedBulkDownloadStatusRequest
@@ -727,7 +727,7 @@ namespace BingAds\Bulk
     /**
      * Gets the status of a bulk download request.
      * @link http://msdn.microsoft.com/en-us/library/dn600289(v=msads.90).aspx GetDetailedBulkDownloadStatus Response Object
-     * 
+     *
      * @uses OperationError
      * @uses KeyValuePairOfstringstring
      * @used-by BingAdsBulkService::GetDetailedBulkDownloadStatus
@@ -768,7 +768,7 @@ namespace BingAds\Bulk
     /**
      * Gets the status and completion progress of a bulk upload request.
      * @link http://msdn.microsoft.com/en-us/library/dn574758(v=msads.90).aspx GetDetailedBulkUploadStatus Request Object
-     * 
+     *
      * @used-by BingAdsBulkService::GetDetailedBulkUploadStatus
      */
     final class GetDetailedBulkUploadStatusRequest
@@ -783,7 +783,7 @@ namespace BingAds\Bulk
     /**
      * Gets the status and completion progress of a bulk upload request.
      * @link http://msdn.microsoft.com/en-us/library/dn574758(v=msads.90).aspx GetDetailedBulkUploadStatus Response Object
-     * 
+     *
      * @uses OperationError
      * @uses KeyValuePairOfstringstring
      * @used-by BingAdsBulkService::GetDetailedBulkUploadStatus
@@ -824,7 +824,7 @@ namespace BingAds\Bulk
     /**
      * This operation is deprecated, and you should use GetDetailedBulkDownloadStatus instead.
      * @link http://msdn.microsoft.com/en-us/library/jj885754(v=msads.90).aspx GetDownloadStatus Request Object
-     * 
+     *
      * @used-by BingAdsBulkService::GetDownloadStatus
      */
     final class GetDownloadStatusRequest
@@ -839,7 +839,7 @@ namespace BingAds\Bulk
     /**
      * This operation is deprecated, and you should use GetDetailedBulkDownloadStatus instead.
      * @link http://msdn.microsoft.com/en-us/library/jj885754(v=msads.90).aspx GetDownloadStatus Response Object
-     * 
+     *
      * @used-by BingAdsBulkService::GetDownloadStatus
      */
     final class GetDownloadStatusResponse

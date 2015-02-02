@@ -15,7 +15,7 @@ namespace BingAds\Reporting
     /**
      * Defines the file formats that you can use for a report.
      * @link http://msdn.microsoft.com/en-us/library/bb671932(v=msads.90).aspx ReportFormat Value Set
-     * 
+     *
      * @used-by ReportRequest
      */
     final class ReportFormat
@@ -33,7 +33,7 @@ namespace BingAds\Reporting
     /**
      * Defines the language values that you may specify for columns of a downloaded report.
      * @link http://msdn.microsoft.com/en-us/library/bb671595(v=msads.90).aspx ReportLanguage Value Set
-     * 
+     *
      * @used-by ReportRequest
      */
     final class ReportLanguage
@@ -48,7 +48,7 @@ namespace BingAds\Reporting
     /**
      * Defines the aggregation values that you can use for a report.
      * @link http://msdn.microsoft.com/en-us/library/bb672067(v=msads.90).aspx ReportAggregation Value Set
-     * 
+     *
      * @used-by AccountPerformanceReportRequest
      * @used-by AdExtensionByAdReportRequest
      * @used-by AdExtensionByKeywordReportRequest
@@ -91,7 +91,7 @@ namespace BingAds\Reporting
     /**
      * Defines the attributes and performance statistics columns that you can include in the SitePerformanceReportRequest.
      * @link http://msdn.microsoft.com/en-us/library/dd797115(v=msads.90).aspx SitePerformanceReportColumn Value Set
-     * 
+     *
      * @used-by SitePerformanceReportRequest
      */
     final class SitePerformanceReportColumn
@@ -190,7 +190,7 @@ namespace BingAds\Reporting
     /**
      * Defines the ad distribution medium values that you can use to filter the report data.
      * @link http://msdn.microsoft.com/en-us/library/bb671722(v=msads.90).aspx AdDistributionReportFilter Value Set
-     * 
+     *
      * @used-by AccountPerformanceReportFilter
      * @used-by AdDynamicTextPerformanceReportFilter
      * @used-by AdGroupPerformanceReportFilter
@@ -217,7 +217,7 @@ namespace BingAds\Reporting
     /**
      * Defines the ad type values that you can use to filter the report data.
      * @link http://msdn.microsoft.com/en-us/library/cc580687(v=msads.90).aspx AdTypeReportFilter Value Set
-     * 
+     *
      * @used-by AdDynamicTextPerformanceReportFilter
      * @used-by AdPerformanceReportFilter
      * @used-by KeywordPerformanceReportFilter
@@ -254,7 +254,7 @@ namespace BingAds\Reporting
     /**
      * Defines the delivered match type values that you can use to filter the report data.
      * @link http://msdn.microsoft.com/en-us/library/bb671749(v=msads.90).aspx DeliveredMatchTypeReportFilter Value Set
-     * 
+     *
      * @used-by KeywordPerformanceReportFilter
      * @used-by SearchQueryPerformanceReportFilter
      * @used-by ShareOfVoiceReportFilter
@@ -278,7 +278,7 @@ namespace BingAds\Reporting
     /**
      * Defines the device type values that you can use to filter the report data.
      * @link http://msdn.microsoft.com/en-us/library/gg262850(v=msads.90).aspx DeviceTypeReportFilter Value Set
-     * 
+     *
      * @used-by AccountPerformanceReportFilter
      * @used-by AdDynamicTextPerformanceReportFilter
      * @used-by AdExtensionByAdReportFilter
@@ -313,7 +313,7 @@ namespace BingAds\Reporting
     /**
      * Defines the predefined time and date range values for a report request.
      * @link http://msdn.microsoft.com/en-us/library/bb671772(v=msads.90).aspx ReportTimePeriod Value Set
-     * 
+     *
      * @used-by ReportTime
      */
     final class ReportTimePeriod
@@ -358,7 +358,7 @@ namespace BingAds\Reporting
     /**
      * Defines the aggregation values for reports that cannot specify hourly aggregation.
      * @link http://msdn.microsoft.com/en-us/library/bb672057(v=msads.90).aspx NonHourlyReportAggregation Value Set
-     * 
+     *
      * @used-by AdDynamicTextPerformanceReportRequest
      * @used-by AdPerformanceReportRequest
      * @used-by AgeGenderDemographicReportRequest
@@ -394,7 +394,7 @@ namespace BingAds\Reporting
     /**
      * Defines the attributes and performance statistics columns that you can include in the ConversionPerformanceReportRequest.
      * @link http://msdn.microsoft.com/en-us/library/gg262852(v=msads.90).aspx ConversionPerformanceReportColumn Value Set
-     * 
+     *
      * @used-by ConversionPerformanceReportRequest
      */
     final class ConversionPerformanceReportColumn
@@ -478,7 +478,7 @@ namespace BingAds\Reporting
     /**
      * Defines the attributes and performance statistics columns that you can include in the AdExtensionDimensionReportRequest.
      * @link http://msdn.microsoft.com/en-us/library/jj713609(v=msads.90).aspx AdExtensionDimensionReportColumn Value Set
-     * 
+     *
      * @used-by AdExtensionDimensionReportRequest
      */
     final class AdExtensionDimensionReportColumn
@@ -508,7 +508,7 @@ namespace BingAds\Reporting
     /**
      * Defines the device operating system values that you can use to filter the report data.
      * @link http://msdn.microsoft.com/en-us/library/dn411633(v=msads.90).aspx DeviceOSReportFilter Value Set
-     * 
+     *
      * @used-by AccountPerformanceReportFilter
      * @used-by AdExtensionByAdReportFilter
      * @used-by AdExtensionByKeywordReportFilter
@@ -538,7 +538,7 @@ namespace BingAds\Reporting
     /**
      * Defines the attributes and performance statistics columns that you can include in the AdExtensionDetailReportRequest.
      * @link http://msdn.microsoft.com/en-us/library/dn610365(v=msads.90).aspx AdExtensionDetailReportColumn Value Set
-     * 
+     *
      * @used-by AdExtensionDetailReportRequest
      */
     final class AdExtensionDetailReportColumn
@@ -652,7 +652,7 @@ namespace BingAds\Reporting
     /**
      * Defines the attributes and performance statistics columns that you can include in the AdExtensionByAdReportRequest.
      * @link http://msdn.microsoft.com/en-us/library/jj713608(v=msads.90).aspx AdExtensionByAdReportColumn Value Set
-     * 
+     *
      * @used-by AdExtensionByAdReportRequest
      */
     final class AdExtensionByAdReportColumn
@@ -769,7 +769,7 @@ namespace BingAds\Reporting
     /**
      * Defines the attributes and performance statistics columns that you can include in the AccountPerformanceReportRequest.
      * @link http://msdn.microsoft.com/en-us/library/bb671947(v=msads.90).aspx AccountPerformanceReportColumn Value Set
-     * 
+     *
      * @used-by AccountPerformanceReportRequest
      */
     final class AccountPerformanceReportColumn
@@ -925,7 +925,7 @@ namespace BingAds\Reporting
     /**
      * Defines the attributes and performance statistics columns that you can include in the TacticChannelReportRequest.
      * @link http://msdn.microsoft.com/en-us/library/gg262851(v=msads.90).aspx TacticChannelReportColumn Value Set
-     * 
+     *
      * @used-by TacticChannelReportRequest
      */
     final class TacticChannelReportColumn
@@ -1015,7 +1015,7 @@ namespace BingAds\Reporting
     /**
      * Defines the attributes and performance statistics columns that you can include in the GeoLocationPerformanceReportRequest.
      * @link http://msdn.microsoft.com/en-us/library/dn743762(v=msads.90).aspx GeoLocationPerformanceReportColumn Value Set
-     * 
+     *
      * @used-by GeoLocationPerformanceReportRequest
      */
     final class GeoLocationPerformanceReportColumn
@@ -1150,7 +1150,7 @@ namespace BingAds\Reporting
     /**
      * Defines the attributes and performance statistics columns that you can include in the AdGroupPerformanceReportRequest.
      * @link http://msdn.microsoft.com/en-us/library/bb671495(v=msads.90).aspx AdGroupPerformanceReportColumn Value Set
-     * 
+     *
      * @used-by AdGroupPerformanceReportRequest
      */
     final class AdGroupPerformanceReportColumn
@@ -1345,7 +1345,7 @@ namespace BingAds\Reporting
     /**
      * Defines the ad group status values that you can use to filter the report data.
      * @link http://msdn.microsoft.com/en-us/library/bb671991(v=msads.90).aspx AdGroupStatusReportFilter Value Set
-     * 
+     *
      * @used-by AdGroupPerformanceReportFilter
      */
     final class AdGroupStatusReportFilter
@@ -1372,7 +1372,7 @@ namespace BingAds\Reporting
     /**
      * Defines the attributes and performance statistics columns that you can include in the AdPerformanceReportRequest.
      * @link http://msdn.microsoft.com/en-us/library/bb671923(v=msads.90).aspx AdPerformanceReportColumn Value Set
-     * 
+     *
      * @used-by AdPerformanceReportRequest
      */
     final class AdPerformanceReportColumn
@@ -1519,7 +1519,7 @@ namespace BingAds\Reporting
     /**
      * Defines the attributes and performance statistics columns that you can include in the RichAdComponentPerformanceReportRequest.
      * @link http://msdn.microsoft.com/en-us/library/hh180149(v=msads.90).aspx RichAdComponentPerformanceReportColumn Value Set
-     * 
+     *
      * @used-by RichAdComponentPerformanceReportRequest
      */
     final class RichAdComponentPerformanceReportColumn
@@ -1582,7 +1582,7 @@ namespace BingAds\Reporting
     /**
      * Defines the possible components of a rich ad that you can use to filter the report data.
      * @link http://msdn.microsoft.com/en-us/library/hh180146(v=msads.90).aspx ComponentTypeFilter Value Set
-     * 
+     *
      * @used-by RichAdComponentPerformanceReportFilter
      */
     final class ComponentTypeFilter
@@ -1613,7 +1613,7 @@ namespace BingAds\Reporting
     /**
      * Defines the rich ad types that you can use to filter the report data.
      * @link http://msdn.microsoft.com/en-us/library/hh180148(v=msads.90).aspx RichAdSubTypeFilter Value Set
-     * 
+     *
      * @used-by RichAdComponentPerformanceReportFilter
      */
     final class RichAdSubTypeFilter
@@ -1643,7 +1643,7 @@ namespace BingAds\Reporting
     /**
      * Defines the attributes and performance statistics columns that you can include in the KeywordPerformanceReportRequest.
      * @link http://msdn.microsoft.com/en-us/library/bb672087(v=msads.90).aspx KeywordPerformanceReportColumn Value Set
-     * 
+     *
      * @used-by KeywordPerformanceReportRequest
      * @used-by KeywordPerformanceReportSort
      */
@@ -1830,7 +1830,7 @@ namespace BingAds\Reporting
     /**
      * Defines the bid match type values that you can use to filter the report data.
      * @link http://msdn.microsoft.com/en-us/library/ff728812(v=msads.90).aspx BidMatchTypeReportFilter Value Set
-     * 
+     *
      * @used-by KeywordPerformanceReportFilter
      * @used-by ShareOfVoiceReportFilter
      */
@@ -1852,7 +1852,7 @@ namespace BingAds\Reporting
     /**
      * Defines the ascending or descending sort order of values within the specified report column.
      * @link http://msdn.microsoft.com/en-us/library/dn342800(v=msads.90).aspx SortOrder Value Set
-     * 
+     *
      * @used-by KeywordPerformanceReportSort
      */
     final class SortOrder
@@ -1864,7 +1864,7 @@ namespace BingAds\Reporting
     /**
      * Defines the attributes and performance statistics columns that you can include in the DestinationUrlPerformanceReportRequest.
      * @link http://msdn.microsoft.com/en-us/library/bb671820(v=msads.90).aspx DestinationUrlPerformanceReportColumn Value Set
-     * 
+     *
      * @used-by DestinationUrlPerformanceReportRequest
      */
     final class DestinationUrlPerformanceReportColumn
@@ -1984,7 +1984,7 @@ namespace BingAds\Reporting
     /**
      * Defines the attributes and performance statistics columns that you can include in the BudgetSummaryReportRequest.
      * @link http://msdn.microsoft.com/en-us/library/bb671925(v=msads.90).aspx BudgetSummaryReportColumn Value Set
-     * 
+     *
      * @used-by BudgetSummaryReportRequest
      */
     final class BudgetSummaryReportColumn
@@ -2023,7 +2023,7 @@ namespace BingAds\Reporting
     /**
      * Defines the predefined time and date range values for a budget summary report request.
      * @link http://msdn.microsoft.com/en-us/library/bb671612(v=msads.90).aspx BudgetSummaryReportTimePeriod Value Set
-     * 
+     *
      * @used-by BudgetSummaryReportTime
      */
     final class BudgetSummaryReportTimePeriod
@@ -2047,7 +2047,7 @@ namespace BingAds\Reporting
     /**
      * Defines the attributes and performance statistics columns that you can include in the AgeGenderDemographicReportRequest.
      * @link http://msdn.microsoft.com/en-us/library/bb671786(v=msads.90).aspx AgeGenderDemographicReportColumn Value Set
-     * 
+     *
      * @used-by AgeGenderDemographicReportRequest
      */
     final class AgeGenderDemographicReportColumn
@@ -2101,7 +2101,7 @@ namespace BingAds\Reporting
     /**
      * The GeographicalLocationReportRequest and corresponding programming elements are deprecated, and instead you should use the GeoLocationPerformanceReportRequest.
      * @link http://msdn.microsoft.com/en-us/library/dn411634(v=msads.90).aspx GeographicalLocationReportColumn Value Set
-     * 
+     *
      * @used-by GeographicalLocationReportRequest
      */
     final class GeographicalLocationReportColumn
@@ -2242,7 +2242,7 @@ namespace BingAds\Reporting
     /**
      * Defines the attributes and performance statistics columns that you can include in the PublisherUsagePerformanceReportRequest.
      * @link http://msdn.microsoft.com/en-us/library/dd797159(v=msads.90).aspx PublisherUsagePerformanceReportColumn Value Set
-     * 
+     *
      * @used-by PublisherUsagePerformanceReportRequest
      */
     final class PublisherUsagePerformanceReportColumn
@@ -2359,7 +2359,7 @@ namespace BingAds\Reporting
     /**
      * Defines the pricing model values that you can use to filter the report data.
      * @link http://msdn.microsoft.com/en-us/library/dn411635(v=msads.90).aspx PricingModelReportFilter Value Set
-     * 
+     *
      * @used-by PublisherUsagePerformanceReportFilter
      */
     final class PricingModelReportFilter
@@ -2374,7 +2374,7 @@ namespace BingAds\Reporting
     /**
      * Defines the aggregation values that you can use in a search query performance report.
      * @link http://msdn.microsoft.com/en-us/library/ee703960(v=msads.90).aspx SearchQueryReportAggregation Value Set
-     * 
+     *
      * @used-by SearchQueryPerformanceReportRequest
      */
     final class SearchQueryReportAggregation
@@ -2407,7 +2407,7 @@ namespace BingAds\Reporting
     /**
      * Defines the attributes and performance statistics columns that you can include in the SearchQueryPerformanceReportRequest.
      * @link http://msdn.microsoft.com/en-us/library/ee703958(v=msads.90).aspx SearchQueryPerformanceReportColumn Value Set
-     * 
+     *
      * @used-by SearchQueryPerformanceReportRequest
      */
     final class SearchQueryPerformanceReportColumn
@@ -2539,7 +2539,7 @@ namespace BingAds\Reporting
     /**
      * Defines the ad status values that you can use to filter the report data.
      * @link http://msdn.microsoft.com/en-us/library/hh560533(v=msads.90).aspx AdStatusReportFilter Value Set
-     * 
+     *
      * @used-by SearchQueryPerformanceReportFilter
      */
     final class AdStatusReportFilter
@@ -2563,7 +2563,7 @@ namespace BingAds\Reporting
     /**
      * Defines the campaign status values that you can use to filter the report data.
      * @link http://msdn.microsoft.com/en-us/library/bb672004(v=msads.90).aspx CampaignStatusReportFilter Value Set
-     * 
+     *
      * @used-by CampaignPerformanceReportFilter
      * @used-by SearchQueryPerformanceReportFilter
      */
@@ -2591,7 +2591,7 @@ namespace BingAds\Reporting
     /**
      * Defines the attributes and performance statistics columns that you can include in the GoalsAndFunnelsReportRequest.
      * @link http://msdn.microsoft.com/en-us/library/gg262845(v=msads.90).aspx GoalsAndFunnelsReportColumn Value Set
-     * 
+     *
      * @used-by GoalsAndFunnelsReportRequest
      */
     final class GoalsAndFunnelsReportColumn
@@ -2669,7 +2669,7 @@ namespace BingAds\Reporting
     /**
      * Defines the attributes and performance statistics columns that you can include in the TrafficSourcesReportRequest.
      * @link http://msdn.microsoft.com/en-us/library/gg262847(v=msads.90).aspx TrafficSourcesReportColumn Value Set
-     * 
+     *
      * @used-by TrafficSourcesReportRequest
      */
     final class TrafficSourcesReportColumn
@@ -2726,7 +2726,7 @@ namespace BingAds\Reporting
     /**
      * Defines the attributes and performance statistics columns that you can include in the AdDynamicTextPerformanceReportRequest.
      * @link http://msdn.microsoft.com/en-us/library/bb671878(v=msads.90).aspx AdDynamicTextPerformanceReportColumn Value Set
-     * 
+     *
      * @used-by AdDynamicTextPerformanceReportRequest
      */
     final class AdDynamicTextPerformanceReportColumn
@@ -2820,7 +2820,7 @@ namespace BingAds\Reporting
     /**
      * Defines the attributes columns that you can include in the NegativeKeywordConflictReportRequest.
      * @link http://msdn.microsoft.com/en-us/library/hh560535(v=msads.90).aspx NegativeKeywordConflictReportColumn Value Set
-     * 
+     *
      * @used-by NegativeKeywordConflictReportRequest
      */
     final class NegativeKeywordConflictReportColumn
@@ -2862,7 +2862,7 @@ namespace BingAds\Reporting
     /**
      * Defines the attribute columns that you can include in the SearchCampaignChangeHistoryReportRequest.
      * @link http://msdn.microsoft.com/en-us/library/hh912353(v=msads.90).aspx SearchCampaignChangeHistoryReportColumn Value Set
-     * 
+     *
      * @used-by SearchCampaignChangeHistoryReportRequest
      */
     final class SearchCampaignChangeHistoryReportColumn
@@ -2925,7 +2925,7 @@ namespace BingAds\Reporting
     /**
      * Defines the types of changes to entities by which you can filter the report data.
      * @link http://msdn.microsoft.com/en-us/library/hh912354(v=msads.90).aspx ChangeTypeReportFilter Value Set
-     * 
+     *
      * @used-by SearchCampaignChangeHistoryReportFilter
      */
     final class ChangeTypeReportFilter
@@ -2943,7 +2943,7 @@ namespace BingAds\Reporting
     /**
      * Defines the types of entities by which you can filter the report data.
      * @link http://msdn.microsoft.com/en-us/library/hh912355(v=msads.90).aspx ChangeEntityReportFilter Value Set
-     * 
+     *
      * @used-by SearchCampaignChangeHistoryReportFilter
      */
     final class ChangeEntityReportFilter
@@ -2967,7 +2967,7 @@ namespace BingAds\Reporting
     /**
      * Defines the attributes and performance statistics columns that you can include in the AdExtensionByKeywordReportRequest.
      * @link http://msdn.microsoft.com/en-us/library/jj713610(v=msads.90).aspx AdExtensionByKeywordReportColumn Value Set
-     * 
+     *
      * @used-by AdExtensionByKeywordReportRequest
      */
     final class AdExtensionByKeywordReportColumn
@@ -3084,7 +3084,7 @@ namespace BingAds\Reporting
     /**
      * Defines the attributes and performance statistics columns that you can include in the CampaignPerformanceReportRequest.
      * @link http://msdn.microsoft.com/en-us/library/bb671614(v=msads.90).aspx CampaignPerformanceReportColumn Value Set
-     * 
+     *
      * @used-by CampaignPerformanceReportRequest
      */
     final class CampaignPerformanceReportColumn
@@ -3273,7 +3273,7 @@ namespace BingAds\Reporting
     /**
      * Defines the attributes and performance statistics columns that you can include in the ShareOfVoicePerformanceReportRequest.
      * @link http://msdn.microsoft.com/en-us/library/jj592910(v=msads.90).aspx ShareOfVoiceReportColumn Value Set
-     * 
+     *
      * @used-by ShareOfVoiceReportRequest
      */
     final class ShareOfVoiceReportColumn
@@ -3386,7 +3386,7 @@ namespace BingAds\Reporting
     /**
      * Defines the attributes and performance statistics columns that you can include in the ProductTargetPerformanceReportRequest.
      * @link http://msdn.microsoft.com/en-us/library/dn195844(v=msads.90).aspx ProductTargetPerformanceReportColumn Value Set
-     * 
+     *
      * @used-by ProductTargetPerformanceReportRequest
      */
     final class ProductTargetPerformanceReportColumn
@@ -3515,7 +3515,7 @@ namespace BingAds\Reporting
     /**
      * Defines the attributes and performance statistics columns that you can include in the CallDetailReportRequest.
      * @link http://msdn.microsoft.com/en-us/library/dn195843(v=msads.90).aspx CallDetailReportColumn Value Set
-     * 
+     *
      * @used-by CallDetailReportRequest
      */
     final class CallDetailReportColumn
@@ -3569,7 +3569,7 @@ namespace BingAds\Reporting
     /**
      * Defines the attributes and performance statistics columns that you can include in the ProductOfferPerformanceReportRequest.
      * @link http://msdn.microsoft.com/en-us/library/dn743720(v=msads.90).aspx ProductOfferPerformanceReportColumn Value Set
-     * 
+     *
      * @used-by ProductOfferPerformanceReportRequest
      */
     final class ProductOfferPerformanceReportColumn
@@ -3635,7 +3635,7 @@ namespace BingAds\Reporting
     /**
      * Defines the status of a report.
      * @link http://msdn.microsoft.com/en-us/library/bb671578(v=msads.90).aspx ReportRequestStatusType Value Set
-     * 
+     *
      * @used-by ReportRequestStatus
      */
     final class ReportRequestStatusType
@@ -3653,7 +3653,7 @@ namespace BingAds\Reporting
     /**
      * Defines the criteria to use to filter the account performance report data.
      * @link http://msdn.microsoft.com/en-us/library/bb671671(v=msads.90).aspx AccountPerformanceReportFilter Data Object
-     * 
+     *
      * @uses AdDistributionReportFilter
      * @uses DeviceOSReportFilter
      * @uses DeviceTypeReportFilter
@@ -3683,7 +3683,7 @@ namespace BingAds\Reporting
     /**
      * Defines the base object for all report requests.
      * @link http://msdn.microsoft.com/en-us/library/bb671813(v=msads.90).aspx ReportRequest Data Object
-     * 
+     *
      * @uses ReportFormat
      * @uses ReportLanguage
      * @used-by SubmitGenerateReportRequest
@@ -3718,7 +3718,7 @@ namespace BingAds\Reporting
     /**
      * Defines an account performance report request.
      * @link http://msdn.microsoft.com/en-us/library/bb671927(v=msads.90).aspx AccountPerformanceReportRequest Data Object
-     * 
+     *
      * @uses ReportAggregation
      * @uses AccountPerformanceReportColumn
      * @uses AccountPerformanceReportFilter
@@ -3761,7 +3761,7 @@ namespace BingAds\Reporting
     /**
      * Defines the set of accounts to include in the report.
      * @link http://msdn.microsoft.com/en-us/library/bb671563(v=msads.90).aspx AccountReportScope Data Object
-     * 
+     *
      * @used-by AccountPerformanceReportRequest
      * @used-by AdExtensionDimensionReportRequest
      * @used-by TrafficSourcesReportRequest
@@ -3778,7 +3778,7 @@ namespace BingAds\Reporting
     /**
      * Defines the set of accounts, campaigns, and ad groups to include in the report.
      * @link http://msdn.microsoft.com/en-us/library/bb671547(v=msads.90).aspx AccountThroughAdGroupReportScope Data Object
-     * 
+     *
      * @uses AdGroupReportScope
      * @uses CampaignReportScope
      * @used-by AdDynamicTextPerformanceReportRequest
@@ -3830,7 +3830,7 @@ namespace BingAds\Reporting
     /**
      * Defines the set of accounts and campaigns to include in the report.
      * @link http://msdn.microsoft.com/en-us/library/bb671549(v=msads.90).aspx AccountThroughCampaignReportScope Data Object
-     * 
+     *
      * @uses CampaignReportScope
      * @used-by BudgetSummaryReportRequest
      * @used-by CampaignPerformanceReportRequest
@@ -3853,7 +3853,7 @@ namespace BingAds\Reporting
     /**
      * Defines an error object that contains the details that explain why the service operation failed.
      * @link http://msdn.microsoft.com/en-us/library/dn169137(v=msads.90).aspx AdApiError Data Object
-     * 
+     *
      * @used-by AdApiFaultDetail
      */
     final class AdApiError
@@ -3899,7 +3899,7 @@ namespace BingAds\Reporting
     /**
      * Defines a fault object that operations return when generic errors occur, such as an authentication error.
      * @link http://msdn.microsoft.com/en-us/library/dn169140(v=msads.90).aspx AdApiFaultDetail Data Object
-     * 
+     *
      * @uses AdApiError
      */
     final class AdApiFaultDetail extends ApplicationFault
@@ -3914,7 +3914,7 @@ namespace BingAds\Reporting
     /**
      * Defines the criteria to use to filter the ad dynamic text performance report data.
      * @link http://msdn.microsoft.com/en-us/library/bb672086(v=msads.90).aspx AdDynamicTextPerformanceReportFilter Data Object
-     * 
+     *
      * @uses AdDistributionReportFilter
      * @uses AdTypeReportFilter
      * @uses DeviceTypeReportFilter
@@ -3950,7 +3950,7 @@ namespace BingAds\Reporting
     /**
      * Defines an ad dynamic text performance report request.
      * @link http://msdn.microsoft.com/en-us/library/bb671950(v=msads.90).aspx AdDynamicTextPerformanceReportRequest Data Object
-     * 
+     *
      * @uses NonHourlyReportAggregation
      * @uses AdDynamicTextPerformanceReportColumn
      * @uses AdDynamicTextPerformanceReportFilter
@@ -3993,7 +3993,7 @@ namespace BingAds\Reporting
     /**
      * Defines the criteria to use to filter the ad extension by ad report data.
      * @link http://msdn.microsoft.com/en-us/library/dn393942(v=msads.90).aspx AdExtensionByAdReportFilter Data Object
-     * 
+     *
      * @uses DeviceOSReportFilter
      * @uses DeviceTypeReportFilter
      * @used-by AdExtensionByAdReportRequest
@@ -4016,7 +4016,7 @@ namespace BingAds\Reporting
     /**
      * Defines an ad extension by ad report request.
      * @link http://msdn.microsoft.com/en-us/library/jj713606(v=msads.90).aspx AdExtensionByAdReportRequest Data Object
-     * 
+     *
      * @uses ReportAggregation
      * @uses AdExtensionByAdReportColumn
      * @uses AdExtensionByAdReportFilter
@@ -4059,7 +4059,7 @@ namespace BingAds\Reporting
     /**
      * Defines the criteria to use to filter the ad extension by keyword report data.
      * @link http://msdn.microsoft.com/en-us/library/dn393943(v=msads.90).aspx AdExtensionByKeywordReportFilter Data Object
-     * 
+     *
      * @uses DeviceOSReportFilter
      * @uses DeviceTypeReportFilter
      * @used-by AdExtensionByKeywordReportRequest
@@ -4082,7 +4082,7 @@ namespace BingAds\Reporting
     /**
      * Defines an ad extension by keyword report request.
      * @link http://msdn.microsoft.com/en-us/library/jj713605(v=msads.90).aspx AdExtensionByKeywordReportRequest Data Object
-     * 
+     *
      * @uses ReportAggregation
      * @uses AdExtensionByKeywordReportColumn
      * @uses AdExtensionByKeywordReportFilter
@@ -4125,7 +4125,7 @@ namespace BingAds\Reporting
     /**
      * Defines the criteria to use to filter the ad extension detail report.
      * @link http://msdn.microsoft.com/en-us/library/dn610806(v=msads.90).aspx AdExtensionDetailReportFilter Data Object
-     * 
+     *
      * @uses DeviceOSReportFilter
      * @uses DeviceTypeReportFilter
      * @used-by AdExtensionDetailReportRequest
@@ -4148,7 +4148,7 @@ namespace BingAds\Reporting
     /**
      * Defines an ad extension detail report request.
      * @link http://msdn.microsoft.com/en-us/library/dn610364(v=msads.90).aspx AdExtensionDetailReportRequest Data Object
-     * 
+     *
      * @uses ReportAggregation
      * @uses AdExtensionDetailReportColumn
      * @uses AdExtensionDetailReportFilter
@@ -4191,7 +4191,7 @@ namespace BingAds\Reporting
     /**
      * Defines the criteria to use to filter the ad extension dimension report data.
      * @link http://msdn.microsoft.com/en-us/library/dn393947(v=msads.90).aspx AdExtensionDimensionReportFilter Data Object
-     * 
+     *
      * @uses DeviceOSReportFilter
      * @uses DeviceTypeReportFilter
      * @used-by AdExtensionDimensionReportRequest
@@ -4214,7 +4214,7 @@ namespace BingAds\Reporting
     /**
      * Defines an ad extension dimension report request that lists all versions of an ad extension by account.
      * @link http://msdn.microsoft.com/en-us/library/jj713607(v=msads.90).aspx AdExtensionDimensionReportRequest Data Object
-     * 
+     *
      * @uses AdExtensionDimensionReportColumn
      * @uses AdExtensionDimensionReportFilter
      * @uses AccountReportScope
@@ -4243,7 +4243,7 @@ namespace BingAds\Reporting
     /**
      * Defines the criteria to use to filter the ad group performance report data.
      * @link http://msdn.microsoft.com/en-us/library/bb671729(v=msads.90).aspx AdGroupPerformanceReportFilter Data Object
-     * 
+     *
      * @uses AdDistributionReportFilter
      * @uses DeviceOSReportFilter
      * @uses DeviceTypeReportFilter
@@ -4286,7 +4286,7 @@ namespace BingAds\Reporting
     /**
      * Defines an ad group performance report request.
      * @link http://msdn.microsoft.com/en-us/library/bb671686(v=msads.90).aspx AdGroupPerformanceReportRequest Data Object
-     * 
+     *
      * @uses ReportAggregation
      * @uses AdGroupPerformanceReportColumn
      * @uses AdGroupPerformanceReportFilter
@@ -4329,7 +4329,7 @@ namespace BingAds\Reporting
     /**
      * Defines an ad group to include in the report.
      * @link http://msdn.microsoft.com/en-us/library/bb671622(v=msads.90).aspx AdGroupReportScope Data Object
-     * 
+     *
      * @used-by AccountThroughAdGroupReportScope
      */
     final class AdGroupReportScope
@@ -4356,7 +4356,7 @@ namespace BingAds\Reporting
     /**
      * Defines the criteria to use to filter the ad performance report request data.
      * @link http://msdn.microsoft.com/en-us/library/bb671609(v=msads.90).aspx AdPerformanceReportFilter Data Object
-     * 
+     *
      * @uses AdDistributionReportFilter
      * @uses AdTypeReportFilter
      * @uses DeviceTypeReportFilter
@@ -4392,7 +4392,7 @@ namespace BingAds\Reporting
     /**
      * Defines an ad performance report request.
      * @link http://msdn.microsoft.com/en-us/library/bb672006(v=msads.90).aspx AdPerformanceReportRequest Data Object
-     * 
+     *
      * @uses NonHourlyReportAggregation
      * @uses AdPerformanceReportColumn
      * @uses AdPerformanceReportFilter
@@ -4435,7 +4435,7 @@ namespace BingAds\Reporting
     /**
      * Defines the criteria to use to filter the gender demographic report data.
      * @link http://msdn.microsoft.com/en-us/library/bb671580(v=msads.90).aspx AgeGenderDemographicReportFilter Data Object
-     * 
+     *
      * @uses AdDistributionReportFilter
      * @used-by AgeGenderDemographicReportRequest
      */
@@ -4457,7 +4457,7 @@ namespace BingAds\Reporting
     /**
      * Defines an age and gender demographic report request.
      * @link http://msdn.microsoft.com/en-us/library/bb671917(v=msads.90).aspx AgeGenderDemographicReportRequest Data Object
-     * 
+     *
      * @uses NonHourlyReportAggregation
      * @uses AgeGenderDemographicReportColumn
      * @uses AgeGenderDemographicReportFilter
@@ -4473,7 +4473,7 @@ namespace BingAds\Reporting
         public $Aggregation;
 
         /**
-         * 
+         *
          * @var AgeGenderDemographicReportColumn[]
          */
         public $Columns;
@@ -4500,7 +4500,7 @@ namespace BingAds\Reporting
     /**
      * Defines a fault object that operations return when web service-specific errors occur, such as when the request message contains incomplete or invalid data.
      * @link http://msdn.microsoft.com/en-us/library/dn169136(v=msads.90).aspx ApiFaultDetail Data Object
-     * 
+     *
      * @uses BatchError
      * @uses OperationError
      */
@@ -4522,7 +4522,7 @@ namespace BingAds\Reporting
     /**
      * Defines an error object that identifies the item within the batch of items in the request message that caused the operation to fail, and describes the reason for the failure.
      * @link http://msdn.microsoft.com/en-us/library/dn169134(v=msads.90).aspx BatchError Data Object
-     * 
+     *
      * @used-by ApiFaultDetail
      */
     final class BatchError
@@ -4561,7 +4561,7 @@ namespace BingAds\Reporting
     /**
      * Defines a budget summary report request.
      * @link http://msdn.microsoft.com/en-us/library/bb672028(v=msads.90).aspx BudgetSummaryReportRequest Data Object
-     * 
+     *
      * @uses BudgetSummaryReportColumn
      * @uses AccountThroughCampaignReportScope
      * @uses BudgetSummaryReportTime
@@ -4590,7 +4590,7 @@ namespace BingAds\Reporting
     /**
      * Defines the date range values of a budget summary report request.
      * @link http://msdn.microsoft.com/en-us/library/bb671928(v=msads.90).aspx BudgetSummaryReportTime Data Object
-     * 
+     *
      * @uses Date
      * @uses BudgetSummaryReportTimePeriod
      * @used-by BudgetSummaryReportRequest
@@ -4619,7 +4619,7 @@ namespace BingAds\Reporting
     /**
      * Defines a call detail report request.
      * @link http://msdn.microsoft.com/en-us/library/dn195845(v=msads.90).aspx CallDetailReportRequest Data Object
-     * 
+     *
      * @uses ReportAggregation
      * @uses CallDetailReportColumn
      * @uses AccountThroughAdGroupReportScope
@@ -4655,7 +4655,7 @@ namespace BingAds\Reporting
     /**
      * Defines the criteria to use to filter the campaign performance report data.
      * @link http://msdn.microsoft.com/en-us/library/bb671808(v=msads.90).aspx CampaignPerformanceReportFilter Data Object
-     * 
+     *
      * @uses AdDistributionReportFilter
      * @uses DeviceOSReportFilter
      * @uses DeviceTypeReportFilter
@@ -4692,7 +4692,7 @@ namespace BingAds\Reporting
     /**
      * Defines a campaign performance report request.
      * @link http://msdn.microsoft.com/en-us/library/bb671804(v=msads.90).aspx CampaignPerformanceReportRequest Data Object
-     * 
+     *
      * @uses ReportAggregation
      * @uses CampaignPerformanceReportColumn
      * @uses CampaignPerformanceReportFilter
@@ -4735,7 +4735,7 @@ namespace BingAds\Reporting
     /**
      * Defines a campaign to include in the report.
      * @link http://msdn.microsoft.com/en-us/library/bb671721(v=msads.90).aspx CampaignReportScope Data Object
-     * 
+     *
      * @used-by AccountThroughAdGroupReportScope
      * @used-by AccountThroughCampaignReportScope
      */
@@ -4757,7 +4757,7 @@ namespace BingAds\Reporting
     /**
      * Defines the criteria to use to filter the conversion performance report data.
      * @link http://msdn.microsoft.com/en-us/library/gg262849(v=msads.90).aspx ConversionPerformanceReportFilter Data Object
-     * 
+     *
      * @uses DeviceTypeReportFilter
      * @used-by ConversionPerformanceReportRequest
      */
@@ -4779,7 +4779,7 @@ namespace BingAds\Reporting
     /**
      * Defines a conversion performance report request.
      * @link http://msdn.microsoft.com/en-us/library/gg262843(v=msads.90).aspx ConversionPerformanceReportRequest Data Object
-     * 
+     *
      * @uses NonHourlyReportAggregation
      * @uses ConversionPerformanceReportColumn
      * @uses ConversionPerformanceReportFilter
@@ -4822,7 +4822,7 @@ namespace BingAds\Reporting
     /**
      * Defines a calendar date by month, day, and year.
      * @link http://msdn.microsoft.com/en-us/library/dn376514(v=msads.90).aspx Date Data Object
-     * 
+     *
      * @used-by BudgetSummaryReportTime
      * @used-by ReportTime
      */
@@ -4850,7 +4850,7 @@ namespace BingAds\Reporting
     /**
      * Defines the criteria to use to filter the destination URL performance report data.
      * @link http://msdn.microsoft.com/en-us/library/bb671544(v=msads.90).aspx DestinationUrlPerformanceReportFilter Data Object
-     * 
+     *
      * @uses AdDistributionReportFilter
      * @uses DeviceTypeReportFilter
      * @used-by DestinationUrlPerformanceReportRequest
@@ -4879,7 +4879,7 @@ namespace BingAds\Reporting
     /**
      * Defines a destination URL performance report request.
      * @link http://msdn.microsoft.com/en-us/library/bb671480(v=msads.90).aspx DestinationUrlPerformanceReportRequest Data Object
-     * 
+     *
      * @uses NonHourlyReportAggregation
      * @uses DestinationUrlPerformanceReportColumn
      * @uses DestinationUrlPerformanceReportFilter
@@ -4922,7 +4922,7 @@ namespace BingAds\Reporting
     /**
      * The GeographicalLocationReportRequest and corresponding programming elements are deprecated, and instead you should use the GeoLocationPerformanceReportRequest.
      * @link http://msdn.microsoft.com/en-us/library/dn393954(v=msads.90).aspx GeographicalLocationReportFilter Data Object
-     * 
+     *
      * @uses AdDistributionReportFilter
      * @used-by GeographicalLocationReportRequest
      */
@@ -4950,7 +4950,7 @@ namespace BingAds\Reporting
     /**
      * The GeographicalLocationReportRequest and corresponding programming elements are deprecated, and instead you should use the GeoLocationPerformanceReportRequest.
      * @link http://msdn.microsoft.com/en-us/library/dn393955(v=msads.90).aspx GeographicalLocationReportRequest Data Object
-     * 
+     *
      * @uses NonHourlyReportAggregation
      * @uses GeographicalLocationReportColumn
      * @uses GeographicalLocationReportFilter
@@ -4993,7 +4993,7 @@ namespace BingAds\Reporting
     /**
      * Defines the criteria to use to filter the geographical location performance report data.
      * @link http://msdn.microsoft.com/en-us/library/dn743754(v=msads.90).aspx GeoLocationPerformanceReportFilter Data Object
-     * 
+     *
      * @uses AdDistributionReportFilter
      * @used-by GeoLocationPerformanceReportRequest
      */
@@ -5021,7 +5021,7 @@ namespace BingAds\Reporting
     /**
      * Defines a geo location performance report request.
      * @link http://msdn.microsoft.com/en-us/library/dn743772(v=msads.90).aspx GeoLocationPerformanceReportRequest Data Object
-     * 
+     *
      * @uses NonHourlyReportAggregation
      * @uses GeoLocationPerformanceReportColumn
      * @uses GeoLocationPerformanceReportFilter
@@ -5064,7 +5064,7 @@ namespace BingAds\Reporting
     /**
      * Defines the criteria to use to filter the goals and funnels report data.
      * @link http://msdn.microsoft.com/en-us/library/gg262854(v=msads.90).aspx GoalsAndFunnelsReportFilter Data Object
-     * 
+     *
      * @used-by GoalsAndFunnelsReportRequest
      */
     final class GoalsAndFunnelsReportFilter
@@ -5079,7 +5079,7 @@ namespace BingAds\Reporting
     /**
      * Defines a goals and funnels report request.
      * @link http://msdn.microsoft.com/en-us/library/gg262840(v=msads.90).aspx GoalsAndFunnelsReportRequest Data Object
-     * 
+     *
      * @uses NonHourlyReportAggregation
      * @uses GoalsAndFunnelsReportColumn
      * @uses GoalsAndFunnelsReportFilter
@@ -5122,7 +5122,7 @@ namespace BingAds\Reporting
     /**
      * Defines the criteria to use to filter the keyword performance report data.
      * @link http://msdn.microsoft.com/en-us/library/bb672082(v=msads.90).aspx KeywordPerformanceReportFilter Data Object
-     * 
+     *
      * @uses AdDistributionReportFilter
      * @uses AdTypeReportFilter
      * @uses BidMatchTypeReportFilter
@@ -5202,7 +5202,7 @@ namespace BingAds\Reporting
     /**
      * Defines a keyword performance report request.
      * @link http://msdn.microsoft.com/en-us/library/bb671816(v=msads.90).aspx KeywordPerformanceReportRequest Data Object
-     * 
+     *
      * @uses ReportAggregation
      * @uses KeywordPerformanceReportColumn
      * @uses KeywordPerformanceReportFilter
@@ -5258,7 +5258,7 @@ namespace BingAds\Reporting
     /**
      * Defines a keyword performance report column and corresponding sort order.
      * @link http://msdn.microsoft.com/en-us/library/dn342799(v=msads.90).aspx KeywordPerformanceReportSort Data Object
-     * 
+     *
      * @uses KeywordPerformanceReportColumn
      * @uses SortOrder
      * @used-by KeywordPerformanceReportRequest
@@ -5281,7 +5281,7 @@ namespace BingAds\Reporting
     /**
      * Defines a negative keyword conflict report request.
      * @link http://msdn.microsoft.com/en-us/library/hh560534(v=msads.90).aspx NegativeKeywordConflictReportRequest Data Object
-     * 
+     *
      * @uses NegativeKeywordConflictReportColumn
      * @uses AccountThroughAdGroupReportScope
      */
@@ -5303,7 +5303,7 @@ namespace BingAds\Reporting
     /**
      * Defines an error object that contains the details that explain why the service operation failed.
      * @link http://msdn.microsoft.com/en-us/library/dn169135(v=msads.90).aspx OperationError Data Object
-     * 
+     *
      * @used-by ApiFaultDetail
      */
     final class OperationError
@@ -5336,7 +5336,7 @@ namespace BingAds\Reporting
     /**
      * Defines the criteria to use to filter the product offer performance report data.
      * @link http://msdn.microsoft.com/en-us/library/dn743718(v=msads.90).aspx ProductOfferPerformanceReportFilter Data Object
-     * 
+     *
      * @uses DeviceTypeReportFilter
      * @used-by ProductOfferPerformanceReportRequest
      */
@@ -5358,7 +5358,7 @@ namespace BingAds\Reporting
     /**
      * Defines a product offer performance report request that aggregates the performance data by product offer for a specified time period.
      * @link http://msdn.microsoft.com/en-us/library/dn743719(v=msads.90).aspx ProductOfferPerformanceReportRequest Data Object
-     * 
+     *
      * @uses ReportAggregation
      * @uses ProductOfferPerformanceReportColumn
      * @uses ProductOfferPerformanceReportFilter
@@ -5401,7 +5401,7 @@ namespace BingAds\Reporting
     /**
      * Defines the criteria to use to filter the product target performance report data.
      * @link http://msdn.microsoft.com/en-us/library/dn195847(v=msads.90).aspx ProductTargetPerformanceReportFilter Data Object
-     * 
+     *
      * @uses DeviceTypeReportFilter
      * @used-by ProductTargetPerformanceReportRequest
      */
@@ -5423,7 +5423,7 @@ namespace BingAds\Reporting
     /**
      * Defines a product target performance report request.
      * @link http://msdn.microsoft.com/en-us/library/dn195846(v=msads.90).aspx ProductTargetPerformanceReportRequest Data Object
-     * 
+     *
      * @uses ReportAggregation
      * @uses ProductTargetPerformanceReportColumn
      * @uses ProductTargetPerformanceReportFilter
@@ -5466,7 +5466,7 @@ namespace BingAds\Reporting
     /**
      * Defines the criteria to use to filter the publisher usage performance report data.
      * @link http://msdn.microsoft.com/en-us/library/dd796865(v=msads.90).aspx PublisherUsagePerformanceReportFilter Data Object
-     * 
+     *
      * @uses AdDistributionReportFilter
      * @uses PricingModelReportFilter
      * @used-by PublisherUsagePerformanceReportRequest
@@ -5495,7 +5495,7 @@ namespace BingAds\Reporting
     /**
      * Defines a publisher usage performance report request.
      * @link http://msdn.microsoft.com/en-us/library/dd797229(v=msads.90).aspx PublisherUsagePerformanceReportRequest Data Object
-     * 
+     *
      * @uses NonHourlyReportAggregation
      * @uses PublisherUsagePerformanceReportColumn
      * @uses PublisherUsagePerformanceReportFilter
@@ -5538,7 +5538,7 @@ namespace BingAds\Reporting
     /**
      * Defines the status of a report request.
      * @link http://msdn.microsoft.com/en-us/library/bb672100(v=msads.90).aspx ReportRequestStatus Data Object
-     * 
+     *
      * @uses ReportRequestStatusType
      * @used-by PollGenerateReportResponse
      */
@@ -5560,7 +5560,7 @@ namespace BingAds\Reporting
     /**
      * Defines the date range values of a report request.
      * @link http://msdn.microsoft.com/en-us/library/bb671895(v=msads.90).aspx ReportTime Data Object
-     * 
+     *
      * @uses Date
      * @uses ReportTimePeriod
      * @used-by AccountPerformanceReportRequest
@@ -5614,7 +5614,7 @@ namespace BingAds\Reporting
     /**
      * Defines the criteria to use to filter the rich ad component keyword performance report data.
      * @link http://msdn.microsoft.com/en-us/library/hh180147(v=msads.90).aspx RichAdComponentPerformanceReportFilter Data Object
-     * 
+     *
      * @uses ComponentTypeFilter
      * @uses RichAdSubTypeFilter
      * @used-by RichAdComponentPerformanceReportRequest
@@ -5637,7 +5637,7 @@ namespace BingAds\Reporting
     /**
      * Defines a rich ad performance report request.
      * @link http://msdn.microsoft.com/en-us/library/hh180150(v=msads.90).aspx RichAdComponentPerformanceReportRequest Data Object
-     * 
+     *
      * @uses NonHourlyReportAggregation
      * @uses RichAdComponentPerformanceReportColumn
      * @uses RichAdComponentPerformanceReportFilter
@@ -5680,7 +5680,7 @@ namespace BingAds\Reporting
     /**
      * Defines the criteria to use to filter the campaign change history report data.
      * @link http://msdn.microsoft.com/en-us/library/hh912356(v=msads.90).aspx SearchCampaignChangeHistoryReportFilter Data Object
-     * 
+     *
      * @uses ChangeTypeReportFilter
      * @uses ChangeEntityReportFilter
      * @used-by SearchCampaignChangeHistoryReportRequest
@@ -5703,7 +5703,7 @@ namespace BingAds\Reporting
     /**
      * Defines a change history report request.
      * @link http://msdn.microsoft.com/en-us/library/hh912357(v=msads.90).aspx SearchCampaignChangeHistoryReportRequest Data Object
-     * 
+     *
      * @uses SearchCampaignChangeHistoryReportColumn
      * @uses SearchCampaignChangeHistoryReportFilter
      * @uses AccountThroughAdGroupReportScope
@@ -5739,7 +5739,7 @@ namespace BingAds\Reporting
     /**
      * Defines the criteria to use to filter the search query performance report data.
      * @link http://msdn.microsoft.com/en-us/library/ee703961(v=msads.90).aspx SearchQueryPerformanceReportFilter Data Object
-     * 
+     *
      * @uses AdStatusReportFilter
      * @uses AdTypeReportFilter
      * @uses CampaignStatusReportFilter
@@ -5794,7 +5794,7 @@ namespace BingAds\Reporting
     /**
      * Defines a search query performance report request.
      * @link http://msdn.microsoft.com/en-us/library/ee703962(v=msads.90).aspx SearchQueryPerformanceReportRequest Data Object
-     * 
+     *
      * @uses SearchQueryReportAggregation
      * @uses SearchQueryPerformanceReportColumn
      * @uses SearchQueryPerformanceReportFilter
@@ -5837,7 +5837,7 @@ namespace BingAds\Reporting
     /**
      * Defines the criteria to use to filter the share of voice report data.
      * @link http://msdn.microsoft.com/en-us/library/jj592908(v=msads.90).aspx ShareOfVoiceReportFilter Data Object
-     * 
+     *
      * @uses AdDistributionReportFilter
      * @uses BidMatchTypeReportFilter
      * @uses DeliveredMatchTypeReportFilter
@@ -5879,7 +5879,7 @@ namespace BingAds\Reporting
     /**
      * Defines a share of voice (SOV) report request.
      * @link http://msdn.microsoft.com/en-us/library/jj592909(v=msads.90).aspx ShareOfVoiceReportRequest Data Object
-     * 
+     *
      * @uses NonHourlyReportAggregation
      * @uses ShareOfVoiceReportColumn
      * @uses ShareOfVoiceReportFilter
@@ -5922,7 +5922,7 @@ namespace BingAds\Reporting
     /**
      * Defines the criteria to use to filter the website performance report data.
      * @link http://msdn.microsoft.com/en-us/library/dd796955(v=msads.90).aspx SitePerformanceReportFilter Data Object
-     * 
+     *
      * @uses AdDistributionReportFilter
      * @uses AdTypeReportFilter
      * @uses DeliveredMatchTypeReportFilter
@@ -5971,7 +5971,7 @@ namespace BingAds\Reporting
     /**
      * Defines a site performance report request.
      * @link http://msdn.microsoft.com/en-us/library/dd797220(v=msads.90).aspx SitePerformanceReportRequest Data Object
-     * 
+     *
      * @uses ReportAggregation
      * @uses SitePerformanceReportColumn
      * @uses SitePerformanceReportFilter
@@ -6014,7 +6014,7 @@ namespace BingAds\Reporting
     /**
      * Defines the criteria to use to filter the tactic and channel report data.
      * @link http://msdn.microsoft.com/en-us/library/gg262855(v=msads.90).aspx TacticChannelReportFilter Data Object
-     * 
+     *
      * @used-by TacticChannelReportRequest
      */
     final class TacticChannelReportFilter
@@ -6047,7 +6047,7 @@ namespace BingAds\Reporting
     /**
      * Defines a tactic and channel report request.
      * @link http://msdn.microsoft.com/en-us/library/gg262842(v=msads.90).aspx TacticChannelReportRequest Data Object
-     * 
+     *
      * @uses NonHourlyReportAggregation
      * @uses TacticChannelReportColumn
      * @uses TacticChannelReportFilter
@@ -6090,7 +6090,7 @@ namespace BingAds\Reporting
     /**
      * Defines the criteria to use to filter the traffic sources report data.
      * @link http://msdn.microsoft.com/en-us/library/gg262844(v=msads.90).aspx TrafficSourcesReportFilter Data Object
-     * 
+     *
      * @used-by TrafficSourcesReportRequest
      */
     final class TrafficSourcesReportFilter
@@ -6105,7 +6105,7 @@ namespace BingAds\Reporting
     /**
      * Defines a traffic sources report request.
      * @link http://msdn.microsoft.com/en-us/library/gg262853(v=msads.90).aspx TrafficSourcesReportRequest Data Object
-     * 
+     *
      * @uses NonHourlyReportAggregation
      * @uses TrafficSourcesReportColumn
      * @uses TrafficSourcesReportFilter
@@ -6148,7 +6148,7 @@ namespace BingAds\Reporting
     /**
      * Gets the status of a report request.
      * @link http://msdn.microsoft.com/en-us/library/jj879320(v=msads.90).aspx PollGenerateReport Request Object
-     * 
+     *
      * @used-by BingAdsReportingService::PollGenerateReport
      */
     final class PollGenerateReportRequest
@@ -6163,7 +6163,7 @@ namespace BingAds\Reporting
     /**
      * Gets the status of a report request.
      * @link http://msdn.microsoft.com/en-us/library/jj879320(v=msads.90).aspx PollGenerateReport Response Object
-     * 
+     *
      * @uses ReportRequestStatus
      * @used-by BingAdsReportingService::PollGenerateReport
      */
@@ -6179,7 +6179,7 @@ namespace BingAds\Reporting
     /**
      * Submits a report request.
      * @link http://msdn.microsoft.com/en-us/library/jj879321(v=msads.90).aspx SubmitGenerateReport Request Object
-     * 
+     *
      * @uses ReportRequest
      * @used-by BingAdsReportingService::SubmitGenerateReport
      */
@@ -6195,7 +6195,7 @@ namespace BingAds\Reporting
     /**
      * Submits a report request.
      * @link http://msdn.microsoft.com/en-us/library/jj879321(v=msads.90).aspx SubmitGenerateReport Response Object
-     * 
+     *
      * @used-by BingAdsReportingService::SubmitGenerateReport
      */
     final class SubmitGenerateReportResponse

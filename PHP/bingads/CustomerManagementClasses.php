@@ -15,7 +15,7 @@ namespace BingAds\CustomerManagement
     /**
      * Defines the possible status values of an account.
      * @link http://msdn.microsoft.com/en-us/library/ff728394(v=msads.90).aspx AccountLifeCycleStatus Value Set
-     * 
+     *
      * @used-by Account
      * @used-by AccountInfo
      * @used-by AccountInfoWithCustomerData
@@ -44,7 +44,7 @@ namespace BingAds\CustomerManagement
     /**
      * Defines the possible application types.
      * @link http://msdn.microsoft.com/en-us/library/ee704168(v=msads.90).aspx ApplicationType Value Set
-     * 
+     *
      * @used-by User
      * @used-by FindAccountsRequest
      * @used-by FindAccountsOrCustomersInfoRequest
@@ -61,7 +61,7 @@ namespace BingAds\CustomerManagement
     /**
      * Defines the possible account types.
      * @link http://msdn.microsoft.com/en-us/library/ff728392(v=msads.90).aspx AccountType Value Set
-     * 
+     *
      * @used-by Account
      */
     final class AccountType
@@ -73,7 +73,7 @@ namespace BingAds\CustomerManagement
     /**
      * Defines a selection of currency values.
      * @link http://msdn.microsoft.com/en-us/library/bb671938(v=msads.90).aspx CurrencyType Value Set
-     * 
+     *
      * @used-by Account
      */
     final class CurrencyType
@@ -175,7 +175,7 @@ namespace BingAds\CustomerManagement
     /**
      * Defines the possible financial status values of an account.
      * @link http://msdn.microsoft.com/en-us/library/ff728399(v=msads.90).aspx AccountFinancialStatus Value Set
-     * 
+     *
      * @used-by Account
      */
     final class AccountFinancialStatus
@@ -211,7 +211,7 @@ namespace BingAds\CustomerManagement
     /**
      * Defines a selection of language values.
      * @link http://msdn.microsoft.com/en-us/library/bb672074(v=msads.90).aspx LanguageType Value Set
-     * 
+     *
      * @used-by Account
      * @used-by Customer
      */
@@ -240,7 +240,7 @@ namespace BingAds\CustomerManagement
     /**
      * The value set defines a broad selection of languages; however, not all languages are supported.
      * @link http://msdn.microsoft.com/en-us/library/ee704164(v=msads.90).aspx PaymentMethodType Value Set
-     * 
+     *
      * @used-by Account
      */
     final class PaymentMethodType
@@ -261,7 +261,7 @@ namespace BingAds\CustomerManagement
     /**
      * Defines the possible time zones for the customer management service.
      * @link http://msdn.microsoft.com/en-us/library/dn451293(v=msads.90).aspx TimeZoneType Value Set
-     * 
+     *
      * @used-by Account
      */
     final class TimeZoneType
@@ -352,7 +352,7 @@ namespace BingAds\CustomerManagement
     /**
      * Defines the possible financial status values of a customer.
      * @link http://msdn.microsoft.com/en-us/library/ff728435(v=msads.90).aspx CustomerFinancialStatus Value Set
-     * 
+     *
      * @used-by Customer
      */
     final class CustomerFinancialStatus
@@ -379,7 +379,7 @@ namespace BingAds\CustomerManagement
     /**
      * Defines the possible industry segments in which a customer operates.
      * @link http://msdn.microsoft.com/en-us/library/bb671992(v=msads.90).aspx Industry Value Set
-     * 
+     *
      * @used-by Customer
      */
     final class Industry
@@ -449,7 +449,7 @@ namespace BingAds\CustomerManagement
     /**
      * For internal use only.
      * @link http://msdn.microsoft.com/en-us/library/ff728418(v=msads.90).aspx ServiceLevel Value Set
-     * 
+     *
      * @used-by Customer
      */
     final class ServiceLevel
@@ -473,7 +473,7 @@ namespace BingAds\CustomerManagement
     /**
      * Defines the possible status values of a customer.
      * @link http://msdn.microsoft.com/en-us/library/ff728419(v=msads.90).aspx CustomerLifeCycleStatus Value Set
-     * 
+     *
      * @used-by Customer
      */
     final class CustomerLifeCycleStatus
@@ -488,7 +488,7 @@ namespace BingAds\CustomerManagement
     /**
      * Defines the possible formats of the body of an email message.
      * @link http://msdn.microsoft.com/en-us/library/bb671705(v=msads.90).aspx EmailFormat Value Set
-     * 
+     *
      * @used-by ContactInfo
      */
     final class EmailFormat
@@ -500,7 +500,7 @@ namespace BingAds\CustomerManagement
     /**
      * Defines a selection of locale values.
      * @link http://msdn.microsoft.com/en-us/library/bb671785(v=msads.90).aspx LCID Value Set
-     * 
+     *
      * @used-by User
      * @used-by UserInvitation
      */
@@ -635,7 +635,7 @@ namespace BingAds\CustomerManagement
     /**
      * Defines the possible secret questions that users can choose from to help them recall their password.
      * @link http://msdn.microsoft.com/en-us/library/bb671980(v=msads.90).aspx SecretQuestion Value Set
-     * 
+     *
      * @used-by User
      */
     final class SecretQuestion
@@ -674,7 +674,7 @@ namespace BingAds\CustomerManagement
     /**
      * Defines the possible status values of a user.
      * @link http://msdn.microsoft.com/en-us/library/ee704179(v=msads.90).aspx UserLifeCycleStatus Value Set
-     * 
+     *
      * @used-by User
      * @used-by GetUsersInfoRequest
      */
@@ -696,7 +696,7 @@ namespace BingAds\CustomerManagement
     /**
      * Defines the condition of results for one of the search operations, for example SearchAccounts, SearchClientLinks, or SearchCustomers.
      * @link http://msdn.microsoft.com/en-us/library/dn518214(v=msads.90).aspx PredicateOperator Value Set
-     * 
+     *
      * @used-by Predicate
      */
     final class PredicateOperator
@@ -714,7 +714,7 @@ namespace BingAds\CustomerManagement
     /**
      * Defines the field order of entities returned using one of the search operations, for example SearchAccounts, SearchClientLinks, or SearchCustomers.
      * @link http://msdn.microsoft.com/en-us/library/dn452058(v=msads.90).aspx OrderByField Value Set
-     * 
+     *
      * @used-by OrderBy
      */
     final class OrderByField
@@ -735,7 +735,7 @@ namespace BingAds\CustomerManagement
     /**
      * Defines the ascending or descending sort order of results for one of the search operations, for example SearchAccounts, SearchClientLinks, or SearchCustomers.
      * @link http://msdn.microsoft.com/en-us/library/dn452061(v=msads.90).aspx SortOrder Value Set
-     * 
+     *
      * @used-by OrderBy
      */
     final class SortOrder
@@ -747,7 +747,7 @@ namespace BingAds\CustomerManagement
     /**
      * This feature is not supported in sandbox.
      * @link http://msdn.microsoft.com/en-us/library/dn632184(v=msads.90).aspx ClientLinkStatus Value Set
-     * 
+     *
      * @used-by ClientLink
      */
     final class ClientLinkStatus
@@ -798,7 +798,7 @@ namespace BingAds\CustomerManagement
     /**
      * Defines the possible roles of a user.
      * @link http://msdn.microsoft.com/en-us/library/ee704157(v=msads.90).aspx UserRole Value Set
-     * 
+     *
      * @used-by UserInvitation
      */
     final class UserRole
@@ -818,7 +818,7 @@ namespace BingAds\CustomerManagement
     /**
      * Defines an account.
      * @link http://msdn.microsoft.com/en-us/library/bb671588(v=msads.90).aspx Account Data Object
-     * 
+     *
      * @uses AccountType
      * @uses CurrencyType
      * @uses AccountFinancialStatus
@@ -961,7 +961,7 @@ namespace BingAds\CustomerManagement
     /**
      * Defines an account identification object that contains information that identifies an account.
      * @link http://msdn.microsoft.com/en-us/library/ff728414(v=msads.90).aspx AccountInfo Data Object
-     * 
+     *
      * @uses AccountLifeCycleStatus
      * @used-by FindAccountsResponse
      * @used-by GetAccountsInfoResponse
@@ -1002,7 +1002,7 @@ namespace BingAds\CustomerManagement
     /**
      * Defines an object that contains information that identifies an account and the customer that manages or owns the account.
      * @link http://msdn.microsoft.com/en-us/library/hh420973(v=msads.90).aspx AccountInfoWithCustomerData Data Object
-     * 
+     *
      * @uses AccountLifeCycleStatus
      * @used-by FindAccountsOrCustomersInfoResponse
      */
@@ -1054,7 +1054,7 @@ namespace BingAds\CustomerManagement
     /**
      * Defines an error object that contains the details that explain why the service operation failed.
      * @link http://msdn.microsoft.com/en-us/library/dn169116(v=msads.90).aspx AdApiError Data Object
-     * 
+     *
      * @used-by AdApiFaultDetail
      */
     final class AdApiError
@@ -1100,7 +1100,7 @@ namespace BingAds\CustomerManagement
     /**
      * Defines a fault object that operations return when generic errors occur, such as an authentication error.
      * @link http://msdn.microsoft.com/en-us/library/dn169115(v=msads.90).aspx AdApiFaultDetail Data Object
-     * 
+     *
      * @uses AdApiError
      */
     final class AdApiFaultDetail extends ApplicationFault
@@ -1115,7 +1115,7 @@ namespace BingAds\CustomerManagement
     /**
      * Defines a postal address.
      * @link http://msdn.microsoft.com/en-us/library/bb671505(v=msads.90).aspx Address Data Object
-     * 
+     *
      * @used-by ContactInfo
      * @used-by Customer
      */
@@ -1180,7 +1180,7 @@ namespace BingAds\CustomerManagement
     /**
      * Defines an advertiser account.
      * @link http://msdn.microsoft.com/en-us/library/ee704163(v=msads.90).aspx AdvertiserAccount Data Object
-     * 
+     *
      * @uses TaxType
      */
     final class AdvertiserAccount extends Account
@@ -1231,7 +1231,7 @@ namespace BingAds\CustomerManagement
     /**
      * Defines a fault object that operations return when web service-specific errors occur, such as when the request message contains incomplete or invalid data.
      * @link http://msdn.microsoft.com/en-us/library/dn169117(v=msads.90).aspx ApiFault Data Object
-     * 
+     *
      * @uses OperationError
      */
     final class ApiFault extends ApplicationFault
@@ -1242,7 +1242,7 @@ namespace BingAds\CustomerManagement
     /**
      * This feature is not supported in sandbox.
      * @link http://msdn.microsoft.com/en-us/library/dn632189(v=msads.90).aspx ClientLink Data Object
-     * 
+     *
      * @uses ClientLinkStatus
      * @uses KeyValuePairOfstringstring
      * @used-by AddClientLinksRequest
@@ -1352,7 +1352,7 @@ namespace BingAds\CustomerManagement
     /**
      * Defines the contact information for a user.
      * @link http://msdn.microsoft.com/en-us/library/bb671639(v=msads.90).aspx ContactInfo Data Object
-     * 
+     *
      * @uses Address
      * @uses EmailFormat
      * @used-by User
@@ -1429,7 +1429,7 @@ namespace BingAds\CustomerManagement
     /**
      * Defines a customer.
      * @link http://msdn.microsoft.com/en-us/library/bb671875(v=msads.90).aspx Customer Data Object
-     * 
+     *
      * @uses Address
      * @uses CustomerFinancialStatus
      * @uses Industry
@@ -1533,7 +1533,7 @@ namespace BingAds\CustomerManagement
     /**
      * Defines a customer identification object that contains information that identifies a customer.
      * @link http://msdn.microsoft.com/en-us/library/ff728384(v=msads.90).aspx CustomerInfo Data Object
-     * 
+     *
      * @used-by GetCustomersInfoResponse
      */
     final class CustomerInfo
@@ -1554,7 +1554,7 @@ namespace BingAds\CustomerManagement
     /**
      * Defines a date range object.
      * @link http://msdn.microsoft.com/en-us/library/dn452056(v=msads.90).aspx DateRange Data Object
-     * 
+     *
      * @used-by SearchCustomersRequest
      */
     final class DateRange
@@ -1581,7 +1581,7 @@ namespace BingAds\CustomerManagement
     /**
      * Defines an error object that contains the details that explain why the service operation failed.
      * @link http://msdn.microsoft.com/en-us/library/dn169112(v=msads.90).aspx OperationError Data Object
-     * 
+     *
      * @used-by ApiFault
      * @used-by AddClientLinksResponse
      * @used-by UpdateClientLinksResponse
@@ -1610,7 +1610,7 @@ namespace BingAds\CustomerManagement
     /**
      * Defines an order for the list of entities returned using one of the search operations, for example SearchAccounts, SearchClientLinks, or SearchCustomers.
      * @link http://msdn.microsoft.com/en-us/library/dn452057(v=msads.90).aspx OrderBy Data Object
-     * 
+     *
      * @uses OrderByField
      * @uses SortOrder
      * @used-by SearchAccountsRequest
@@ -1635,7 +1635,7 @@ namespace BingAds\CustomerManagement
     /**
      * Defines a paging object for the list of entities returned using one of the search operations, for example SearchAccounts, SearchClientLinks, or SearchCustomers.
      * @link http://msdn.microsoft.com/en-us/library/dn452059(v=msads.90).aspx Paging Data Object
-     * 
+     *
      * @used-by SearchAccountsRequest
      * @used-by SearchClientLinksRequest
      * @used-by SearchCustomersRequest
@@ -1658,7 +1658,7 @@ namespace BingAds\CustomerManagement
     /**
      * Defines the name of a user.
      * @link http://msdn.microsoft.com/en-us/library/ff728429(v=msads.90).aspx PersonName Data Object
-     * 
+     *
      * @used-by User
      */
     final class PersonName
@@ -1691,7 +1691,7 @@ namespace BingAds\CustomerManagement
     /**
      * Defines a predicate for the list of entities requested using one of the search operations, for example SearchAccounts, SearchClientLinks, or SearchCustomers.
      * @link http://msdn.microsoft.com/en-us/library/dn452060(v=msads.90).aspx Predicate Data Object
-     * 
+     *
      * @uses PredicateOperator
      * @used-by SearchAccountsRequest
      * @used-by SearchClientLinksRequest
@@ -1722,7 +1722,7 @@ namespace BingAds\CustomerManagement
     /**
      * Defines a user.
      * @link http://msdn.microsoft.com/en-us/library/bb671824(v=msads.90).aspx User Data Object
-     * 
+     *
      * @uses ContactInfo
      * @uses ApplicationType
      * @uses LCID
@@ -1835,7 +1835,7 @@ namespace BingAds\CustomerManagement
     /**
      * Defines a user identification object that contains information that identifies a user.
      * @link http://msdn.microsoft.com/en-us/library/ff728438(v=msads.90).aspx UserInfo Data Object
-     * 
+     *
      * @used-by GetUsersInfoResponse
      */
     final class UserInfo
@@ -1856,7 +1856,7 @@ namespace BingAds\CustomerManagement
     /**
      * Defines a user invitation.
      * @link http://msdn.microsoft.com/en-us/library/dn771360(v=msads.90).aspx UserInvitation Data Object
-     * 
+     *
      * @uses UserRole
      * @uses LCID
      * @used-by SearchUserInvitationsResponse
@@ -1934,7 +1934,7 @@ namespace BingAds\CustomerManagement
     /**
      * This feature is not supported in sandbox.
      * @link http://msdn.microsoft.com/en-us/library/dn632187(v=msads.90).aspx AddClientLinks Request Object
-     * 
+     *
      * @uses ClientLink
      * @used-by BingAdsCustomerManagementService::AddClientLinks
      */
@@ -1950,7 +1950,7 @@ namespace BingAds\CustomerManagement
     /**
      * This feature is not supported in sandbox.
      * @link http://msdn.microsoft.com/en-us/library/dn632187(v=msads.90).aspx AddClientLinks Response Object
-     * 
+     *
      * @uses OperationError
      * @used-by BingAdsCustomerManagementService::AddClientLinks
      */
@@ -1984,7 +1984,7 @@ namespace BingAds\CustomerManagement
     /**
      * Deletes an account.
      * @link http://msdn.microsoft.com/en-us/library/dn451272(v=msads.90).aspx DeleteAccount Request Object
-     * 
+     *
      * @used-by BingAdsCustomerManagementService::DeleteAccount
      */
     final class DeleteAccountRequest
@@ -2005,7 +2005,7 @@ namespace BingAds\CustomerManagement
     /**
      * Deletes an account.
      * @link http://msdn.microsoft.com/en-us/library/dn451272(v=msads.90).aspx DeleteAccount Response Object
-     * 
+     *
      * @used-by BingAdsCustomerManagementService::DeleteAccount
      */
     final class DeleteAccountResponse
@@ -2015,7 +2015,7 @@ namespace BingAds\CustomerManagement
     /**
      * Deletes a customer.
      * @link http://msdn.microsoft.com/en-us/library/dn451278(v=msads.90).aspx DeleteCustomer Request Object
-     * 
+     *
      * @used-by BingAdsCustomerManagementService::DeleteCustomer
      */
     final class DeleteCustomerRequest
@@ -2036,7 +2036,7 @@ namespace BingAds\CustomerManagement
     /**
      * Deletes a customer.
      * @link http://msdn.microsoft.com/en-us/library/dn451278(v=msads.90).aspx DeleteCustomer Response Object
-     * 
+     *
      * @used-by BingAdsCustomerManagementService::DeleteCustomer
      */
     final class DeleteCustomerResponse
@@ -2046,7 +2046,7 @@ namespace BingAds\CustomerManagement
     /**
      * Deletes a user.
      * @link http://msdn.microsoft.com/en-us/library/dn451276(v=msads.90).aspx DeleteUser Request Object
-     * 
+     *
      * @used-by BingAdsCustomerManagementService::DeleteUser
      */
     final class DeleteUserRequest
@@ -2067,7 +2067,7 @@ namespace BingAds\CustomerManagement
     /**
      * Deletes a user.
      * @link http://msdn.microsoft.com/en-us/library/dn451276(v=msads.90).aspx DeleteUser Response Object
-     * 
+     *
      * @used-by BingAdsCustomerManagementService::DeleteUser
      */
     final class DeleteUserResponse
@@ -2077,7 +2077,7 @@ namespace BingAds\CustomerManagement
     /**
      * Gets a list of accounts owned by the specified customer that match the specified filter criteria.
      * @link http://msdn.microsoft.com/en-us/library/dn451274(v=msads.90).aspx FindAccounts Request Object
-     * 
+     *
      * @uses ApplicationType
      * @used-by BingAdsCustomerManagementService::FindAccounts
      */
@@ -2111,7 +2111,7 @@ namespace BingAds\CustomerManagement
     /**
      * Gets a list of accounts owned by the specified customer that match the specified filter criteria.
      * @link http://msdn.microsoft.com/en-us/library/dn451274(v=msads.90).aspx FindAccounts Response Object
-     * 
+     *
      * @uses AccountInfo
      * @used-by BingAdsCustomerManagementService::FindAccounts
      */
@@ -2127,7 +2127,7 @@ namespace BingAds\CustomerManagement
     /**
      * Gets a list of the accounts and customers that match the specified filter criteria.
      * @link http://msdn.microsoft.com/en-us/library/dn451281(v=msads.90).aspx FindAccountsOrCustomersInfo Request Object
-     * 
+     *
      * @uses ApplicationType
      * @used-by BingAdsCustomerManagementService::FindAccountsOrCustomersInfo
      */
@@ -2155,7 +2155,7 @@ namespace BingAds\CustomerManagement
     /**
      * Gets a list of the accounts and customers that match the specified filter criteria.
      * @link http://msdn.microsoft.com/en-us/library/dn451281(v=msads.90).aspx FindAccountsOrCustomersInfo Response Object
-     * 
+     *
      * @uses AccountInfoWithCustomerData
      * @used-by BingAdsCustomerManagementService::FindAccountsOrCustomersInfo
      */
@@ -2182,7 +2182,7 @@ namespace BingAds\CustomerManagement
     /**
      * Gets the details of an account.
      * @link http://msdn.microsoft.com/en-us/library/dn451273(v=msads.90).aspx GetAccount Request Object
-     * 
+     *
      * @used-by BingAdsCustomerManagementService::GetAccount
      */
     final class GetAccountRequest
@@ -2197,7 +2197,7 @@ namespace BingAds\CustomerManagement
     /**
      * Gets the details of an account.
      * @link http://msdn.microsoft.com/en-us/library/dn451273(v=msads.90).aspx GetAccount Response Object
-     * 
+     *
      * @uses Account
      * @used-by BingAdsCustomerManagementService::GetAccount
      */
@@ -2213,7 +2213,7 @@ namespace BingAds\CustomerManagement
     /**
      * Gets a list of objects that contains account identification information, for example the name and identifier of the account, for the specified customer.
      * @link http://msdn.microsoft.com/en-us/library/dn451289(v=msads.90).aspx GetAccountsInfo Request Object
-     * 
+     *
      * @used-by BingAdsCustomerManagementService::GetAccountsInfo
      */
     final class GetAccountsInfoRequest
@@ -2234,7 +2234,7 @@ namespace BingAds\CustomerManagement
     /**
      * Gets a list of objects that contains account identification information, for example the name and identifier of the account, for the specified customer.
      * @link http://msdn.microsoft.com/en-us/library/dn451289(v=msads.90).aspx GetAccountsInfo Response Object
-     * 
+     *
      * @uses AccountInfo
      * @used-by BingAdsCustomerManagementService::GetAccountsInfo
      */
@@ -2259,7 +2259,7 @@ namespace BingAds\CustomerManagement
     /**
      * Gets the details of a customer.
      * @link http://msdn.microsoft.com/en-us/library/dn451279(v=msads.90).aspx GetCustomer Request Object
-     * 
+     *
      * @used-by BingAdsCustomerManagementService::GetCustomer
      */
     final class GetCustomerRequest
@@ -2274,7 +2274,7 @@ namespace BingAds\CustomerManagement
     /**
      * Gets the details of a customer.
      * @link http://msdn.microsoft.com/en-us/library/dn451279(v=msads.90).aspx GetCustomer Response Object
-     * 
+     *
      * @uses Customer
      * @used-by BingAdsCustomerManagementService::GetCustomer
      */
@@ -2290,7 +2290,7 @@ namespace BingAds\CustomerManagement
     /**
      * Gets a list of the pilot programs in which the specified customer participates.
      * @link http://msdn.microsoft.com/en-us/library/dn451285(v=msads.90).aspx GetCustomerPilotFeatures Request Object
-     * 
+     *
      * @used-by BingAdsCustomerManagementService::GetCustomerPilotFeatures
      */
     final class GetCustomerPilotFeaturesRequest
@@ -2305,7 +2305,7 @@ namespace BingAds\CustomerManagement
     /**
      * Gets a list of the pilot programs in which the specified customer participates.
      * @link http://msdn.microsoft.com/en-us/library/dn451285(v=msads.90).aspx GetCustomerPilotFeatures Response Object
-     * 
+     *
      * @used-by BingAdsCustomerManagementService::GetCustomerPilotFeatures
      */
     final class GetCustomerPilotFeaturesResponse
@@ -2320,7 +2320,7 @@ namespace BingAds\CustomerManagement
     /**
      * Gets a list of objects that contain customer identification information, for example the name and identifier of the customer.
      * @link http://msdn.microsoft.com/en-us/library/dn451282(v=msads.90).aspx GetCustomersInfo Request Object
-     * 
+     *
      * @uses ApplicationType
      * @used-by BingAdsCustomerManagementService::GetCustomersInfo
      */
@@ -2348,7 +2348,7 @@ namespace BingAds\CustomerManagement
     /**
      * Gets a list of objects that contain customer identification information, for example the name and identifier of the customer.
      * @link http://msdn.microsoft.com/en-us/library/dn451282(v=msads.90).aspx GetCustomersInfo Response Object
-     * 
+     *
      * @uses CustomerInfo
      * @used-by BingAdsCustomerManagementService::GetCustomersInfo
      */
@@ -2373,7 +2373,7 @@ namespace BingAds\CustomerManagement
     /**
      * Gets the details of a user.
      * @link http://msdn.microsoft.com/en-us/library/dn451280(v=msads.90).aspx GetUser Request Object
-     * 
+     *
      * @used-by BingAdsCustomerManagementService::GetUser
      */
     final class GetUserRequest
@@ -2388,7 +2388,7 @@ namespace BingAds\CustomerManagement
     /**
      * Gets the details of a user.
      * @link http://msdn.microsoft.com/en-us/library/dn451280(v=msads.90).aspx GetUser Response Object
-     * 
+     *
      * @uses User
      * @used-by BingAdsCustomerManagementService::GetUser
      */
@@ -2422,7 +2422,7 @@ namespace BingAds\CustomerManagement
     /**
      * Gets a list of objects that contains user identification information, for example the user name and identifier of the user.
      * @link http://msdn.microsoft.com/en-us/library/dn451283(v=msads.90).aspx GetUsersInfo Request Object
-     * 
+     *
      * @uses UserLifeCycleStatus
      * @used-by BingAdsCustomerManagementService::GetUsersInfo
      */
@@ -2444,7 +2444,7 @@ namespace BingAds\CustomerManagement
     /**
      * Gets a list of objects that contains user identification information, for example the user name and identifier of the user.
      * @link http://msdn.microsoft.com/en-us/library/dn451283(v=msads.90).aspx GetUsersInfo Response Object
-     * 
+     *
      * @uses UserInfo
      * @used-by BingAdsCustomerManagementService::GetUsersInfo
      */
@@ -2480,7 +2480,7 @@ namespace BingAds\CustomerManagement
     /**
      * Searches for accounts that match a specified criteria.
      * @link http://msdn.microsoft.com/en-us/library/dn743757(v=msads.90).aspx SearchAccounts Request Object
-     * 
+     *
      * @uses Predicate
      * @uses OrderBy
      * @uses Paging
@@ -2510,7 +2510,7 @@ namespace BingAds\CustomerManagement
     /**
      * Searches for accounts that match a specified criteria.
      * @link http://msdn.microsoft.com/en-us/library/dn743757(v=msads.90).aspx SearchAccounts Response Object
-     * 
+     *
      * @uses Account
      * @used-by BingAdsCustomerManagementService::SearchAccounts
      */
@@ -2526,7 +2526,7 @@ namespace BingAds\CustomerManagement
     /**
      * This feature is not supported in sandbox.
      * @link http://msdn.microsoft.com/en-us/library/dn632186(v=msads.90).aspx SearchClientLinks Request Object
-     * 
+     *
      * @uses Predicate
      * @uses OrderBy
      * @uses Paging
@@ -2556,7 +2556,7 @@ namespace BingAds\CustomerManagement
     /**
      * This feature is not supported in sandbox.
      * @link http://msdn.microsoft.com/en-us/library/dn632186(v=msads.90).aspx SearchClientLinks Response Object
-     * 
+     *
      * @uses ClientLink
      * @used-by BingAdsCustomerManagementService::SearchClientLinks
      */
@@ -2572,7 +2572,7 @@ namespace BingAds\CustomerManagement
     /**
      * Searches for customers that match a specified criteria.
      * @link http://msdn.microsoft.com/en-us/library/dn452055(v=msads.90).aspx SearchCustomers Request Object
-     * 
+     *
      * @uses ApplicationType
      * @uses Predicate
      * @uses DateRange
@@ -2616,7 +2616,7 @@ namespace BingAds\CustomerManagement
     /**
      * Searches for customers that match a specified criteria.
      * @link http://msdn.microsoft.com/en-us/library/dn452055(v=msads.90).aspx SearchCustomers Response Object
-     * 
+     *
      * @uses Customer
      * @used-by BingAdsCustomerManagementService::SearchCustomers
      */
@@ -2632,7 +2632,7 @@ namespace BingAds\CustomerManagement
     /**
      * Searches for user invitations that match a specified criteria.
      * @link http://msdn.microsoft.com/en-us/library/dn771300(v=msads.90).aspx SearchUserInvitations Request Object
-     * 
+     *
      * @uses Predicate
      * @used-by BingAdsCustomerManagementService::SearchUserInvitations
      */
@@ -2648,7 +2648,7 @@ namespace BingAds\CustomerManagement
     /**
      * Searches for user invitations that match a specified criteria.
      * @link http://msdn.microsoft.com/en-us/library/dn771300(v=msads.90).aspx SearchUserInvitations Response Object
-     * 
+     *
      * @uses UserInvitation
      * @used-by BingAdsCustomerManagementService::SearchUserInvitations
      */
@@ -2664,7 +2664,7 @@ namespace BingAds\CustomerManagement
     /**
      * Sends an invitation for a Microsoft account user to manage one or more Bing Ads customer accounts.
      * @link http://msdn.microsoft.com/en-us/library/dn789440(v=msads.90).aspx SendUserInvitation Request Object
-     * 
+     *
      * @uses UserInvitation
      * @used-by BingAdsCustomerManagementService::SendUserInvitation
      */
@@ -2680,7 +2680,7 @@ namespace BingAds\CustomerManagement
     /**
      * Sends an invitation for a Microsoft account user to manage one or more Bing Ads customer accounts.
      * @link http://msdn.microsoft.com/en-us/library/dn789440(v=msads.90).aspx SendUserInvitation Response Object
-     * 
+     *
      * @used-by BingAdsCustomerManagementService::SendUserInvitation
      */
     final class SendUserInvitationResponse
@@ -2695,7 +2695,7 @@ namespace BingAds\CustomerManagement
     /**
      * Signs up a customer with Bing Ads.
      * @link http://msdn.microsoft.com/en-us/library/dn451287(v=msads.90).aspx SignupCustomer Request Object
-     * 
+     *
      * @uses Customer
      * @uses Account
      * @uses ApplicationType
@@ -2731,7 +2731,7 @@ namespace BingAds\CustomerManagement
     /**
      * Signs up a customer with Bing Ads.
      * @link http://msdn.microsoft.com/en-us/library/dn451287(v=msads.90).aspx SignupCustomer Response Object
-     * 
+     *
      * @used-by BingAdsCustomerManagementService::SignupCustomer
      */
     final class SignupCustomerResponse
@@ -2746,7 +2746,7 @@ namespace BingAds\CustomerManagement
     /**
      * Updates the details of the specified account.
      * @link http://msdn.microsoft.com/en-us/library/dn451286(v=msads.90).aspx UpdateAccount Request Object
-     * 
+     *
      * @uses Account
      * @used-by BingAdsCustomerManagementService::UpdateAccount
      */
@@ -2762,7 +2762,7 @@ namespace BingAds\CustomerManagement
     /**
      * Updates the details of the specified account.
      * @link http://msdn.microsoft.com/en-us/library/dn451286(v=msads.90).aspx UpdateAccount Response Object
-     * 
+     *
      * @used-by BingAdsCustomerManagementService::UpdateAccount
      */
     final class UpdateAccountResponse
@@ -2773,7 +2773,7 @@ namespace BingAds\CustomerManagement
     /**
      * This feature is not supported in sandbox.
      * @link http://msdn.microsoft.com/en-us/library/dn632185(v=msads.90).aspx UpdateClientLinks Request Object
-     * 
+     *
      * @uses ClientLink
      * @used-by BingAdsCustomerManagementService::UpdateClientLinks
      */
@@ -2789,7 +2789,7 @@ namespace BingAds\CustomerManagement
     /**
      * This feature is not supported in sandbox.
      * @link http://msdn.microsoft.com/en-us/library/dn632185(v=msads.90).aspx UpdateClientLinks Response Object
-     * 
+     *
      * @uses OperationError
      * @used-by BingAdsCustomerManagementService::UpdateClientLinks
      */
@@ -2811,7 +2811,7 @@ namespace BingAds\CustomerManagement
     /**
      * Updates the details of the specified customer.
      * @link http://msdn.microsoft.com/en-us/library/dn451294(v=msads.90).aspx UpdateCustomer Request Object
-     * 
+     *
      * @uses Customer
      * @used-by BingAdsCustomerManagementService::UpdateCustomer
      */
@@ -2827,7 +2827,7 @@ namespace BingAds\CustomerManagement
     /**
      * Updates the details of the specified customer.
      * @link http://msdn.microsoft.com/en-us/library/dn451294(v=msads.90).aspx UpdateCustomer Response Object
-     * 
+     *
      * @used-by BingAdsCustomerManagementService::UpdateCustomer
      */
     final class UpdateCustomerResponse
@@ -2848,7 +2848,7 @@ namespace BingAds\CustomerManagement
     /**
      * Updates the details of the specified user.
      * @link http://msdn.microsoft.com/en-us/library/dn451277(v=msads.90).aspx UpdateUser Request Object
-     * 
+     *
      * @uses User
      * @used-by BingAdsCustomerManagementService::UpdateUser
      */
@@ -2864,7 +2864,7 @@ namespace BingAds\CustomerManagement
     /**
      * Updates the details of the specified user.
      * @link http://msdn.microsoft.com/en-us/library/dn451277(v=msads.90).aspx UpdateUser Response Object
-     * 
+     *
      * @used-by BingAdsCustomerManagementService::UpdateUser
      */
     final class UpdateUserResponse
@@ -2875,7 +2875,7 @@ namespace BingAds\CustomerManagement
     /**
      * Updates the roles of the specified user.
      * @link http://msdn.microsoft.com/en-us/library/dn451284(v=msads.90).aspx UpdateUserRoles Request Object
-     * 
+     *
      * @used-by BingAdsCustomerManagementService::UpdateUserRoles
      */
     final class UpdateUserRolesRequest
@@ -2912,7 +2912,7 @@ namespace BingAds\CustomerManagement
     /**
      * Updates the roles of the specified user.
      * @link http://msdn.microsoft.com/en-us/library/dn451284(v=msads.90).aspx UpdateUserRoles Response Object
-     * 
+     *
      * @used-by BingAdsCustomerManagementService::UpdateUserRoles
      */
     final class UpdateUserRolesResponse

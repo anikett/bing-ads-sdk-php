@@ -15,7 +15,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines the editorial review status values of an ad.
      * @link http://msdn.microsoft.com/en-us/library/cc565084(v=msads.90).aspx AdEditorialStatus Value Set
-     * 
+     *
      * @used-by Ad
      * @used-by GetAdsByEditorialStatusRequest
      */
@@ -37,7 +37,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines the possible status values of an ad.
      * @link http://msdn.microsoft.com/en-us/library/cc580692(v=msads.90).aspx AdStatus Value Set
-     * 
+     *
      * @used-by Ad
      */
     final class AdStatus
@@ -58,7 +58,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines the type of ad.
      * @link http://msdn.microsoft.com/en-us/library/bb671537(v=msads.90).aspx AdType Value Set
-     * 
+     *
      * @used-by Ad
      */
     final class AdType
@@ -82,7 +82,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines the possible budget types that you can specify for a campaign.
      * @link http://msdn.microsoft.com/en-us/library/bb672035(v=msads.90).aspx BudgetLimitType Value Set
-     * 
+     *
      * @used-by Campaign
      */
     final class BudgetLimitType
@@ -100,7 +100,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines the possible status values of a campaign.
      * @link http://msdn.microsoft.com/en-us/library/bb672025(v=msads.90).aspx CampaignStatus Value Set
-     * 
+     *
      * @used-by Campaign
      */
     final class CampaignStatus
@@ -127,7 +127,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines the ad distribution for the ad group.
      * @link http://msdn.microsoft.com/en-us/library/bb671585(v=msads.90).aspx AdDistribution Value Set
-     * 
+     *
      * @used-by AdGroup
      */
     final class AdDistribution
@@ -142,7 +142,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines the possible ad rotation types that you can apply to an ad group.
      * @link http://msdn.microsoft.com/en-us/library/jj219947(v=msads.90).aspx AdRotationType Value Set
-     * 
+     *
      * @used-by AdRotation
      */
     final class AdRotationType
@@ -157,7 +157,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines the bidding model for an ad group.
      * @link http://msdn.microsoft.com/en-us/library/dd796906(v=msads.90).aspx BiddingModel Value Set
-     * 
+     *
      * @used-by AdGroup
      */
     final class BiddingModel
@@ -172,7 +172,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines the possible search networks on which an ad can display.
      * @link http://msdn.microsoft.com/en-us/library/ff986253(v=msads.90).aspx Network Value Set
-     * 
+     *
      * @used-by AdGroup
      */
     final class Network
@@ -190,7 +190,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines the pricing model for an ad group.
      * @link http://msdn.microsoft.com/en-us/library/cc580680(v=msads.90).aspx PricingModel Value Set
-     * 
+     *
      * @used-by AdGroup
      */
     final class PricingModel
@@ -205,7 +205,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines the possible status values of an ad group.
      * @link http://msdn.microsoft.com/en-us/library/bb671715(v=msads.90).aspx AdGroupStatus Value Set
-     * 
+     *
      * @used-by AdGroup
      */
     final class AdGroupStatus
@@ -226,7 +226,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines the possible age range values that you can use to target ads to users.
      * @link http://msdn.microsoft.com/en-us/library/bb671742(v=msads.90).aspx AgeRange Value Set
-     * 
+     *
      * @used-by AgeTargetBid
      */
     final class AgeRange
@@ -250,7 +250,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines the day values that you can specify for day of the week targeting.
      * @link http://msdn.microsoft.com/en-us/library/bb671717(v=msads.90).aspx Day Value Set
-     * 
+     *
      * @used-by DayTargetBid
      * @used-by DayTimeTargetBid
      */
@@ -268,7 +268,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines the genders that are available for ad group or campaign targeting.
      * @link http://msdn.microsoft.com/en-us/library/bb671519(v=msads.90).aspx GenderType Value Set
-     * 
+     *
      * @used-by GenderTargetBid
      */
     final class GenderType
@@ -280,7 +280,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines the time ranges that you can specify for time of the day targeting.
      * @link http://msdn.microsoft.com/en-us/library/bb672093(v=msads.90).aspx HourRange Value Set
-     * 
+     *
      * @used-by HourTargetBid
      */
     final class HourRange
@@ -307,7 +307,7 @@ namespace BingAds\CampaignManagement
     /**
      * Currently this feature is only available for pilot participants, and will be generally available for all advertisers in Q3 2014.
      * @link http://msdn.microsoft.com/en-us/library/dn743745(v=msads.90).aspx Minute Value Set
-     * 
+     *
      * @used-by DayTimeTargetBid
      */
     final class Minute
@@ -328,7 +328,7 @@ namespace BingAds\CampaignManagement
     /**
      * Currently this feature is only available for pilot participants, and will be generally available for all advertisers in Q3 2014.
      * @link http://msdn.microsoft.com/en-us/library/dn743742(v=msads.90).aspx IntentOption Value Set
-     * 
+     *
      * @used-by LocationTarget2
      */
     final class IntentOption
@@ -346,7 +346,7 @@ namespace BingAds\CampaignManagement
     /**
      * Currently this feature is only available for pilot participants, and will be generally available for all advertisers in Q3 2014.
      * @link http://msdn.microsoft.com/en-us/library/dn743740(v=msads.90).aspx DistanceUnit Value Set
-     * 
+     *
      * @used-by RadiusTargetBid2
      */
     final class DistanceUnit
@@ -361,7 +361,7 @@ namespace BingAds\CampaignManagement
     /**
      * Reserved for future use.
      * @link http://msdn.microsoft.com/en-us/library/dn743765(v=msads.90).aspx NetworkType Value Set
-     * 
+     *
      * @used-by NetworkTargetBid
      */
     final class NetworkType
@@ -376,7 +376,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines the editorial review status values of a keyword.
      * @link http://msdn.microsoft.com/en-us/library/cc565085(v=msads.90).aspx KeywordEditorialStatus Value Set
-     * 
+     *
      * @used-by Keyword
      * @used-by GetKeywordsByEditorialStatusRequest
      */
@@ -398,7 +398,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines the possible match types for a keyword bid.
      * @link http://msdn.microsoft.com/en-us/library/dn249974(v=msads.90).aspx MatchType Value Set
-     * 
+     *
      * @used-by Keyword
      * @used-by NegativeKeyword
      */
@@ -420,7 +420,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines the possible status values of a keyword.
      * @link http://msdn.microsoft.com/en-us/library/bb671482(v=msads.90).aspx KeywordStatus Value Set
-     * 
+     *
      * @used-by Keyword
      */
     final class KeywordStatus
@@ -441,7 +441,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines the possible types of entities.
      * @link http://msdn.microsoft.com/en-us/library/jj622172(v=msads.90).aspx EntityType Value Set
-     * 
+     *
      * @used-by AppealEditorialRejectionsRequest
      * @used-by GetEditorialReasonsByIdsRequest
      */
@@ -470,7 +470,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines the status of a website placement bid.
      * @link http://msdn.microsoft.com/en-us/library/dd797148(v=msads.90).aspx SitePlacementStatus Value Set
-     * 
+     *
      * @used-by SitePlacement
      */
     final class SitePlacementStatus
@@ -491,7 +491,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines the values that you use to determine whether an editorial rejection is appealable.
      * @link http://msdn.microsoft.com/en-us/library/jj631643(v=msads.90).aspx AppealStatus Value Set
-     * 
+     *
      * @used-by EditorialReasonCollection
      */
     final class AppealStatus
@@ -517,7 +517,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines the possible status values of an ad extension.
      * @link http://msdn.microsoft.com/en-us/library/jj134386(v=msads.90).aspx AdExtensionStatus Value Set
-     * 
+     *
      * @used-by AdExtension
      */
     final class AdExtensionStatus
@@ -532,7 +532,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines the possible status values that indicate the progress of determining the latitude and longitude values of a business.
      * @link http://msdn.microsoft.com/en-us/library/dd796820(v=msads.90).aspx BusinessGeoCodeStatus Value Set
-     * 
+     *
      * @used-by LocationAdExtension
      */
     final class BusinessGeoCodeStatus
@@ -553,7 +553,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines the possible ad extension types.
      * @link http://msdn.microsoft.com/en-us/library/jj134394(v=msads.90).aspx AdExtensionsTypeFilter Value Set
-     * 
+     *
      * @used-by GetAdExtensionIdsByAccountIdRequest
      * @used-by GetAdExtensionsAssociationsRequest
      * @used-by GetAdExtensionsByIdsRequest
@@ -579,7 +579,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines the entity type or types associated with an ad extension.
      * @link http://msdn.microsoft.com/en-us/library/dn249973(v=msads.90).aspx AssociationType Value Set
-     * 
+     *
      * @used-by AdExtensionAssociation
      * @used-by DeleteAdExtensionsAssociationsRequest
      * @used-by GetAdExtensionIdsByAccountIdRequest
@@ -599,7 +599,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines the editorial review status values of an ad extension.
      * @link http://msdn.microsoft.com/en-us/library/dn249989(v=msads.90).aspx AdExtensionEditorialStatus Value Set
-     * 
+     *
      * @used-by AdExtensionAssociation
      */
     final class AdExtensionEditorialStatus
@@ -620,7 +620,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines the possible values representing entities that are enabled for media such as images.
      * @link http://msdn.microsoft.com/en-us/library/dn766195(v=msads.90).aspx MediaEnabledEntityFilter Value Set
-     * 
+     *
      * @used-by MediaAssociation
      * @used-by GetMediaAssociationsRequest
      * @used-by GetMediaMetaDataByAccountIdRequest
@@ -634,7 +634,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines the possible status values that determine whether to apply the criterion to the ad group.
      * @link http://msdn.microsoft.com/en-us/library/jj689542(v=msads.90).aspx AdGroupCriterionStatus Value Set
-     * 
+     *
      * @used-by AdGroupCriterion
      */
     final class AdGroupCriterionStatus
@@ -652,7 +652,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines the editorial review status values of an ad group criterion.
      * @link http://msdn.microsoft.com/en-us/library/dn195643(v=msads.90).aspx AdGroupCriterionEditorialStatus Value Set
-     * 
+     *
      * @used-by BiddableAdGroupCriterion
      */
     final class AdGroupCriterionEditorialStatus
@@ -673,7 +673,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines the possible types of criterions.
      * @link http://msdn.microsoft.com/en-us/library/jj689543(v=msads.90).aspx CriterionType Value Set
-     * 
+     *
      * @used-by GetAdGroupCriterionsByAdGroupIdRequest
      */
     final class CriterionType
@@ -691,7 +691,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines the base object of an ad.
      * @link http://msdn.microsoft.com/en-us/library/bb671952(v=msads.90).aspx Ad Data Object
-     * 
+     *
      * @uses AdEditorialStatus
      * @uses KeyValuePairOfstringstring
      * @uses AdStatus
@@ -744,7 +744,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines an error object that contains the details that explain why the service operation failed.
      * @link http://msdn.microsoft.com/en-us/library/dd796873(v=msads.90).aspx AdApiError Data Object
-     * 
+     *
      * @used-by AdApiFaultDetail
      */
     final class AdApiError
@@ -790,7 +790,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines a fault object that operations return when generic errors occur, such as an authentication error.
      * @link http://msdn.microsoft.com/en-us/library/dd797002(v=msads.90).aspx AdApiFaultDetail Data Object
-     * 
+     *
      * @uses AdApiError
      */
     final class AdApiFaultDetail extends ApplicationFault
@@ -805,7 +805,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines a postal address.
      * @link http://msdn.microsoft.com/en-us/library/jj721596(v=msads.90).aspx Address Data Object
-     * 
+     *
      * @used-by LocationAdExtension
      */
     final class Address
@@ -856,7 +856,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines the base object of an ad extension.
      * @link http://msdn.microsoft.com/en-us/library/hh527708(v=msads.90).aspx AdExtension Data Object
-     * 
+     *
      * @uses KeyValuePairOfstringstring
      * @uses AdExtensionStatus
      * @used-by AdExtensionAssociation
@@ -900,7 +900,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines an object that associates an ad extension and its editorial status to a supported entity, for example ad group or campaign.
      * @link http://msdn.microsoft.com/en-us/library/dn250012(v=msads.90).aspx AdExtensionAssociation Data Object
-     * 
+     *
      * @uses AdExtension
      * @uses AssociationType
      * @uses AdExtensionEditorialStatus
@@ -936,7 +936,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines an array of objects that associate an ad extension and its editorial status to a supported entity, for example ad group or campaign.
      * @link http://msdn.microsoft.com/en-us/library/dn250010(v=msads.90).aspx AdExtensionAssociationCollection Data Object
-     * 
+     *
      * @uses AdExtensionAssociation
      * @used-by GetAdExtensionsAssociationsResponse
      */
@@ -952,7 +952,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines an object that you can use to determine the component of an ad extension that failed editorial review, and the reason for the failure.
      * @link http://msdn.microsoft.com/en-us/library/jj134398(v=msads.90).aspx AdExtensionEditorialReason Data Object
-     * 
+     *
      * @used-by AdExtensionEditorialReasonCollection
      */
     final class AdExtensionEditorialReason
@@ -985,7 +985,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines a collection of ad extensions that failed editorial review.
      * @link http://msdn.microsoft.com/en-us/library/jj134393(v=msads.90).aspx AdExtensionEditorialReasonCollection Data Object
-     * 
+     *
      * @uses AdExtensionEditorialReason
      * @used-by GetAdExtensionsEditorialReasonsResponse
      */
@@ -1007,7 +1007,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines an object that identifies an ad extension revision.
      * @link http://msdn.microsoft.com/en-us/library/jj134392(v=msads.90).aspx AdExtensionIdentity Data Object
-     * 
+     *
      * @used-by AddAdExtensionsResponse
      */
     final class AdExtensionIdentity
@@ -1028,7 +1028,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines an object that associates an ad extension to a supported entity, for example ad group or campaign.
      * @link http://msdn.microsoft.com/en-us/library/dn249980(v=msads.90).aspx AdExtensionIdToEntityIdAssociation Data Object
-     * 
+     *
      * @used-by DeleteAdExtensionsAssociationsRequest
      * @used-by GetAdExtensionsEditorialReasonsRequest
      * @used-by SetAdExtensionsAssociationsRequest
@@ -1051,7 +1051,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines an ad group.
      * @link http://msdn.microsoft.com/en-us/library/bb671956(v=msads.90).aspx AdGroup Data Object
-     * 
+     *
      * @uses AdDistribution
      * @uses AdRotation
      * @uses BiddingModel
@@ -1168,7 +1168,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines the base class of an ad group criterion.
      * @link http://msdn.microsoft.com/en-us/library/jj738614(v=msads.90).aspx AdGroupCriterion Data Object
-     * 
+     *
      * @uses Criterion
      * @uses AdGroupCriterionStatus
      * @used-by AddAdGroupCriterionsRequest
@@ -1212,7 +1212,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines an object that contains the ad group's list of negative keywords.
      * @link http://msdn.microsoft.com/en-us/library/ee703992(v=msads.90).aspx AdGroupNegativeKeywords Data Object
-     * 
+     *
      * @used-by GetNegativeKeywordsByAdGroupIdsResponse
      * @used-by SetNegativeKeywordsToAdGroupsRequest
      */
@@ -1234,7 +1234,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines an object that contains the negative site URLs of an ad group.
      * @link http://msdn.microsoft.com/en-us/library/hh300117(v=msads.90).aspx AdGroupNegativeSites Data Object
-     * 
+     *
      * @used-by GetNegativeSitesByAdGroupIdsResponse
      * @used-by SetNegativeSitesToAdGroupsRequest
      */
@@ -1256,7 +1256,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines an object that specifies the type of ad rotation to apply to the ad group.
      * @link http://msdn.microsoft.com/en-us/library/jj219952(v=msads.90).aspx AdRotation Data Object
-     * 
+     *
      * @uses AdRotationType
      * @used-by AdGroup
      */
@@ -1284,7 +1284,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines a list of age ranges to target with bid adjustments.
      * @link http://msdn.microsoft.com/en-us/library/bb672084(v=msads.90).aspx AgeTarget Data Object
-     * 
+     *
      * @uses AgeTargetBid
      * @used-by Target
      * @used-by Target2
@@ -1301,7 +1301,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines a specific age target range with bid adjustment.
      * @link http://msdn.microsoft.com/en-us/library/bb671720(v=msads.90).aspx AgeTargetBid Data Object
-     * 
+     *
      * @uses AgeRange
      * @used-by AgeTarget
      */
@@ -1323,7 +1323,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines a fault object that operations return when web service-specific errors occur, such as when the request message contains incomplete or invalid data.
      * @link http://msdn.microsoft.com/en-us/library/bb671467(v=msads.90).aspx ApiFaultDetail Data Object
-     * 
+     *
      * @uses BatchError
      * @uses OperationError
      */
@@ -1345,7 +1345,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines an error object that identifies the item within the batch of items in the request message that caused the operation to fail, and describes the reason for the failure.
      * @link http://msdn.microsoft.com/en-us/library/bb671765(v=msads.90).aspx BatchError Data Object
-     * 
+     *
      * @used-by ApiFaultDetail
      * @used-by BatchErrorCollection
      * @used-by EditorialApiFaultDetail
@@ -1413,7 +1413,7 @@ namespace BingAds\CampaignManagement
     /**
      * Currently this feature is only available in production for pilot participants, and will be generally available for all advertisers in Q3 2014.
      * @link http://msdn.microsoft.com/en-us/library/dn743731(v=msads.90).aspx BatchErrorCollection Data Object
-     * 
+     *
      * @uses BatchError
      * @used-by AddNegativeKeywordsToEntitiesResponse
      * @used-by DeleteNegativeKeywordsFromEntitiesResponse
@@ -1460,7 +1460,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines a bid.
      * @link http://msdn.microsoft.com/en-us/library/dd797130(v=msads.90).aspx Bid Data Object
-     * 
+     *
      * @used-by AdGroup
      * @used-by FixedBid
      * @used-by Keyword
@@ -1478,7 +1478,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines the conditions that determine whether product ads in the ad group get served.
      * @link http://msdn.microsoft.com/en-us/library/jj689538(v=msads.90).aspx BiddableAdGroupCriterion Data Object
-     * 
+     *
      * @uses CriterionBid
      * @uses AdGroupCriterionEditorialStatus
      */
@@ -1524,7 +1524,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines a Bing Merchant Center store.
      * @link http://msdn.microsoft.com/en-us/library/dn411606(v=msads.90).aspx BMCStore Data Object
-     * 
+     *
      * @used-by GetBMCStoresByCustomerIdResponse
      */
     final class BMCStore
@@ -1606,7 +1606,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines a campaign.
      * @link http://msdn.microsoft.com/en-us/library/bb672054(v=msads.90).aspx Campaign Data Object
-     * 
+     *
      * @uses BudgetLimitType
      * @uses KeyValuePairOfstringstring
      * @uses CampaignStatus
@@ -1687,7 +1687,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines an object that contains the campaign's list of negative keywords.
      * @link http://msdn.microsoft.com/en-us/library/ee703967(v=msads.90).aspx CampaignNegativeKeywords Data Object
-     * 
+     *
      * @used-by GetNegativeKeywordsByCampaignIdsResponse
      * @used-by SetNegativeKeywordsToCampaignsRequest
      */
@@ -1709,7 +1709,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines an object that contains the negative site URLs of a campaign.
      * @link http://msdn.microsoft.com/en-us/library/hh299890(v=msads.90).aspx CampaignNegativeSites Data Object
-     * 
+     *
      * @used-by GetNegativeSitesByCampaignIdsResponse
      * @used-by SetNegativeSitesToCampaignsRequest
      */
@@ -1737,7 +1737,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines a list of cities to target with bid adjustments.
      * @link http://msdn.microsoft.com/en-us/library/dd796959(v=msads.90).aspx CityTarget Data Object
-     * 
+     *
      * @uses CityTargetBid
      * @used-by LocationTarget
      * @used-by LocationTarget2
@@ -1754,7 +1754,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines a specific city target with bid adjustment.
      * @link http://msdn.microsoft.com/en-us/library/dd796932(v=msads.90).aspx CityTargetBid Data Object
-     * 
+     *
      * @used-by CityTarget
      */
     final class CityTargetBid
@@ -1781,7 +1781,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines a list of countries or regions to target with bid adjustments.
      * @link http://msdn.microsoft.com/en-us/library/bb671605(v=msads.90).aspx CountryTarget Data Object
-     * 
+     *
      * @uses CountryTargetBid
      * @used-by LocationTarget
      * @used-by LocationTarget2
@@ -1798,7 +1798,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines a specific country or region target with bid adjustment.
      * @link http://msdn.microsoft.com/en-us/library/bb671882(v=msads.90).aspx CountryTargetBid Data Object
-     * 
+     *
      * @used-by CountryTarget
      */
     final class CountryTargetBid
@@ -1825,7 +1825,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines the base object of a criterion.
      * @link http://msdn.microsoft.com/en-us/library/jj738613(v=msads.90).aspx Criterion Data Object
-     * 
+     *
      * @used-by AdGroupCriterion
      */
     class Criterion
@@ -1840,7 +1840,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines a base class for criterion bids.
      * @link http://msdn.microsoft.com/en-us/library/jj689540(v=msads.90).aspx CriterionBid Data Object
-     * 
+     *
      * @used-by BiddableAdGroupCriterion
      */
     class CriterionBid
@@ -1855,7 +1855,7 @@ namespace BingAds\CampaignManagement
     /**
      * Represents a date.
      * @link http://msdn.microsoft.com/en-us/library/bb671903(v=msads.90).aspx Date Data Object
-     * 
+     *
      * @used-by AdGroup
      */
     final class Date
@@ -1882,7 +1882,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines a list of days to target with bid adjustments.
      * @link http://msdn.microsoft.com/en-us/library/bb671942(v=msads.90).aspx DayTarget Data Object
-     * 
+     *
      * @uses DayTargetBid
      * @used-by Target
      */
@@ -1904,7 +1904,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines a specific day target with bid adjustment.
      * @link http://msdn.microsoft.com/en-us/library/bb671920(v=msads.90).aspx DayTargetBid Data Object
-     * 
+     *
      * @uses Day
      * @used-by DayTarget
      */
@@ -1926,7 +1926,7 @@ namespace BingAds\CampaignManagement
     /**
      * Currently this feature is only available for pilot participants, and will be generally available for all advertisers in Q3 2014.
      * @link http://msdn.microsoft.com/en-us/library/dn743766(v=msads.90).aspx DayTimeTarget Data Object
-     * 
+     *
      * @uses DayTimeTargetBid
      * @used-by Target2
      */
@@ -1942,7 +1942,7 @@ namespace BingAds\CampaignManagement
     /**
      * Currently this feature is only available for pilot participants, and will be generally available for all advertisers in Q3 2014.
      * @link http://msdn.microsoft.com/en-us/library/dn743741(v=msads.90).aspx DayTimeTargetBid Data Object
-     * 
+     *
      * @uses Day
      * @uses Minute
      * @used-by DayTimeTarget
@@ -1989,7 +1989,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines a list of devices to target with bid adjustments.
      * @link http://msdn.microsoft.com/en-us/library/hh527704(v=msads.90).aspx DeviceOSTarget Data Object
-     * 
+     *
      * @uses DeviceOSTargetBid
      * @used-by Target
      * @used-by Target2
@@ -2006,7 +2006,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines a specific device target with bid adjustment.
      * @link http://msdn.microsoft.com/en-us/library/dn249988(v=msads.90).aspx DeviceOSTargetBid Data Object
-     * 
+     *
      * @used-by DeviceOSTarget
      */
     final class DeviceOSTargetBid
@@ -2033,7 +2033,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines dimension information for media on a website.
      * @link http://msdn.microsoft.com/en-us/library/dd796881(v=msads.90).aspx Dimension Data Object
-     * 
+     *
      * @used-by MediaType
      */
     final class Dimension
@@ -2054,7 +2054,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines a fault object that operations such as AddAdGroupCriterions, UpdateAdGroupCriterions, SetAdExtensionsAssociations, and UpdateAdExtensions return when one or more criterion or ad extensions in your request message fail editorial review.
      * @link http://msdn.microsoft.com/en-us/library/cc197200(v=msads.90).aspx EditorialApiFaultDetail Data Object
-     * 
+     *
      * @uses BatchError
      * @uses EditorialError
      * @uses OperationError
@@ -2083,7 +2083,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines an error object that identifies the entity with the batch of entities that failed editorial review.
      * @link http://msdn.microsoft.com/en-us/library/cc197190(v=msads.90).aspx EditorialError Data Object
-     * 
+     *
      * @used-by EditorialApiFaultDetail
      */
     final class EditorialError extends BatchError
@@ -2122,7 +2122,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines an object that you can use to determine the component of an ad or keyword that failed editorial review, and the reason for the failure.
      * @link http://msdn.microsoft.com/en-us/library/ff728493(v=msads.90).aspx EditorialReason Data Object
-     * 
+     *
      * @used-by EditorialReasonCollection
      */
     final class EditorialReason
@@ -2155,7 +2155,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines a collection of ads or keywords that failed editorial review, and the reason for the failure.
      * @link http://msdn.microsoft.com/en-us/library/ff728504(v=msads.90).aspx EditorialReasonCollection Data Object
-     * 
+     *
      * @uses AppealStatus
      * @uses EditorialReason
      * @used-by GetEditorialReasonsByIdsResponse
@@ -2184,7 +2184,7 @@ namespace BingAds\CampaignManagement
     /**
      * Currently this feature is only available in production for pilot participants, and will be generally available for all advertisers in Q3 2014.
      * @link http://msdn.microsoft.com/en-us/library/dn743733(v=msads.90).aspx EntityNegativeKeyword Data Object
-     * 
+     *
      * @uses NegativeKeyword
      * @used-by AddNegativeKeywordsToEntitiesRequest
      * @used-by DeleteNegativeKeywordsFromEntitiesRequest
@@ -2214,7 +2214,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines the monetary bid to use in the auction.
      * @link http://msdn.microsoft.com/en-us/library/jj689541(v=msads.90).aspx FixedBid Data Object
-     * 
+     *
      * @uses Bid
      */
     final class FixedBid extends CriterionBid
@@ -2229,7 +2229,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines a list of genders to target with bid adjustments.
      * @link http://msdn.microsoft.com/en-us/library/bb671655(v=msads.90).aspx GenderTarget Data Object
-     * 
+     *
      * @uses GenderTargetBid
      * @used-by Target
      * @used-by Target2
@@ -2246,7 +2246,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines a specific gender target with bid adjustment.
      * @link http://msdn.microsoft.com/en-us/library/bb671554(v=msads.90).aspx GenderTargetBid Data Object
-     * 
+     *
      * @uses GenderType
      * @used-by GenderTarget
      */
@@ -2268,7 +2268,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines an object that contains the longitude and latitude coordinates of a geographical location.
      * @link http://msdn.microsoft.com/en-us/library/jj721599(v=msads.90).aspx GeoPoint Data Object
-     * 
+     *
      * @used-by LocationAdExtension
      */
     final class GeoPoint
@@ -2289,7 +2289,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines a list of hour target ranges with bid adjustments.
      * @link http://msdn.microsoft.com/en-us/library/bb671826(v=msads.90).aspx HourTarget Data Object
-     * 
+     *
      * @uses HourTargetBid
      * @used-by Target
      */
@@ -2311,7 +2311,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines a specific hour target range with bid adjustment.
      * @link http://msdn.microsoft.com/en-us/library/bb671597(v=msads.90).aspx HourTargetBid Data Object
-     * 
+     *
      * @uses HourRange
      * @used-by HourTarget
      */
@@ -2333,7 +2333,7 @@ namespace BingAds\CampaignManagement
     /**
      * Currently this feature is only available in production for pilot participants, and will be generally available for all advertisers in Q3 2014.
      * @link http://msdn.microsoft.com/en-us/library/dn743736(v=msads.90).aspx IdCollection Data Object
-     * 
+     *
      * @used-by AddNegativeKeywordsToEntitiesResponse
      */
     final class IdCollection
@@ -2348,7 +2348,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines the base object of media.
      * @link http://msdn.microsoft.com/en-us/library/dn195580(v=msads.90).aspx Media Data Object
-     * 
+     *
      * @used-by AddMediaRequest
      * @used-by GetMediaByIdsResponse
      */
@@ -2415,7 +2415,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines a media representation base class that includes a media download Url.
      * @link http://msdn.microsoft.com/en-us/library/dn766194(v=msads.90).aspx MediaRepresentation Data Object
-     * 
+     *
      * @used-by MediaMetaData
      */
     class MediaRepresentation
@@ -2461,7 +2461,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines the minimum and maximum impressions per day for a website.
      * @link http://msdn.microsoft.com/en-us/library/dd796854(v=msads.90).aspx ImpressionsPerDayRange Data Object
-     * 
+     *
      * @used-by PlacementDetail
      */
     final class ImpressionsPerDayRange
@@ -2488,7 +2488,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines a keyword.
      * @link http://msdn.microsoft.com/en-us/library/bb671833(v=msads.90).aspx Keyword Data Object
-     * 
+     *
      * @uses Bid
      * @uses KeywordEditorialStatus
      * @uses KeyValuePairOfstringstring
@@ -2572,7 +2572,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines an ad extension that specifies a business' address and phone number to include in a text ad.
      * @link http://msdn.microsoft.com/en-us/library/jj721600(v=msads.90).aspx LocationAdExtension Data Object
-     * 
+     *
      * @uses Address
      * @uses BusinessGeoCodeStatus
      * @uses GeoPoint
@@ -2625,7 +2625,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines an object that can contain different types of geographical targets, for example lists of city and state targets.
      * @link http://msdn.microsoft.com/en-us/library/bb671646(v=msads.90).aspx LocationTarget Data Object
-     * 
+     *
      * @uses CityTarget
      * @uses CountryTarget
      * @uses MetroAreaTarget
@@ -2675,7 +2675,7 @@ namespace BingAds\CampaignManagement
     /**
      * Currently this feature is only available for pilot participants, and will be generally available for all advertisers in Q3 2014.
      * @link http://msdn.microsoft.com/en-us/library/dn743770(v=msads.90).aspx LocationTarget2 Data Object
-     * 
+     *
      * @uses CityTarget
      * @uses CountryTarget
      * @uses IntentOption
@@ -2733,7 +2733,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines an object that represents the identified media and an associated entity, for example media associated with an ad group.
      * @link http://msdn.microsoft.com/en-us/library/dn798358(v=msads.90).aspx MediaAssociation Data Object
-     * 
+     *
      * @uses MediaEnabledEntityFilter
      * @used-by GetMediaAssociationsResponse
      */
@@ -2761,7 +2761,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines a media meta data object.
      * @link http://msdn.microsoft.com/en-us/library/dn766198(v=msads.90).aspx MediaMetaData Data Object
-     * 
+     *
      * @uses MediaRepresentation
      * @used-by GetMediaMetaDataByAccountIdResponse
      * @used-by GetMediaMetaDataByIdsResponse
@@ -2796,7 +2796,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines media type information for a website.
      * @link http://msdn.microsoft.com/en-us/library/dd797128(v=msads.90).aspx MediaType Data Object
-     * 
+     *
      * @uses Dimension
      * @used-by PlacementDetail
      */
@@ -2818,7 +2818,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines a list of metro area targets with bid adjustments.
      * @link http://msdn.microsoft.com/en-us/library/bb671815(v=msads.90).aspx MetroAreaTarget Data Object
-     * 
+     *
      * @uses MetroAreaTargetBid
      * @used-by LocationTarget
      * @used-by LocationTarget2
@@ -2835,7 +2835,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines a metropolitan area to target and the percentage used to adjust the base bid.
      * @link http://msdn.microsoft.com/en-us/library/bb672080(v=msads.90).aspx MetroAreaTargetBid Data Object
-     * 
+     *
      * @used-by MetroAreaTarget
      */
     final class MetroAreaTargetBid
@@ -2912,7 +2912,7 @@ namespace BingAds\CampaignManagement
     /**
      * Currently this feature is only available in production for pilot participants, and will be generally available for all advertisers in Q3 2014.
      * @link http://msdn.microsoft.com/en-us/library/dn743738(v=msads.90).aspx SharedListItem Data Object
-     * 
+     *
      * @uses KeyValuePairOfstringstring
      * @used-by AddListItemsToSharedListRequest
      * @used-by AddSharedEntityRequest
@@ -2936,7 +2936,7 @@ namespace BingAds\CampaignManagement
     /**
      * Currently this feature is only available in production for pilot participants, and will be generally available for all advertisers in Q3 2014.
      * @link http://msdn.microsoft.com/en-us/library/dn743739(v=msads.90).aspx NegativeKeyword Data Object
-     * 
+     *
      * @uses MatchType
      * @used-by EntityNegativeKeyword
      */
@@ -2964,7 +2964,7 @@ namespace BingAds\CampaignManagement
     /**
      * Currently this feature is only available in production for pilot participants, and will be generally available for all advertisers in Q3 2014.
      * @link http://msdn.microsoft.com/en-us/library/dn743735(v=msads.90).aspx SharedEntity Data Object
-     * 
+     *
      * @uses KeyValuePairOfstringstring
      * @used-by AddSharedEntityRequest
      * @used-by DeleteSharedEntitiesRequest
@@ -3007,7 +3007,7 @@ namespace BingAds\CampaignManagement
     /**
      * Currently this feature is only available in production for pilot participants, and will be generally available for all advertisers in Q3 2014.
      * @link http://msdn.microsoft.com/en-us/library/dn743734(v=msads.90).aspx SharedList Data Object
-     * 
+     *
      * @used-by AddListItemsToSharedListRequest
      * @used-by DeleteListItemsFromSharedListRequest
      * @used-by GetListItemsBySharedListRequest
@@ -3032,7 +3032,7 @@ namespace BingAds\CampaignManagement
     /**
      * Reserved for future use.
      * @link http://msdn.microsoft.com/en-us/library/dn743763(v=msads.90).aspx NetworkTarget Data Object
-     * 
+     *
      * @uses NetworkTargetBid
      * @used-by Target2
      */
@@ -3048,7 +3048,7 @@ namespace BingAds\CampaignManagement
     /**
      * Reserved for future use.
      * @link http://msdn.microsoft.com/en-us/library/dn743764(v=msads.90).aspx NetworkTargetBid Data Object
-     * 
+     *
      * @uses NetworkType
      * @used-by NetworkTarget
      */
@@ -3070,7 +3070,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines an error object that contains the details that explain why the service operation failed.
      * @link http://msdn.microsoft.com/en-us/library/bb671973(v=msads.90).aspx OperationError Data Object
-     * 
+     *
      * @used-by ApiFaultDetail
      * @used-by EditorialApiFaultDetail
      */
@@ -3104,7 +3104,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines the size and type of media that the publisher website supports for ad placements.
      * @link http://msdn.microsoft.com/en-us/library/dd796936(v=msads.90).aspx PlacementDetail Data Object
-     * 
+     *
      * @uses ImpressionsPerDayRange
      * @uses MediaType
      * @used-by GetPlacementDetailsForUrlsResponse
@@ -3139,7 +3139,7 @@ namespace BingAds\CampaignManagement
     /**
      * Currently this feature is only available for pilot participants, and will be generally available for all advertisers in Q3 2014.
      * @link http://msdn.microsoft.com/en-us/library/dn743743(v=msads.90).aspx PostalCodeTarget Data Object
-     * 
+     *
      * @uses PostalCodeTargetBid
      * @used-by LocationTarget2
      */
@@ -3155,7 +3155,7 @@ namespace BingAds\CampaignManagement
     /**
      * Currently this feature is only available for pilot participants, and will be generally available for all advertisers in Q3 2014.
      * @link http://msdn.microsoft.com/en-us/library/dn743767(v=msads.90).aspx PostalCodeTargetBid Data Object
-     * 
+     *
      * @used-by PostalCodeTarget
      */
     final class PostalCodeTargetBid
@@ -3182,7 +3182,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines a product criterion, which includes a list of conditions that determine whether a product from the Bing Merchant Center store gets served as a product ad.
      * @link http://msdn.microsoft.com/en-us/library/jj689539(v=msads.90).aspx Product Data Object
-     * 
+     *
      * @uses ProductCondition
      */
     final class Product extends Criterion
@@ -3210,7 +3210,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines a product ad extension.
      * @link http://msdn.microsoft.com/en-us/library/jj721706(v=msads.90).aspx ProductAdExtension Data Object
-     * 
+     *
      * @uses ProductConditionCollection
      */
     final class ProductAdExtension extends AdExtension
@@ -3243,7 +3243,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines a condition that determines whether a product is selected.
      * @link http://msdn.microsoft.com/en-us/library/jj721705(v=msads.90).aspx ProductCondition Data Object
-     * 
+     *
      * @used-by Product
      * @used-by ProductConditionCollection
      */
@@ -3265,7 +3265,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines the conditions that determine whether a product from the Bing Merchant Center store gets served as a product ad.
      * @link http://msdn.microsoft.com/en-us/library/jj721704(v=msads.90).aspx ProductConditionCollection Data Object
-     * 
+     *
      * @uses ProductCondition
      * @used-by ProductAdExtension
      */
@@ -3281,7 +3281,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines a list of geographical radius targets with bid adjustments.
      * @link http://msdn.microsoft.com/en-us/library/dd796953(v=msads.90).aspx RadiusTarget Data Object
-     * 
+     *
      * @uses RadiusTargetBid
      * @used-by LocationTarget
      */
@@ -3297,7 +3297,7 @@ namespace BingAds\CampaignManagement
     /**
      * Currently this feature is only available for pilot participants, and will be generally available for all advertisers in Q3 2014.
      * @link http://msdn.microsoft.com/en-us/library/dn743744(v=msads.90).aspx RadiusTarget2 Data Object
-     * 
+     *
      * @uses RadiusTargetBid2
      * @used-by LocationTarget2
      */
@@ -3313,7 +3313,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines a specific geographical radius target with bid adjustment.
      * @link http://msdn.microsoft.com/en-us/library/dd796863(v=msads.90).aspx RadiusTargetBid Data Object
-     * 
+     *
      * @used-by RadiusTarget
      */
     final class RadiusTargetBid
@@ -3364,7 +3364,7 @@ namespace BingAds\CampaignManagement
     /**
      * Currently this feature is only available for pilot participants, and will be generally available for all advertisers in Q3 2014.
      * @link http://msdn.microsoft.com/en-us/library/dn743768(v=msads.90).aspx RadiusTargetBid2 Data Object
-     * 
+     *
      * @uses DistanceUnit
      * @used-by RadiusTarget2
      */
@@ -3422,7 +3422,7 @@ namespace BingAds\CampaignManagement
     /**
      * Currently this feature is only available in production for pilot participants, and will be generally available for all advertisers in Q3 2014.
      * @link http://msdn.microsoft.com/en-us/library/dn743769(v=msads.90).aspx SharedEntityAssociation Data Object
-     * 
+     *
      * @used-by DeleteSharedEntityAssociationsRequest
      * @used-by GetSharedEntityAssociationsByEntityIdsResponse
      * @used-by GetSharedEntityAssociationsBySharedEntityIdsResponse
@@ -3458,7 +3458,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines a site link to include in an ad.
      * @link http://msdn.microsoft.com/en-us/library/jj134381(v=msads.90).aspx SiteLink Data Object
-     * 
+     *
      * @used-by SiteLinksAdExtension
      */
     final class SiteLink
@@ -3497,7 +3497,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines an ad extension that specifies one or more site links to add to a text ad.
      * @link http://msdn.microsoft.com/en-us/library/jj134387(v=msads.90).aspx SiteLinksAdExtension Data Object
-     * 
+     *
      * @uses SiteLink
      */
     final class SiteLinksAdExtension extends AdExtension
@@ -3512,7 +3512,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines a website placement bid.
      * @link http://msdn.microsoft.com/en-us/library/dd797248(v=msads.90).aspx SitePlacement Data Object
-     * 
+     *
      * @uses Bid
      * @uses SitePlacementStatus
      * @used-by AddSitePlacementsRequest
@@ -3556,7 +3556,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines a list of state targets with bid adjustments.
      * @link http://msdn.microsoft.com/en-us/library/dd796793(v=msads.90).aspx StateTarget Data Object
-     * 
+     *
      * @uses StateTargetBid
      * @used-by LocationTarget
      * @used-by LocationTarget2
@@ -3573,7 +3573,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines a sub geography, specifically a state or province to target, and the percentage used to adjust the base bid.
      * @link http://msdn.microsoft.com/en-us/library/dd796942(v=msads.90).aspx StateTargetBid Data Object
-     * 
+     *
      * @used-by StateTarget
      */
     final class StateTargetBid
@@ -3600,7 +3600,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines the types of targeting that you can use to target your ads to users.
      * @link http://msdn.microsoft.com/en-us/library/bb671789(v=msads.90).aspx Target Data Object
-     * 
+     *
      * @uses AgeTarget
      * @uses DayTarget
      * @uses DeviceOSTarget
@@ -3680,7 +3680,7 @@ namespace BingAds\CampaignManagement
     /**
      * Currently this feature is only available for pilot participants, and will be generally available for all advertisers in Q3 2014.
      * @link http://msdn.microsoft.com/en-us/library/dn743781(v=msads.90).aspx Target2 Data Object
-     * 
+     *
      * @uses AgeTarget
      * @uses DayTimeTarget
      * @uses DeviceOSTarget
@@ -3760,7 +3760,7 @@ namespace BingAds\CampaignManagement
     /**
      * Defines information about a target in your library.
      * @link http://msdn.microsoft.com/en-us/library/dd796878(v=msads.90).aspx TargetInfo Data Object
-     * 
+     *
      * @used-by GetTargetsInfoFromLibraryResponse
      */
     final class TargetInfo
@@ -3812,7 +3812,7 @@ namespace BingAds\CampaignManagement
     /**
      * Adds one or more ad extensions to an account's ad extension library.
      * @link http://msdn.microsoft.com/en-us/library/dn236319(v=msads.90).aspx AddAdExtensions Request Object
-     * 
+     *
      * @uses AdExtension
      * @used-by BingAdsCampaignManagementService::AddAdExtensions
      */
@@ -3834,7 +3834,7 @@ namespace BingAds\CampaignManagement
     /**
      * Adds one or more ad extensions to an account's ad extension library.
      * @link http://msdn.microsoft.com/en-us/library/dn236319(v=msads.90).aspx AddAdExtensions Response Object
-     * 
+     *
      * @uses AdExtensionIdentity
      * @used-by BingAdsCampaignManagementService::AddAdExtensions
      */
@@ -3850,7 +3850,7 @@ namespace BingAds\CampaignManagement
     /**
      * Adds one or more ad group criterions that determine whether ads in the ad group get served.
      * @link http://msdn.microsoft.com/en-us/library/dn277499(v=msads.90).aspx AddAdGroupCriterions Request Object
-     * 
+     *
      * @uses AdGroupCriterion
      * @used-by BingAdsCampaignManagementService::AddAdGroupCriterions
      */
@@ -3872,7 +3872,7 @@ namespace BingAds\CampaignManagement
     /**
      * Adds one or more ad group criterions that determine whether ads in the ad group get served.
      * @link http://msdn.microsoft.com/en-us/library/dn277499(v=msads.90).aspx AddAdGroupCriterions Response Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::AddAdGroupCriterions
      */
     final class AddAdGroupCriterionsResponse
@@ -3887,7 +3887,7 @@ namespace BingAds\CampaignManagement
     /**
      * Adds new ad groups to a specified campaign.
      * @link http://msdn.microsoft.com/en-us/library/dn277502(v=msads.90).aspx AddAdGroups Request Object
-     * 
+     *
      * @uses AdGroup
      * @used-by BingAdsCampaignManagementService::AddAdGroups
      */
@@ -3909,7 +3909,7 @@ namespace BingAds\CampaignManagement
     /**
      * Adds new ad groups to a specified campaign.
      * @link http://msdn.microsoft.com/en-us/library/dn277502(v=msads.90).aspx AddAdGroups Response Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::AddAdGroups
      */
     final class AddAdGroupsResponse
@@ -3924,7 +3924,7 @@ namespace BingAds\CampaignManagement
     /**
      * Adds one or more ads to an ad group.
      * @link http://msdn.microsoft.com/en-us/library/dn277506(v=msads.90).aspx AddAds Request Object
-     * 
+     *
      * @uses Ad
      * @used-by BingAdsCampaignManagementService::AddAds
      */
@@ -3946,7 +3946,7 @@ namespace BingAds\CampaignManagement
     /**
      * Adds one or more ads to an ad group.
      * @link http://msdn.microsoft.com/en-us/library/dn277506(v=msads.90).aspx AddAds Response Object
-     * 
+     *
      * @uses BatchError
      * @used-by BingAdsCampaignManagementService::AddAds
      */
@@ -3968,7 +3968,7 @@ namespace BingAds\CampaignManagement
     /**
      * Adds one or more campaigns to the specified account.
      * @link http://msdn.microsoft.com/en-us/library/dn277510(v=msads.90).aspx AddCampaigns Request Object
-     * 
+     *
      * @uses Campaign
      * @used-by BingAdsCampaignManagementService::AddCampaigns
      */
@@ -3990,7 +3990,7 @@ namespace BingAds\CampaignManagement
     /**
      * Adds one or more campaigns to the specified account.
      * @link http://msdn.microsoft.com/en-us/library/dn277510(v=msads.90).aspx AddCampaigns Response Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::AddCampaigns
      */
     final class AddCampaignsResponse
@@ -4005,7 +4005,7 @@ namespace BingAds\CampaignManagement
     /**
      * Adds one or more keywords to an ad group.
      * @link http://msdn.microsoft.com/en-us/library/dn277513(v=msads.90).aspx AddKeywords Request Object
-     * 
+     *
      * @uses Keyword
      * @used-by BingAdsCampaignManagementService::AddKeywords
      */
@@ -4027,7 +4027,7 @@ namespace BingAds\CampaignManagement
     /**
      * Adds one or more keywords to an ad group.
      * @link http://msdn.microsoft.com/en-us/library/dn277513(v=msads.90).aspx AddKeywords Response Object
-     * 
+     *
      * @uses BatchError
      * @used-by BingAdsCampaignManagementService::AddKeywords
      */
@@ -4049,7 +4049,7 @@ namespace BingAds\CampaignManagement
     /**
      * Currently this feature is only available in production for pilot participants, and will be generally available for all advertisers in Q3 2014.
      * @link http://msdn.microsoft.com/en-us/library/dn743721(v=msads.90).aspx AddListItemsToSharedList Request Object
-     * 
+     *
      * @uses SharedListItem
      * @uses SharedList
      * @used-by BingAdsCampaignManagementService::AddListItemsToSharedList
@@ -4072,7 +4072,7 @@ namespace BingAds\CampaignManagement
     /**
      * Currently this feature is only available in production for pilot participants, and will be generally available for all advertisers in Q3 2014.
      * @link http://msdn.microsoft.com/en-us/library/dn743721(v=msads.90).aspx AddListItemsToSharedList Response Object
-     * 
+     *
      * @uses BatchError
      * @used-by BingAdsCampaignManagementService::AddListItemsToSharedList
      */
@@ -4094,7 +4094,7 @@ namespace BingAds\CampaignManagement
     /**
      * Adds the specified media to an account's media library.
      * @link http://msdn.microsoft.com/en-us/library/dn277518(v=msads.90).aspx AddMedia Request Object
-     * 
+     *
      * @uses Media
      * @used-by BingAdsCampaignManagementService::AddMedia
      */
@@ -4116,7 +4116,7 @@ namespace BingAds\CampaignManagement
     /**
      * Adds the specified media to an account's media library.
      * @link http://msdn.microsoft.com/en-us/library/dn277518(v=msads.90).aspx AddMedia Response Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::AddMedia
      */
     final class AddMediaResponse
@@ -4131,7 +4131,7 @@ namespace BingAds\CampaignManagement
     /**
      * Currently this feature is only available in production for pilot participants, and will be generally available for all advertisers in Q3 2014.
      * @link http://msdn.microsoft.com/en-us/library/dn743724(v=msads.90).aspx AddNegativeKeywordsToEntities Request Object
-     * 
+     *
      * @uses EntityNegativeKeyword
      * @used-by BingAdsCampaignManagementService::AddNegativeKeywordsToEntities
      */
@@ -4147,7 +4147,7 @@ namespace BingAds\CampaignManagement
     /**
      * Currently this feature is only available in production for pilot participants, and will be generally available for all advertisers in Q3 2014.
      * @link http://msdn.microsoft.com/en-us/library/dn743724(v=msads.90).aspx AddNegativeKeywordsToEntities Response Object
-     * 
+     *
      * @uses IdCollection
      * @uses BatchErrorCollection
      * @used-by BingAdsCampaignManagementService::AddNegativeKeywordsToEntities
@@ -4170,7 +4170,7 @@ namespace BingAds\CampaignManagement
     /**
      * Currently this feature is only available in production for pilot participants, and will be generally available for all advertisers in Q3 2014.
      * @link http://msdn.microsoft.com/en-us/library/dn743722(v=msads.90).aspx AddSharedEntity Request Object
-     * 
+     *
      * @uses SharedEntity
      * @uses SharedListItem
      * @used-by BingAdsCampaignManagementService::AddSharedEntity
@@ -4193,7 +4193,7 @@ namespace BingAds\CampaignManagement
     /**
      * Currently this feature is only available in production for pilot participants, and will be generally available for all advertisers in Q3 2014.
      * @link http://msdn.microsoft.com/en-us/library/dn743722(v=msads.90).aspx AddSharedEntity Response Object
-     * 
+     *
      * @uses BatchError
      * @used-by BingAdsCampaignManagementService::AddSharedEntity
      */
@@ -4221,7 +4221,7 @@ namespace BingAds\CampaignManagement
     /**
      * Adds one or more website placement bids to an ad group.
      * @link http://msdn.microsoft.com/en-us/library/dn277523(v=msads.90).aspx AddSitePlacements Request Object
-     * 
+     *
      * @uses SitePlacement
      * @used-by BingAdsCampaignManagementService::AddSitePlacements
      */
@@ -4243,7 +4243,7 @@ namespace BingAds\CampaignManagement
     /**
      * Adds one or more website placement bids to an ad group.
      * @link http://msdn.microsoft.com/en-us/library/dn277523(v=msads.90).aspx AddSitePlacements Response Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::AddSitePlacements
      */
     final class AddSitePlacementsResponse
@@ -4258,7 +4258,7 @@ namespace BingAds\CampaignManagement
     /**
      * Adds targets to your target library.
      * @link http://msdn.microsoft.com/en-us/library/dn277526(v=msads.90).aspx AddTargetsToLibrary Request Object
-     * 
+     *
      * @uses Target
      * @used-by BingAdsCampaignManagementService::AddTargetsToLibrary
      */
@@ -4274,7 +4274,7 @@ namespace BingAds\CampaignManagement
     /**
      * Adds targets to your target library.
      * @link http://msdn.microsoft.com/en-us/library/dn277526(v=msads.90).aspx AddTargetsToLibrary Response Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::AddTargetsToLibrary
      */
     final class AddTargetsToLibraryResponse
@@ -4289,7 +4289,7 @@ namespace BingAds\CampaignManagement
     /**
      * Currently this feature is only available for pilot participants, and will be generally available for all advertisers in Q3 2014.
      * @link http://msdn.microsoft.com/en-us/library/dn743775(v=msads.90).aspx AddTargetsToLibrary2 Request Object
-     * 
+     *
      * @uses Target2
      * @used-by BingAdsCampaignManagementService::AddTargetsToLibrary2
      */
@@ -4305,7 +4305,7 @@ namespace BingAds\CampaignManagement
     /**
      * Currently this feature is only available for pilot participants, and will be generally available for all advertisers in Q3 2014.
      * @link http://msdn.microsoft.com/en-us/library/dn743775(v=msads.90).aspx AddTargetsToLibrary2 Response Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::AddTargetsToLibrary2
      */
     final class AddTargetsToLibrary2Response
@@ -4320,7 +4320,7 @@ namespace BingAds\CampaignManagement
     /**
      * Appeals the editorial rejections of one or more ads or keywords that failed editorial review.
      * @link http://msdn.microsoft.com/en-us/library/dn277533(v=msads.90).aspx AppealEditorialRejections Request Object
-     * 
+     *
      * @uses EntityType
      * @used-by BingAdsCampaignManagementService::AppealEditorialRejections
      */
@@ -4348,7 +4348,7 @@ namespace BingAds\CampaignManagement
     /**
      * Appeals the editorial rejections of one or more ads or keywords that failed editorial review.
      * @link http://msdn.microsoft.com/en-us/library/dn277533(v=msads.90).aspx AppealEditorialRejections Response Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::AppealEditorialRejections
      */
     final class AppealEditorialRejectionsResponse
@@ -4358,7 +4358,7 @@ namespace BingAds\CampaignManagement
     /**
      * Deletes one or more ad extensions from the account's ad extension library.
      * @link http://msdn.microsoft.com/en-us/library/dn277537(v=msads.90).aspx DeleteAdExtensions Request Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::DeleteAdExtensions
      */
     final class DeleteAdExtensionsRequest
@@ -4379,7 +4379,7 @@ namespace BingAds\CampaignManagement
     /**
      * Deletes one or more ad extensions from the account's ad extension library.
      * @link http://msdn.microsoft.com/en-us/library/dn277537(v=msads.90).aspx DeleteAdExtensions Response Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::DeleteAdExtensions
      */
     final class DeleteAdExtensionsResponse
@@ -4389,7 +4389,7 @@ namespace BingAds\CampaignManagement
     /**
      * Removes the specified association from the respective campaigns or ad groups.
      * @link http://msdn.microsoft.com/en-us/library/dn236305(v=msads.90).aspx DeleteAdExtensionsAssociations Request Object
-     * 
+     *
      * @uses AdExtensionIdToEntityIdAssociation
      * @uses AssociationType
      * @used-by BingAdsCampaignManagementService::DeleteAdExtensionsAssociations
@@ -4418,7 +4418,7 @@ namespace BingAds\CampaignManagement
     /**
      * Removes the specified association from the respective campaigns or ad groups.
      * @link http://msdn.microsoft.com/en-us/library/dn236305(v=msads.90).aspx DeleteAdExtensionsAssociations Response Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::DeleteAdExtensionsAssociations
      */
     final class DeleteAdExtensionsAssociationsResponse
@@ -4428,7 +4428,7 @@ namespace BingAds\CampaignManagement
     /**
      * Deletes the specified ad group criterions.
      * @link http://msdn.microsoft.com/en-us/library/dn236302(v=msads.90).aspx DeleteAdGroupCriterions Request Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::DeleteAdGroupCriterions
      */
     final class DeleteAdGroupCriterionsRequest
@@ -4455,7 +4455,7 @@ namespace BingAds\CampaignManagement
     /**
      * Deletes the specified ad group criterions.
      * @link http://msdn.microsoft.com/en-us/library/dn236302(v=msads.90).aspx DeleteAdGroupCriterions Response Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::DeleteAdGroupCriterions
      */
     final class DeleteAdGroupCriterionsResponse
@@ -4465,7 +4465,7 @@ namespace BingAds\CampaignManagement
     /**
      * Deletes one or more ad groups in a specified campaign.
      * @link http://msdn.microsoft.com/en-us/library/dn236307(v=msads.90).aspx DeleteAdGroups Request Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::DeleteAdGroups
      */
     final class DeleteAdGroupsRequest
@@ -4486,7 +4486,7 @@ namespace BingAds\CampaignManagement
     /**
      * Deletes one or more ad groups in a specified campaign.
      * @link http://msdn.microsoft.com/en-us/library/dn236307(v=msads.90).aspx DeleteAdGroups Response Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::DeleteAdGroups
      */
     final class DeleteAdGroupsResponse
@@ -4496,7 +4496,7 @@ namespace BingAds\CampaignManagement
     /**
      * Deletes one or more ads in a specified ad group.
      * @link http://msdn.microsoft.com/en-us/library/dn236310(v=msads.90).aspx DeleteAds Request Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::DeleteAds
      */
     final class DeleteAdsRequest
@@ -4517,7 +4517,7 @@ namespace BingAds\CampaignManagement
     /**
      * Deletes one or more ads in a specified ad group.
      * @link http://msdn.microsoft.com/en-us/library/dn236310(v=msads.90).aspx DeleteAds Response Object
-     * 
+     *
      * @uses BatchError
      * @used-by BingAdsCampaignManagementService::DeleteAds
      */
@@ -4533,7 +4533,7 @@ namespace BingAds\CampaignManagement
     /**
      * Deletes one or more campaigns in a specified account.
      * @link http://msdn.microsoft.com/en-us/library/dn236314(v=msads.90).aspx DeleteCampaigns Request Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::DeleteCampaigns
      */
     final class DeleteCampaignsRequest
@@ -4554,7 +4554,7 @@ namespace BingAds\CampaignManagement
     /**
      * Deletes one or more campaigns in a specified account.
      * @link http://msdn.microsoft.com/en-us/library/dn236314(v=msads.90).aspx DeleteCampaigns Response Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::DeleteCampaigns
      */
     final class DeleteCampaignsResponse
@@ -4564,7 +4564,7 @@ namespace BingAds\CampaignManagement
     /**
      * Deletes one or more keywords in a specified ad group.
      * @link http://msdn.microsoft.com/en-us/library/dn236318(v=msads.90).aspx DeleteKeywords Request Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::DeleteKeywords
      */
     final class DeleteKeywordsRequest
@@ -4585,7 +4585,7 @@ namespace BingAds\CampaignManagement
     /**
      * Deletes one or more keywords in a specified ad group.
      * @link http://msdn.microsoft.com/en-us/library/dn236318(v=msads.90).aspx DeleteKeywords Response Object
-     * 
+     *
      * @uses BatchError
      * @used-by BingAdsCampaignManagementService::DeleteKeywords
      */
@@ -4601,7 +4601,7 @@ namespace BingAds\CampaignManagement
     /**
      * Currently this feature is only available in production for pilot participants, and will be generally available for all advertisers in Q3 2014.
      * @link http://msdn.microsoft.com/en-us/library/dn743723(v=msads.90).aspx DeleteListItemsFromSharedList Request Object
-     * 
+     *
      * @uses SharedList
      * @used-by BingAdsCampaignManagementService::DeleteListItemsFromSharedList
      */
@@ -4623,7 +4623,7 @@ namespace BingAds\CampaignManagement
     /**
      * Currently this feature is only available in production for pilot participants, and will be generally available for all advertisers in Q3 2014.
      * @link http://msdn.microsoft.com/en-us/library/dn743723(v=msads.90).aspx DeleteListItemsFromSharedList Response Object
-     * 
+     *
      * @uses BatchError
      * @used-by BingAdsCampaignManagementService::DeleteListItemsFromSharedList
      */
@@ -4639,7 +4639,7 @@ namespace BingAds\CampaignManagement
     /**
      * Deletes the specified media from an account's media library.
      * @link http://msdn.microsoft.com/en-us/library/dn766193(v=msads.90).aspx DeleteMedia Request Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::DeleteMedia
      */
     final class DeleteMediaRequest
@@ -4660,7 +4660,7 @@ namespace BingAds\CampaignManagement
     /**
      * Deletes the specified media from an account's media library.
      * @link http://msdn.microsoft.com/en-us/library/dn766193(v=msads.90).aspx DeleteMedia Response Object
-     * 
+     *
      * @uses BatchError
      * @used-by BingAdsCampaignManagementService::DeleteMedia
      */
@@ -4672,7 +4672,7 @@ namespace BingAds\CampaignManagement
     /**
      * Currently this feature is only available in production for pilot participants, and will be generally available for all advertisers in Q3 2014.
      * @link http://msdn.microsoft.com/en-us/library/dn743725(v=msads.90).aspx DeleteNegativeKeywordsFromEntities Request Object
-     * 
+     *
      * @uses EntityNegativeKeyword
      * @used-by BingAdsCampaignManagementService::DeleteNegativeKeywordsFromEntities
      */
@@ -4688,7 +4688,7 @@ namespace BingAds\CampaignManagement
     /**
      * Currently this feature is only available in production for pilot participants, and will be generally available for all advertisers in Q3 2014.
      * @link http://msdn.microsoft.com/en-us/library/dn743725(v=msads.90).aspx DeleteNegativeKeywordsFromEntities Response Object
-     * 
+     *
      * @uses BatchErrorCollection
      * @used-by BingAdsCampaignManagementService::DeleteNegativeKeywordsFromEntities
      */
@@ -4704,7 +4704,7 @@ namespace BingAds\CampaignManagement
     /**
      * Currently this feature is only available in production for pilot participants, and will be generally available for all advertisers in Q3 2014.
      * @link http://msdn.microsoft.com/en-us/library/dn743726(v=msads.90).aspx DeleteSharedEntities Request Object
-     * 
+     *
      * @uses SharedEntity
      * @used-by BingAdsCampaignManagementService::DeleteSharedEntities
      */
@@ -4720,7 +4720,7 @@ namespace BingAds\CampaignManagement
     /**
      * Currently this feature is only available in production for pilot participants, and will be generally available for all advertisers in Q3 2014.
      * @link http://msdn.microsoft.com/en-us/library/dn743726(v=msads.90).aspx DeleteSharedEntities Response Object
-     * 
+     *
      * @uses BatchError
      * @used-by BingAdsCampaignManagementService::DeleteSharedEntities
      */
@@ -4736,7 +4736,7 @@ namespace BingAds\CampaignManagement
     /**
      * Currently this feature is only available in production for pilot participants, and will be generally available for all advertisers in Q3 2014.
      * @link http://msdn.microsoft.com/en-us/library/dn743727(v=msads.90).aspx DeleteSharedEntityAssociations Request Object
-     * 
+     *
      * @uses SharedEntityAssociation
      * @used-by BingAdsCampaignManagementService::DeleteSharedEntityAssociations
      */
@@ -4752,7 +4752,7 @@ namespace BingAds\CampaignManagement
     /**
      * Currently this feature is only available in production for pilot participants, and will be generally available for all advertisers in Q3 2014.
      * @link http://msdn.microsoft.com/en-us/library/dn743727(v=msads.90).aspx DeleteSharedEntityAssociations Response Object
-     * 
+     *
      * @uses BatchError
      * @used-by BingAdsCampaignManagementService::DeleteSharedEntityAssociations
      */
@@ -4768,7 +4768,7 @@ namespace BingAds\CampaignManagement
     /**
      * Deletes one or more website-placement bids from an ad group.
      * @link http://msdn.microsoft.com/en-us/library/dn236315(v=msads.90).aspx DeleteSitePlacements Request Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::DeleteSitePlacements
      */
     final class DeleteSitePlacementsRequest
@@ -4789,7 +4789,7 @@ namespace BingAds\CampaignManagement
     /**
      * Deletes one or more website-placement bids from an ad group.
      * @link http://msdn.microsoft.com/en-us/library/dn236315(v=msads.90).aspx DeleteSitePlacements Response Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::DeleteSitePlacements
      */
     final class DeleteSitePlacementsResponse
@@ -4799,7 +4799,7 @@ namespace BingAds\CampaignManagement
     /**
      * Removes the specified target association for the specified ad group.
      * @link http://msdn.microsoft.com/en-us/library/dn277500(v=msads.90).aspx DeleteTargetFromAdGroup Request Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::DeleteTargetFromAdGroup
      */
     final class DeleteTargetFromAdGroupRequest
@@ -4814,7 +4814,7 @@ namespace BingAds\CampaignManagement
     /**
      * Removes the specified target association for the specified ad group.
      * @link http://msdn.microsoft.com/en-us/library/dn277500(v=msads.90).aspx DeleteTargetFromAdGroup Response Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::DeleteTargetFromAdGroup
      */
     final class DeleteTargetFromAdGroupResponse
@@ -4824,7 +4824,7 @@ namespace BingAds\CampaignManagement
     /**
      * Removes the target association for the specified campaign.
      * @link http://msdn.microsoft.com/en-us/library/dn277503(v=msads.90).aspx DeleteTargetFromCampaign Request Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::DeleteTargetFromCampaign
      */
     final class DeleteTargetFromCampaignRequest
@@ -4839,7 +4839,7 @@ namespace BingAds\CampaignManagement
     /**
      * Removes the target association for the specified campaign.
      * @link http://msdn.microsoft.com/en-us/library/dn277503(v=msads.90).aspx DeleteTargetFromCampaign Response Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::DeleteTargetFromCampaign
      */
     final class DeleteTargetFromCampaignResponse
@@ -4849,7 +4849,7 @@ namespace BingAds\CampaignManagement
     /**
      * Removes targets from your target library.
      * @link http://msdn.microsoft.com/en-us/library/dn277507(v=msads.90).aspx DeleteTargetsFromLibrary Request Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::DeleteTargetsFromLibrary
      */
     final class DeleteTargetsFromLibraryRequest
@@ -4864,7 +4864,7 @@ namespace BingAds\CampaignManagement
     /**
      * Removes targets from your target library.
      * @link http://msdn.microsoft.com/en-us/library/dn277507(v=msads.90).aspx DeleteTargetsFromLibrary Response Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::DeleteTargetsFromLibrary
      */
     final class DeleteTargetsFromLibraryResponse
@@ -4885,7 +4885,7 @@ namespace BingAds\CampaignManagement
     /**
      * Gets the ad extensions from the account's ad extension library.
      * @link http://msdn.microsoft.com/en-us/library/dn277509(v=msads.90).aspx GetAdExtensionIdsByAccountId Request Object
-     * 
+     *
      * @uses AdExtensionsTypeFilter
      * @uses AssociationType
      * @used-by BingAdsCampaignManagementService::GetAdExtensionIdsByAccountId
@@ -4914,7 +4914,7 @@ namespace BingAds\CampaignManagement
     /**
      * Gets the ad extensions from the account's ad extension library.
      * @link http://msdn.microsoft.com/en-us/library/dn277509(v=msads.90).aspx GetAdExtensionIdsByAccountId Response Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::GetAdExtensionIdsByAccountId
      */
     final class GetAdExtensionIdsByAccountIdResponse
@@ -4929,7 +4929,7 @@ namespace BingAds\CampaignManagement
     /**
      * Gets the respective ad extension associations by the specified campaign and ad group identifiers.
      * @link http://msdn.microsoft.com/en-us/library/dn236309(v=msads.90).aspx GetAdExtensionsAssociations Request Object
-     * 
+     *
      * @uses AdExtensionsTypeFilter
      * @uses AssociationType
      * @used-by BingAdsCampaignManagementService::GetAdExtensionsAssociations
@@ -4964,7 +4964,7 @@ namespace BingAds\CampaignManagement
     /**
      * Gets the respective ad extension associations by the specified campaign and ad group identifiers.
      * @link http://msdn.microsoft.com/en-us/library/dn236309(v=msads.90).aspx GetAdExtensionsAssociations Response Object
-     * 
+     *
      * @uses AdExtensionAssociationCollection
      * @used-by BingAdsCampaignManagementService::GetAdExtensionsAssociations
      */
@@ -4980,7 +4980,7 @@ namespace BingAds\CampaignManagement
     /**
      * Gets the specified ad extensions from the account's ad extension library.
      * @link http://msdn.microsoft.com/en-us/library/dn277515(v=msads.90).aspx GetAdExtensionsByIds Request Object
-     * 
+     *
      * @uses AdExtensionsTypeFilter
      * @used-by BingAdsCampaignManagementService::GetAdExtensionsByIds
      */
@@ -5008,7 +5008,7 @@ namespace BingAds\CampaignManagement
     /**
      * Gets the specified ad extensions from the account's ad extension library.
      * @link http://msdn.microsoft.com/en-us/library/dn277515(v=msads.90).aspx GetAdExtensionsByIds Response Object
-     * 
+     *
      * @uses AdExtension
      * @used-by BingAdsCampaignManagementService::GetAdExtensionsByIds
      */
@@ -5024,7 +5024,7 @@ namespace BingAds\CampaignManagement
     /**
      * Gets editorial rejection reasons for the respective ad extension and entity associations.
      * @link http://msdn.microsoft.com/en-us/library/dn236313(v=msads.90).aspx GetAdExtensionsEditorialReasons Request Object
-     * 
+     *
      * @uses AdExtensionIdToEntityIdAssociation
      * @uses AssociationType
      * @used-by BingAdsCampaignManagementService::GetAdExtensionsEditorialReasons
@@ -5053,7 +5053,7 @@ namespace BingAds\CampaignManagement
     /**
      * Gets editorial rejection reasons for the respective ad extension and entity associations.
      * @link http://msdn.microsoft.com/en-us/library/dn236313(v=msads.90).aspx GetAdExtensionsEditorialReasons Response Object
-     * 
+     *
      * @uses AdExtensionEditorialReasonCollection
      * @used-by BingAdsCampaignManagementService::GetAdExtensionsEditorialReasons
      */
@@ -5069,7 +5069,7 @@ namespace BingAds\CampaignManagement
     /**
      * Gets the specified types of criterions from the specified ad group.
      * @link http://msdn.microsoft.com/en-us/library/dn277517(v=msads.90).aspx GetAdGroupCriterionsByAdGroupId Request Object
-     * 
+     *
      * @uses CriterionType
      * @used-by BingAdsCampaignManagementService::GetAdGroupCriterionsByAdGroupId
      */
@@ -5097,7 +5097,7 @@ namespace BingAds\CampaignManagement
     /**
      * Gets the specified types of criterions from the specified ad group.
      * @link http://msdn.microsoft.com/en-us/library/dn277517(v=msads.90).aspx GetAdGroupCriterionsByAdGroupId Response Object
-     * 
+     *
      * @uses AdGroupCriterion
      * @used-by BingAdsCampaignManagementService::GetAdGroupCriterionsByAdGroupId
      */
@@ -5113,7 +5113,7 @@ namespace BingAds\CampaignManagement
     /**
      * Gets the specified criterions.
      * @link http://msdn.microsoft.com/en-us/library/dn277520(v=msads.90).aspx GetAdGroupCriterionsByIds Request Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::GetAdGroupCriterionsByIds
      */
     final class GetAdGroupCriterionsByIdsRequest
@@ -5134,7 +5134,7 @@ namespace BingAds\CampaignManagement
     /**
      * Gets the specified criterions.
      * @link http://msdn.microsoft.com/en-us/library/dn277520(v=msads.90).aspx GetAdGroupCriterionsByIds Response Object
-     * 
+     *
      * @uses AdGroupCriterion
      * @used-by BingAdsCampaignManagementService::GetAdGroupCriterionsByIds
      */
@@ -5150,7 +5150,7 @@ namespace BingAds\CampaignManagement
     /**
      * Gets the ad groups that exist within a specified campaign.
      * @link http://msdn.microsoft.com/en-us/library/dn277524(v=msads.90).aspx GetAdGroupsByCampaignId Request Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::GetAdGroupsByCampaignId
      */
     final class GetAdGroupsByCampaignIdRequest
@@ -5165,7 +5165,7 @@ namespace BingAds\CampaignManagement
     /**
      * Gets the ad groups that exist within a specified campaign.
      * @link http://msdn.microsoft.com/en-us/library/dn277524(v=msads.90).aspx GetAdGroupsByCampaignId Response Object
-     * 
+     *
      * @uses AdGroup
      * @used-by BingAdsCampaignManagementService::GetAdGroupsByCampaignId
      */
@@ -5181,7 +5181,7 @@ namespace BingAds\CampaignManagement
     /**
      * Gets the specified ad groups that exist within a specified campaign.
      * @link http://msdn.microsoft.com/en-us/library/dn277529(v=msads.90).aspx GetAdGroupsByIds Request Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::GetAdGroupsByIds
      */
     final class GetAdGroupsByIdsRequest
@@ -5202,7 +5202,7 @@ namespace BingAds\CampaignManagement
     /**
      * Gets the specified ad groups that exist within a specified campaign.
      * @link http://msdn.microsoft.com/en-us/library/dn277529(v=msads.90).aspx GetAdGroupsByIds Response Object
-     * 
+     *
      * @uses AdGroup
      * @used-by BingAdsCampaignManagementService::GetAdGroupsByIds
      */
@@ -5218,7 +5218,7 @@ namespace BingAds\CampaignManagement
     /**
      * Retrieves the ads that are associated with an ad group.
      * @link http://msdn.microsoft.com/en-us/library/dn277534(v=msads.90).aspx GetAdsByAdGroupId Request Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::GetAdsByAdGroupId
      */
     final class GetAdsByAdGroupIdRequest
@@ -5233,7 +5233,7 @@ namespace BingAds\CampaignManagement
     /**
      * Retrieves the ads that are associated with an ad group.
      * @link http://msdn.microsoft.com/en-us/library/dn277534(v=msads.90).aspx GetAdsByAdGroupId Response Object
-     * 
+     *
      * @uses Ad
      * @used-by BingAdsCampaignManagementService::GetAdsByAdGroupId
      */
@@ -5249,7 +5249,7 @@ namespace BingAds\CampaignManagement
     /**
      * Retrieves the ads that belong to the specified ad group and have the specified editorial review status.
      * @link http://msdn.microsoft.com/en-us/library/dn277538(v=msads.90).aspx GetAdsByEditorialStatus Request Object
-     * 
+     *
      * @uses AdEditorialStatus
      * @used-by BingAdsCampaignManagementService::GetAdsByEditorialStatus
      */
@@ -5271,7 +5271,7 @@ namespace BingAds\CampaignManagement
     /**
      * Retrieves the ads that belong to the specified ad group and have the specified editorial review status.
      * @link http://msdn.microsoft.com/en-us/library/dn277538(v=msads.90).aspx GetAdsByEditorialStatus Response Object
-     * 
+     *
      * @uses Ad
      * @used-by BingAdsCampaignManagementService::GetAdsByEditorialStatus
      */
@@ -5287,7 +5287,7 @@ namespace BingAds\CampaignManagement
     /**
      * Retrieves the specified ads from the specified ad group.
      * @link http://msdn.microsoft.com/en-us/library/dn236296(v=msads.90).aspx GetAdsByIds Request Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::GetAdsByIds
      */
     final class GetAdsByIdsRequest
@@ -5308,7 +5308,7 @@ namespace BingAds\CampaignManagement
     /**
      * Retrieves the specified ads from the specified ad group.
      * @link http://msdn.microsoft.com/en-us/library/dn236296(v=msads.90).aspx GetAdsByIds Response Object
-     * 
+     *
      * @uses Ad
      * @uses BatchError
      * @used-by BingAdsCampaignManagementService::GetAdsByIds
@@ -5331,7 +5331,7 @@ namespace BingAds\CampaignManagement
     /**
      * Gets the Bing Merchant Center stores for the specified customer.
      * @link http://msdn.microsoft.com/en-us/library/dn411607(v=msads.90).aspx GetBMCStoresByCustomerId Request Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::GetBMCStoresByCustomerId
      */
     final class GetBMCStoresByCustomerIdRequest
@@ -5341,7 +5341,7 @@ namespace BingAds\CampaignManagement
     /**
      * Gets the Bing Merchant Center stores for the specified customer.
      * @link http://msdn.microsoft.com/en-us/library/dn411607(v=msads.90).aspx GetBMCStoresByCustomerId Response Object
-     * 
+     *
      * @uses BMCStore
      * @used-by BingAdsCampaignManagementService::GetBMCStoresByCustomerId
      */
@@ -5357,7 +5357,7 @@ namespace BingAds\CampaignManagement
     /**
      * Retrieves all the campaigns that exist within a specified account.
      * @link http://msdn.microsoft.com/en-us/library/dn236299(v=msads.90).aspx GetCampaignsByAccountId Request Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::GetCampaignsByAccountId
      */
     final class GetCampaignsByAccountIdRequest
@@ -5372,7 +5372,7 @@ namespace BingAds\CampaignManagement
     /**
      * Retrieves all the campaigns that exist within a specified account.
      * @link http://msdn.microsoft.com/en-us/library/dn236299(v=msads.90).aspx GetCampaignsByAccountId Response Object
-     * 
+     *
      * @uses Campaign
      * @used-by BingAdsCampaignManagementService::GetCampaignsByAccountId
      */
@@ -5388,7 +5388,7 @@ namespace BingAds\CampaignManagement
     /**
      * Retrieves the specified campaigns from the specified account.
      * @link http://msdn.microsoft.com/en-us/library/dn236303(v=msads.90).aspx GetCampaignsByIds Request Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::GetCampaignsByIds
      */
     final class GetCampaignsByIdsRequest
@@ -5409,7 +5409,7 @@ namespace BingAds\CampaignManagement
     /**
      * Retrieves the specified campaigns from the specified account.
      * @link http://msdn.microsoft.com/en-us/library/dn236303(v=msads.90).aspx GetCampaignsByIds Response Object
-     * 
+     *
      * @uses Campaign
      * @used-by BingAdsCampaignManagementService::GetCampaignsByIds
      */
@@ -5436,7 +5436,7 @@ namespace BingAds\CampaignManagement
     /**
      * Gets the reasons why the specified entities failed editorial review and whether the rejection is appealable.
      * @link http://msdn.microsoft.com/en-us/library/dn236306(v=msads.90).aspx GetEditorialReasonsByIds Request Object
-     * 
+     *
      * @uses EntityType
      * @used-by BingAdsCampaignManagementService::GetEditorialReasonsByIds
      */
@@ -5464,7 +5464,7 @@ namespace BingAds\CampaignManagement
     /**
      * Gets the reasons why the specified entities failed editorial review and whether the rejection is appealable.
      * @link http://msdn.microsoft.com/en-us/library/dn236306(v=msads.90).aspx GetEditorialReasonsByIds Response Object
-     * 
+     *
      * @uses EditorialReasonCollection
      * @used-by BingAdsCampaignManagementService::GetEditorialReasonsByIds
      */
@@ -5480,7 +5480,7 @@ namespace BingAds\CampaignManagement
     /**
      * Retrieves the keywords for an ad group.
      * @link http://msdn.microsoft.com/en-us/library/dn236311(v=msads.90).aspx GetKeywordsByAdGroupId Request Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::GetKeywordsByAdGroupId
      */
     final class GetKeywordsByAdGroupIdRequest
@@ -5495,7 +5495,7 @@ namespace BingAds\CampaignManagement
     /**
      * Retrieves the keywords for an ad group.
      * @link http://msdn.microsoft.com/en-us/library/dn236311(v=msads.90).aspx GetKeywordsByAdGroupId Response Object
-     * 
+     *
      * @uses Keyword
      * @used-by BingAdsCampaignManagementService::GetKeywordsByAdGroupId
      */
@@ -5511,7 +5511,7 @@ namespace BingAds\CampaignManagement
     /**
      * Retrieves the keywords with the specified editorial review status.
      * @link http://msdn.microsoft.com/en-us/library/dn277501(v=msads.90).aspx GetKeywordsByEditorialStatus Request Object
-     * 
+     *
      * @uses KeywordEditorialStatus
      * @used-by BingAdsCampaignManagementService::GetKeywordsByEditorialStatus
      */
@@ -5533,7 +5533,7 @@ namespace BingAds\CampaignManagement
     /**
      * Retrieves the keywords with the specified editorial review status.
      * @link http://msdn.microsoft.com/en-us/library/dn277501(v=msads.90).aspx GetKeywordsByEditorialStatus Response Object
-     * 
+     *
      * @uses Keyword
      * @used-by BingAdsCampaignManagementService::GetKeywordsByEditorialStatus
      */
@@ -5549,7 +5549,7 @@ namespace BingAds\CampaignManagement
     /**
      * Retrieves the specified keywords.
      * @link http://msdn.microsoft.com/en-us/library/dn277505(v=msads.90).aspx GetKeywordsByIds Request Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::GetKeywordsByIds
      */
     final class GetKeywordsByIdsRequest
@@ -5570,7 +5570,7 @@ namespace BingAds\CampaignManagement
     /**
      * Retrieves the specified keywords.
      * @link http://msdn.microsoft.com/en-us/library/dn277505(v=msads.90).aspx GetKeywordsByIds Response Object
-     * 
+     *
      * @uses Keyword
      * @uses BatchError
      * @used-by BingAdsCampaignManagementService::GetKeywordsByIds
@@ -5593,7 +5593,7 @@ namespace BingAds\CampaignManagement
     /**
      * Currently this feature is only available in production for pilot participants, and will be generally available for all advertisers in Q3 2014.
      * @link http://msdn.microsoft.com/en-us/library/dn743729(v=msads.90).aspx GetListItemsBySharedList Request Object
-     * 
+     *
      * @uses SharedList
      * @used-by BingAdsCampaignManagementService::GetListItemsBySharedList
      */
@@ -5609,7 +5609,7 @@ namespace BingAds\CampaignManagement
     /**
      * Currently this feature is only available in production for pilot participants, and will be generally available for all advertisers in Q3 2014.
      * @link http://msdn.microsoft.com/en-us/library/dn743729(v=msads.90).aspx GetListItemsBySharedList Response Object
-     * 
+     *
      * @uses SharedListItem
      * @used-by BingAdsCampaignManagementService::GetListItemsBySharedList
      */
@@ -5625,7 +5625,7 @@ namespace BingAds\CampaignManagement
     /**
      * Gets the media associations of the specified entity type from an account's media library.
      * @link http://msdn.microsoft.com/en-us/library/dn798359(v=msads.90).aspx GetMediaAssociations Request Object
-     * 
+     *
      * @uses MediaEnabledEntityFilter
      * @used-by BingAdsCampaignManagementService::GetMediaAssociations
      */
@@ -5647,7 +5647,7 @@ namespace BingAds\CampaignManagement
     /**
      * Gets the media associations of the specified entity type from an account's media library.
      * @link http://msdn.microsoft.com/en-us/library/dn798359(v=msads.90).aspx GetMediaAssociations Response Object
-     * 
+     *
      * @uses MediaAssociation
      * @uses BatchError
      * @used-by BingAdsCampaignManagementService::GetMediaAssociations
@@ -5670,7 +5670,7 @@ namespace BingAds\CampaignManagement
     /**
      * Gets the specified media from an account's media library.
      * @link http://msdn.microsoft.com/en-us/library/dn277511(v=msads.90).aspx GetMediaByIds Request Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::GetMediaByIds
      */
     final class GetMediaByIdsRequest
@@ -5691,7 +5691,7 @@ namespace BingAds\CampaignManagement
     /**
      * Gets the specified media from an account's media library.
      * @link http://msdn.microsoft.com/en-us/library/dn277511(v=msads.90).aspx GetMediaByIds Response Object
-     * 
+     *
      * @uses Media
      * @used-by BingAdsCampaignManagementService::GetMediaByIds
      */
@@ -5707,7 +5707,7 @@ namespace BingAds\CampaignManagement
     /**
      * Gets the media meta data of the specified entity type from an account's media library.
      * @link http://msdn.microsoft.com/en-us/library/dn766196(v=msads.90).aspx GetMediaMetaDataByAccountId Request Object
-     * 
+     *
      * @uses MediaEnabledEntityFilter
      * @used-by BingAdsCampaignManagementService::GetMediaMetaDataByAccountId
      */
@@ -5723,7 +5723,7 @@ namespace BingAds\CampaignManagement
     /**
      * Gets the media meta data of the specified entity type from an account's media library.
      * @link http://msdn.microsoft.com/en-us/library/dn766196(v=msads.90).aspx GetMediaMetaDataByAccountId Response Object
-     * 
+     *
      * @uses MediaMetaData
      * @used-by BingAdsCampaignManagementService::GetMediaMetaDataByAccountId
      */
@@ -5739,7 +5739,7 @@ namespace BingAds\CampaignManagement
     /**
      * Gets the specified media meta data from an account's media library.
      * @link http://msdn.microsoft.com/en-us/library/dn766200(v=msads.90).aspx GetMediaMetaDataByIds Request Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::GetMediaMetaDataByIds
      */
     final class GetMediaMetaDataByIdsRequest
@@ -5754,7 +5754,7 @@ namespace BingAds\CampaignManagement
     /**
      * Gets the specified media meta data from an account's media library.
      * @link http://msdn.microsoft.com/en-us/library/dn766200(v=msads.90).aspx GetMediaMetaDataByIds Response Object
-     * 
+     *
      * @uses MediaMetaData
      * @uses BatchError
      * @used-by BingAdsCampaignManagementService::GetMediaMetaDataByIds
@@ -5777,7 +5777,7 @@ namespace BingAds\CampaignManagement
     /**
      * Retrieves the negative keywords that are only associated to the specified ad group.
      * @link http://msdn.microsoft.com/en-us/library/dn277514(v=msads.90).aspx GetNegativeKeywordsByAdGroupIds Request Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::GetNegativeKeywordsByAdGroupIds
      */
     final class GetNegativeKeywordsByAdGroupIdsRequest
@@ -5798,7 +5798,7 @@ namespace BingAds\CampaignManagement
     /**
      * Retrieves the negative keywords that are only associated to the specified ad group.
      * @link http://msdn.microsoft.com/en-us/library/dn277514(v=msads.90).aspx GetNegativeKeywordsByAdGroupIds Response Object
-     * 
+     *
      * @uses AdGroupNegativeKeywords
      * @used-by BingAdsCampaignManagementService::GetNegativeKeywordsByAdGroupIds
      */
@@ -5814,7 +5814,7 @@ namespace BingAds\CampaignManagement
     /**
      * Retrieves the negative keywords that are only associated to the specified campaign.
      * @link http://msdn.microsoft.com/en-us/library/dn277519(v=msads.90).aspx GetNegativeKeywordsByCampaignIds Request Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::GetNegativeKeywordsByCampaignIds
      */
     final class GetNegativeKeywordsByCampaignIdsRequest
@@ -5835,7 +5835,7 @@ namespace BingAds\CampaignManagement
     /**
      * Retrieves the negative keywords that are only associated to the specified campaign.
      * @link http://msdn.microsoft.com/en-us/library/dn277519(v=msads.90).aspx GetNegativeKeywordsByCampaignIds Response Object
-     * 
+     *
      * @uses CampaignNegativeKeywords
      * @used-by BingAdsCampaignManagementService::GetNegativeKeywordsByCampaignIds
      */
@@ -5851,7 +5851,7 @@ namespace BingAds\CampaignManagement
     /**
      * Currently this feature is only available in production for pilot participants, and will be generally available for all advertisers in Q3 2014.
      * @link http://msdn.microsoft.com/en-us/library/dn743730(v=msads.90).aspx GetNegativeKeywordsByEntityIds Request Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::GetNegativeKeywordsByEntityIds
      */
     final class GetNegativeKeywordsByEntityIdsRequest
@@ -5878,7 +5878,7 @@ namespace BingAds\CampaignManagement
     /**
      * Currently this feature is only available in production for pilot participants, and will be generally available for all advertisers in Q3 2014.
      * @link http://msdn.microsoft.com/en-us/library/dn743730(v=msads.90).aspx GetNegativeKeywordsByEntityIds Response Object
-     * 
+     *
      * @uses EntityNegativeKeyword
      * @uses BatchError
      * @used-by BingAdsCampaignManagementService::GetNegativeKeywordsByEntityIds
@@ -5901,7 +5901,7 @@ namespace BingAds\CampaignManagement
     /**
      * Gets the negative site URLs of the specified ad groups.
      * @link http://msdn.microsoft.com/en-us/library/dn277521(v=msads.90).aspx GetNegativeSitesByAdGroupIds Request Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::GetNegativeSitesByAdGroupIds
      */
     final class GetNegativeSitesByAdGroupIdsRequest
@@ -5922,7 +5922,7 @@ namespace BingAds\CampaignManagement
     /**
      * Gets the negative site URLs of the specified ad groups.
      * @link http://msdn.microsoft.com/en-us/library/dn277521(v=msads.90).aspx GetNegativeSitesByAdGroupIds Response Object
-     * 
+     *
      * @uses AdGroupNegativeSites
      * @used-by BingAdsCampaignManagementService::GetNegativeSitesByAdGroupIds
      */
@@ -5938,7 +5938,7 @@ namespace BingAds\CampaignManagement
     /**
      * Gets the negative site URLs of the specified campaigns.
      * @link http://msdn.microsoft.com/en-us/library/dn277525(v=msads.90).aspx GetNegativeSitesByCampaignIds Request Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::GetNegativeSitesByCampaignIds
      */
     final class GetNegativeSitesByCampaignIdsRequest
@@ -5959,7 +5959,7 @@ namespace BingAds\CampaignManagement
     /**
      * Gets the negative site URLs of the specified campaigns.
      * @link http://msdn.microsoft.com/en-us/library/dn277525(v=msads.90).aspx GetNegativeSitesByCampaignIds Response Object
-     * 
+     *
      * @uses CampaignNegativeSites
      * @used-by BingAdsCampaignManagementService::GetNegativeSitesByCampaignIds
      */
@@ -5975,7 +5975,7 @@ namespace BingAds\CampaignManagement
     /**
      * Retrieves placement information for the specified URLs.
      * @link http://msdn.microsoft.com/en-us/library/dn277530(v=msads.90).aspx GetPlacementDetailsForUrls Request Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::GetPlacementDetailsForUrls
      */
     final class GetPlacementDetailsForUrlsRequest
@@ -5990,7 +5990,7 @@ namespace BingAds\CampaignManagement
     /**
      * Retrieves placement information for the specified URLs.
      * @link http://msdn.microsoft.com/en-us/library/dn277530(v=msads.90).aspx GetPlacementDetailsForUrls Response Object
-     * 
+     *
      * @uses PlacementDetail
      * @used-by BingAdsCampaignManagementService::GetPlacementDetailsForUrls
      */
@@ -6006,7 +6006,7 @@ namespace BingAds\CampaignManagement
     /**
      * Currently this feature is only available in production for pilot participants, and will be generally available for all advertisers in Q3 2014.
      * @link http://msdn.microsoft.com/en-us/library/dn743728(v=msads.90).aspx GetSharedEntitiesByAccountId Request Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::GetSharedEntitiesByAccountId
      */
     final class GetSharedEntitiesByAccountIdRequest
@@ -6021,7 +6021,7 @@ namespace BingAds\CampaignManagement
     /**
      * Currently this feature is only available in production for pilot participants, and will be generally available for all advertisers in Q3 2014.
      * @link http://msdn.microsoft.com/en-us/library/dn743728(v=msads.90).aspx GetSharedEntitiesByAccountId Response Object
-     * 
+     *
      * @uses SharedEntity
      * @used-by BingAdsCampaignManagementService::GetSharedEntitiesByAccountId
      */
@@ -6037,7 +6037,7 @@ namespace BingAds\CampaignManagement
     /**
      * Currently this feature is only available in production for pilot participants, and will be generally available for all advertisers in Q3 2014.
      * @link http://msdn.microsoft.com/en-us/library/dn743771(v=msads.90).aspx GetSharedEntityAssociationsByEntityIds Request Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::GetSharedEntityAssociationsByEntityIds
      */
     final class GetSharedEntityAssociationsByEntityIdsRequest
@@ -6064,7 +6064,7 @@ namespace BingAds\CampaignManagement
     /**
      * Currently this feature is only available in production for pilot participants, and will be generally available for all advertisers in Q3 2014.
      * @link http://msdn.microsoft.com/en-us/library/dn743771(v=msads.90).aspx GetSharedEntityAssociationsByEntityIds Response Object
-     * 
+     *
      * @uses SharedEntityAssociation
      * @uses BatchError
      * @used-by BingAdsCampaignManagementService::GetSharedEntityAssociationsByEntityIds
@@ -6087,7 +6087,7 @@ namespace BingAds\CampaignManagement
     /**
      * Currently this feature is only available in production for pilot participants, and will be generally available for all advertisers in Q3 2014.
      * @link http://msdn.microsoft.com/en-us/library/dn743773(v=msads.90).aspx GetSharedEntityAssociationsBySharedEntityIds Request Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::GetSharedEntityAssociationsBySharedEntityIds
      */
     final class GetSharedEntityAssociationsBySharedEntityIdsRequest
@@ -6114,7 +6114,7 @@ namespace BingAds\CampaignManagement
     /**
      * Currently this feature is only available in production for pilot participants, and will be generally available for all advertisers in Q3 2014.
      * @link http://msdn.microsoft.com/en-us/library/dn743773(v=msads.90).aspx GetSharedEntityAssociationsBySharedEntityIds Response Object
-     * 
+     *
      * @uses SharedEntityAssociation
      * @uses BatchError
      * @used-by BingAdsCampaignManagementService::GetSharedEntityAssociationsBySharedEntityIds
@@ -6137,7 +6137,7 @@ namespace BingAds\CampaignManagement
     /**
      * Retrieves all the website-placement bids from the specified ad group.
      * @link http://msdn.microsoft.com/en-us/library/dn277535(v=msads.90).aspx GetSitePlacementsByAdGroupId Request Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::GetSitePlacementsByAdGroupId
      */
     final class GetSitePlacementsByAdGroupIdRequest
@@ -6152,7 +6152,7 @@ namespace BingAds\CampaignManagement
     /**
      * Retrieves all the website-placement bids from the specified ad group.
      * @link http://msdn.microsoft.com/en-us/library/dn277535(v=msads.90).aspx GetSitePlacementsByAdGroupId Response Object
-     * 
+     *
      * @uses SitePlacement
      * @used-by BingAdsCampaignManagementService::GetSitePlacementsByAdGroupId
      */
@@ -6168,7 +6168,7 @@ namespace BingAds\CampaignManagement
     /**
      * Retrieves the specified website-placement bids from the specified ad group.
      * @link http://msdn.microsoft.com/en-us/library/dn277539(v=msads.90).aspx GetSitePlacementsByIds Request Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::GetSitePlacementsByIds
      */
     final class GetSitePlacementsByIdsRequest
@@ -6189,7 +6189,7 @@ namespace BingAds\CampaignManagement
     /**
      * Retrieves the specified website-placement bids from the specified ad group.
      * @link http://msdn.microsoft.com/en-us/library/dn277539(v=msads.90).aspx GetSitePlacementsByIds Response Object
-     * 
+     *
      * @uses SitePlacement
      * @used-by BingAdsCampaignManagementService::GetSitePlacementsByIds
      */
@@ -6205,7 +6205,7 @@ namespace BingAds\CampaignManagement
     /**
      * Retrieves detailed information about the targets that are associated with the specified ad groups.
      * @link http://msdn.microsoft.com/en-us/library/dn236297(v=msads.90).aspx GetTargetsByAdGroupIds Request Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::GetTargetsByAdGroupIds
      */
     final class GetTargetsByAdGroupIdsRequest
@@ -6226,7 +6226,7 @@ namespace BingAds\CampaignManagement
     /**
      * Retrieves detailed information about the targets that are associated with the specified ad groups.
      * @link http://msdn.microsoft.com/en-us/library/dn236297(v=msads.90).aspx GetTargetsByAdGroupIds Response Object
-     * 
+     *
      * @uses Target
      * @used-by BingAdsCampaignManagementService::GetTargetsByAdGroupIds
      */
@@ -6242,7 +6242,7 @@ namespace BingAds\CampaignManagement
     /**
      * Currently this feature is only available for pilot participants, and will be generally available for all advertisers in Q3 2014.
      * @link http://msdn.microsoft.com/en-us/library/dn743776(v=msads.90).aspx GetTargetsByAdGroupIds2 Request Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::GetTargetsByAdGroupIds2
      */
     final class GetTargetsByAdGroupIds2Request
@@ -6263,7 +6263,7 @@ namespace BingAds\CampaignManagement
     /**
      * Currently this feature is only available for pilot participants, and will be generally available for all advertisers in Q3 2014.
      * @link http://msdn.microsoft.com/en-us/library/dn743776(v=msads.90).aspx GetTargetsByAdGroupIds2 Response Object
-     * 
+     *
      * @uses Target2
      * @used-by BingAdsCampaignManagementService::GetTargetsByAdGroupIds2
      */
@@ -6279,7 +6279,7 @@ namespace BingAds\CampaignManagement
     /**
      * Retrieves detailed information about the targets that are associated with the specified campaigns.
      * @link http://msdn.microsoft.com/en-us/library/dn236300(v=msads.90).aspx GetTargetsByCampaignIds Request Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::GetTargetsByCampaignIds
      */
     final class GetTargetsByCampaignIdsRequest
@@ -6300,7 +6300,7 @@ namespace BingAds\CampaignManagement
     /**
      * Retrieves detailed information about the targets that are associated with the specified campaigns.
      * @link http://msdn.microsoft.com/en-us/library/dn236300(v=msads.90).aspx GetTargetsByCampaignIds Response Object
-     * 
+     *
      * @uses Target
      * @used-by BingAdsCampaignManagementService::GetTargetsByCampaignIds
      */
@@ -6316,7 +6316,7 @@ namespace BingAds\CampaignManagement
     /**
      * Currently this feature is only available for pilot participants, and will be generally available for all advertisers in Q3 2014.
      * @link http://msdn.microsoft.com/en-us/library/dn743778(v=msads.90).aspx GetTargetsByCampaignIds2 Request Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::GetTargetsByCampaignIds2
      */
     final class GetTargetsByCampaignIds2Request
@@ -6337,7 +6337,7 @@ namespace BingAds\CampaignManagement
     /**
      * Currently this feature is only available for pilot participants, and will be generally available for all advertisers in Q3 2014.
      * @link http://msdn.microsoft.com/en-us/library/dn743778(v=msads.90).aspx GetTargetsByCampaignIds2 Response Object
-     * 
+     *
      * @uses Target2
      * @used-by BingAdsCampaignManagementService::GetTargetsByCampaignIds2
      */
@@ -6353,7 +6353,7 @@ namespace BingAds\CampaignManagement
     /**
      * Retrieves detailed information about the specified targets.
      * @link http://msdn.microsoft.com/en-us/library/dn236304(v=msads.90).aspx GetTargetsByIds Request Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::GetTargetsByIds
      */
     final class GetTargetsByIdsRequest
@@ -6374,7 +6374,7 @@ namespace BingAds\CampaignManagement
     /**
      * Retrieves detailed information about the specified targets.
      * @link http://msdn.microsoft.com/en-us/library/dn236304(v=msads.90).aspx GetTargetsByIds Response Object
-     * 
+     *
      * @uses Target
      * @used-by BingAdsCampaignManagementService::GetTargetsByIds
      */
@@ -6390,7 +6390,7 @@ namespace BingAds\CampaignManagement
     /**
      * Currently this feature is only available for pilot participants, and will be generally available for all advertisers in Q3 2014.
      * @link http://msdn.microsoft.com/en-us/library/dn743779(v=msads.90).aspx GetTargetsByIds2 Request Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::GetTargetsByIds2
      */
     final class GetTargetsByIds2Request
@@ -6411,7 +6411,7 @@ namespace BingAds\CampaignManagement
     /**
      * Currently this feature is only available for pilot participants, and will be generally available for all advertisers in Q3 2014.
      * @link http://msdn.microsoft.com/en-us/library/dn743779(v=msads.90).aspx GetTargetsByIds2 Response Object
-     * 
+     *
      * @uses Target2
      * @used-by BingAdsCampaignManagementService::GetTargetsByIds2
      */
@@ -6427,7 +6427,7 @@ namespace BingAds\CampaignManagement
     /**
      * Retrieves detailed information about all the targets in your target library.
      * @link http://msdn.microsoft.com/en-us/library/dn236308(v=msads.90).aspx GetTargetsInfoFromLibrary Request Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::GetTargetsInfoFromLibrary
      */
     final class GetTargetsInfoFromLibraryRequest
@@ -6437,7 +6437,7 @@ namespace BingAds\CampaignManagement
     /**
      * Retrieves detailed information about all the targets in your target library.
      * @link http://msdn.microsoft.com/en-us/library/dn236308(v=msads.90).aspx GetTargetsInfoFromLibrary Response Object
-     * 
+     *
      * @uses TargetInfo
      * @used-by BingAdsCampaignManagementService::GetTargetsInfoFromLibrary
      */
@@ -6453,7 +6453,7 @@ namespace BingAds\CampaignManagement
     /**
      * Associates the specified ad extensions with the respective campaigns or ad groups.
      * @link http://msdn.microsoft.com/en-us/library/dn277532(v=msads.90).aspx SetAdExtensionsAssociations Request Object
-     * 
+     *
      * @uses AdExtensionIdToEntityIdAssociation
      * @uses AssociationType
      * @used-by BingAdsCampaignManagementService::SetAdExtensionsAssociations
@@ -6482,7 +6482,7 @@ namespace BingAds\CampaignManagement
     /**
      * Associates the specified ad extensions with the respective campaigns or ad groups.
      * @link http://msdn.microsoft.com/en-us/library/dn277532(v=msads.90).aspx SetAdExtensionsAssociations Response Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::SetAdExtensionsAssociations
      */
     final class SetAdExtensionsAssociationsResponse
@@ -6492,7 +6492,7 @@ namespace BingAds\CampaignManagement
     /**
      * Sets the negative keywords of the specified ad groups.
      * @link http://msdn.microsoft.com/en-us/library/dn236312(v=msads.90).aspx SetNegativeKeywordsToAdGroups Request Object
-     * 
+     *
      * @uses AdGroupNegativeKeywords
      * @used-by BingAdsCampaignManagementService::SetNegativeKeywordsToAdGroups
      */
@@ -6514,7 +6514,7 @@ namespace BingAds\CampaignManagement
     /**
      * Sets the negative keywords of the specified ad groups.
      * @link http://msdn.microsoft.com/en-us/library/dn236312(v=msads.90).aspx SetNegativeKeywordsToAdGroups Response Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::SetNegativeKeywordsToAdGroups
      */
     final class SetNegativeKeywordsToAdGroupsResponse
@@ -6524,7 +6524,7 @@ namespace BingAds\CampaignManagement
     /**
      * Sets the negative keywords of the specified campaigns.
      * @link http://msdn.microsoft.com/en-us/library/dn236316(v=msads.90).aspx SetNegativeKeywordsToCampaigns Request Object
-     * 
+     *
      * @uses CampaignNegativeKeywords
      * @used-by BingAdsCampaignManagementService::SetNegativeKeywordsToCampaigns
      */
@@ -6546,7 +6546,7 @@ namespace BingAds\CampaignManagement
     /**
      * Sets the negative keywords of the specified campaigns.
      * @link http://msdn.microsoft.com/en-us/library/dn236316(v=msads.90).aspx SetNegativeKeywordsToCampaigns Response Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::SetNegativeKeywordsToCampaigns
      */
     final class SetNegativeKeywordsToCampaignsResponse
@@ -6556,7 +6556,7 @@ namespace BingAds\CampaignManagement
     /**
      * Sets the negative site URLs of the specified ad groups.
      * @link http://msdn.microsoft.com/en-us/library/dn236317(v=msads.90).aspx SetNegativeSitesToAdGroups Request Object
-     * 
+     *
      * @uses AdGroupNegativeSites
      * @used-by BingAdsCampaignManagementService::SetNegativeSitesToAdGroups
      */
@@ -6578,7 +6578,7 @@ namespace BingAds\CampaignManagement
     /**
      * Sets the negative site URLs of the specified ad groups.
      * @link http://msdn.microsoft.com/en-us/library/dn236317(v=msads.90).aspx SetNegativeSitesToAdGroups Response Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::SetNegativeSitesToAdGroups
      */
     final class SetNegativeSitesToAdGroupsResponse
@@ -6588,7 +6588,7 @@ namespace BingAds\CampaignManagement
     /**
      * Sets the negative site URLs of the specified campaigns.
      * @link http://msdn.microsoft.com/en-us/library/dn277504(v=msads.90).aspx SetNegativeSitesToCampaigns Request Object
-     * 
+     *
      * @uses CampaignNegativeSites
      * @used-by BingAdsCampaignManagementService::SetNegativeSitesToCampaigns
      */
@@ -6610,7 +6610,7 @@ namespace BingAds\CampaignManagement
     /**
      * Sets the negative site URLs of the specified campaigns.
      * @link http://msdn.microsoft.com/en-us/library/dn277504(v=msads.90).aspx SetNegativeSitesToCampaigns Response Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::SetNegativeSitesToCampaigns
      */
     final class SetNegativeSitesToCampaignsResponse
@@ -6620,7 +6620,7 @@ namespace BingAds\CampaignManagement
     /**
      * Currently this feature is only available in production for pilot participants, and will be generally available for all advertisers in Q3 2014.
      * @link http://msdn.microsoft.com/en-us/library/dn743780(v=msads.90).aspx SetSharedEntityAssociations Request Object
-     * 
+     *
      * @uses SharedEntityAssociation
      * @used-by BingAdsCampaignManagementService::SetSharedEntityAssociations
      */
@@ -6636,7 +6636,7 @@ namespace BingAds\CampaignManagement
     /**
      * Currently this feature is only available in production for pilot participants, and will be generally available for all advertisers in Q3 2014.
      * @link http://msdn.microsoft.com/en-us/library/dn743780(v=msads.90).aspx SetSharedEntityAssociations Response Object
-     * 
+     *
      * @uses BatchError
      * @used-by BingAdsCampaignManagementService::SetSharedEntityAssociations
      */
@@ -6652,7 +6652,7 @@ namespace BingAds\CampaignManagement
     /**
      * Associates the specified target with the specified ad group.
      * @link http://msdn.microsoft.com/en-us/library/dn277508(v=msads.90).aspx SetTargetToAdGroup Request Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::SetTargetToAdGroup
      */
     final class SetTargetToAdGroupRequest
@@ -6679,7 +6679,7 @@ namespace BingAds\CampaignManagement
     /**
      * Associates the specified target with the specified ad group.
      * @link http://msdn.microsoft.com/en-us/library/dn277508(v=msads.90).aspx SetTargetToAdGroup Response Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::SetTargetToAdGroup
      */
     final class SetTargetToAdGroupResponse
@@ -6689,7 +6689,7 @@ namespace BingAds\CampaignManagement
     /**
      * Associates the specified target with the specified campaign.
      * @link http://msdn.microsoft.com/en-us/library/dn277512(v=msads.90).aspx SetTargetToCampaign Request Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::SetTargetToCampaign
      */
     final class SetTargetToCampaignRequest
@@ -6716,7 +6716,7 @@ namespace BingAds\CampaignManagement
     /**
      * Associates the specified target with the specified campaign.
      * @link http://msdn.microsoft.com/en-us/library/dn277512(v=msads.90).aspx SetTargetToCampaign Response Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::SetTargetToCampaign
      */
     final class SetTargetToCampaignResponse
@@ -6726,7 +6726,7 @@ namespace BingAds\CampaignManagement
     /**
      * Submits an ad group for editorial review and updates the ad group status from Draft to Active.
      * @link http://msdn.microsoft.com/en-us/library/dn277516(v=msads.90).aspx SubmitAdGroupForApproval Request Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::SubmitAdGroupForApproval
      */
     final class SubmitAdGroupForApprovalRequest
@@ -6741,7 +6741,7 @@ namespace BingAds\CampaignManagement
     /**
      * Submits an ad group for editorial review and updates the ad group status from Draft to Active.
      * @link http://msdn.microsoft.com/en-us/library/dn277516(v=msads.90).aspx SubmitAdGroupForApproval Response Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::SubmitAdGroupForApproval
      */
     final class SubmitAdGroupForApprovalResponse
@@ -6751,7 +6751,7 @@ namespace BingAds\CampaignManagement
     /**
      * Updates one or more ad extensions within an account's ad extension library.
      * @link http://msdn.microsoft.com/en-us/library/dn277522(v=msads.90).aspx UpdateAdExtensions Request Object
-     * 
+     *
      * @uses AdExtension
      * @used-by BingAdsCampaignManagementService::UpdateAdExtensions
      */
@@ -6773,7 +6773,7 @@ namespace BingAds\CampaignManagement
     /**
      * Updates one or more ad extensions within an account's ad extension library.
      * @link http://msdn.microsoft.com/en-us/library/dn277522(v=msads.90).aspx UpdateAdExtensions Response Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::UpdateAdExtensions
      */
     final class UpdateAdExtensionsResponse
@@ -6783,7 +6783,7 @@ namespace BingAds\CampaignManagement
     /**
      * Updates one or more ad group criterions.
      * @link http://msdn.microsoft.com/en-us/library/dn277527(v=msads.90).aspx UpdateAdGroupCriterions Request Object
-     * 
+     *
      * @uses AdGroupCriterion
      * @used-by BingAdsCampaignManagementService::UpdateAdGroupCriterions
      */
@@ -6805,7 +6805,7 @@ namespace BingAds\CampaignManagement
     /**
      * Updates one or more ad group criterions.
      * @link http://msdn.microsoft.com/en-us/library/dn277527(v=msads.90).aspx UpdateAdGroupCriterions Response Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::UpdateAdGroupCriterions
      */
     final class UpdateAdGroupCriterionsResponse
@@ -6815,7 +6815,7 @@ namespace BingAds\CampaignManagement
     /**
      * Updates the specified ad groups in a specified campaign.
      * @link http://msdn.microsoft.com/en-us/library/dn277528(v=msads.90).aspx UpdateAdGroups Request Object
-     * 
+     *
      * @uses AdGroup
      * @used-by BingAdsCampaignManagementService::UpdateAdGroups
      */
@@ -6837,7 +6837,7 @@ namespace BingAds\CampaignManagement
     /**
      * Updates the specified ad groups in a specified campaign.
      * @link http://msdn.microsoft.com/en-us/library/dn277528(v=msads.90).aspx UpdateAdGroups Response Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::UpdateAdGroups
      */
     final class UpdateAdGroupsResponse
@@ -6847,7 +6847,7 @@ namespace BingAds\CampaignManagement
     /**
      * Updates the specified ads within a particular ad group.
      * @link http://msdn.microsoft.com/en-us/library/dn277531(v=msads.90).aspx UpdateAds Request Object
-     * 
+     *
      * @uses Ad
      * @used-by BingAdsCampaignManagementService::UpdateAds
      */
@@ -6869,7 +6869,7 @@ namespace BingAds\CampaignManagement
     /**
      * Updates the specified ads within a particular ad group.
      * @link http://msdn.microsoft.com/en-us/library/dn277531(v=msads.90).aspx UpdateAds Response Object
-     * 
+     *
      * @uses BatchError
      * @used-by BingAdsCampaignManagementService::UpdateAds
      */
@@ -6885,7 +6885,7 @@ namespace BingAds\CampaignManagement
     /**
      * Updates specified campaigns in a specified account.
      * @link http://msdn.microsoft.com/en-us/library/dn277536(v=msads.90).aspx UpdateCampaigns Request Object
-     * 
+     *
      * @uses Campaign
      * @used-by BingAdsCampaignManagementService::UpdateCampaigns
      */
@@ -6907,7 +6907,7 @@ namespace BingAds\CampaignManagement
     /**
      * Updates specified campaigns in a specified account.
      * @link http://msdn.microsoft.com/en-us/library/dn277536(v=msads.90).aspx UpdateCampaigns Response Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::UpdateCampaigns
      */
     final class UpdateCampaignsResponse
@@ -6917,7 +6917,7 @@ namespace BingAds\CampaignManagement
     /**
      * Updates the keywords within a specified ad group.
      * @link http://msdn.microsoft.com/en-us/library/dn236295(v=msads.90).aspx UpdateKeywords Request Object
-     * 
+     *
      * @uses Keyword
      * @used-by BingAdsCampaignManagementService::UpdateKeywords
      */
@@ -6939,7 +6939,7 @@ namespace BingAds\CampaignManagement
     /**
      * Updates the keywords within a specified ad group.
      * @link http://msdn.microsoft.com/en-us/library/dn236295(v=msads.90).aspx UpdateKeywords Response Object
-     * 
+     *
      * @uses BatchError
      * @used-by BingAdsCampaignManagementService::UpdateKeywords
      */
@@ -6955,7 +6955,7 @@ namespace BingAds\CampaignManagement
     /**
      * Currently this feature is only available in production for pilot participants, and will be generally available for all advertisers in Q3 2014.
      * @link http://msdn.microsoft.com/en-us/library/dn743732(v=msads.90).aspx UpdateSharedEntities Request Object
-     * 
+     *
      * @uses SharedEntity
      * @used-by BingAdsCampaignManagementService::UpdateSharedEntities
      */
@@ -6971,7 +6971,7 @@ namespace BingAds\CampaignManagement
     /**
      * Currently this feature is only available in production for pilot participants, and will be generally available for all advertisers in Q3 2014.
      * @link http://msdn.microsoft.com/en-us/library/dn743732(v=msads.90).aspx UpdateSharedEntities Response Object
-     * 
+     *
      * @uses BatchError
      * @used-by BingAdsCampaignManagementService::UpdateSharedEntities
      */
@@ -6987,7 +6987,7 @@ namespace BingAds\CampaignManagement
     /**
      * Updates one or more website-placement bids in an ad group.
      * @link http://msdn.microsoft.com/en-us/library/dn236298(v=msads.90).aspx UpdateSitePlacements Request Object
-     * 
+     *
      * @uses SitePlacement
      * @used-by BingAdsCampaignManagementService::UpdateSitePlacements
      */
@@ -7009,7 +7009,7 @@ namespace BingAds\CampaignManagement
     /**
      * Updates one or more website-placement bids in an ad group.
      * @link http://msdn.microsoft.com/en-us/library/dn236298(v=msads.90).aspx UpdateSitePlacements Response Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::UpdateSitePlacements
      */
     final class UpdateSitePlacementsResponse
@@ -7019,7 +7019,7 @@ namespace BingAds\CampaignManagement
     /**
      * Updates targets in your target library.
      * @link http://msdn.microsoft.com/en-us/library/dn236301(v=msads.90).aspx UpdateTargetsInLibrary Request Object
-     * 
+     *
      * @uses Target
      * @used-by BingAdsCampaignManagementService::UpdateTargetsInLibrary
      */
@@ -7035,7 +7035,7 @@ namespace BingAds\CampaignManagement
     /**
      * Updates targets in your target library.
      * @link http://msdn.microsoft.com/en-us/library/dn236301(v=msads.90).aspx UpdateTargetsInLibrary Response Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::UpdateTargetsInLibrary
      */
     final class UpdateTargetsInLibraryResponse
@@ -7045,7 +7045,7 @@ namespace BingAds\CampaignManagement
     /**
      * Currently this feature is only available for pilot participants, and will be generally available for all advertisers in Q3 2014.
      * @link http://msdn.microsoft.com/en-us/library/dn743774(v=msads.90).aspx UpdateTargetsInLibrary2 Request Object
-     * 
+     *
      * @uses Target2
      * @used-by BingAdsCampaignManagementService::UpdateTargetsInLibrary2
      */
@@ -7061,7 +7061,7 @@ namespace BingAds\CampaignManagement
     /**
      * Currently this feature is only available for pilot participants, and will be generally available for all advertisers in Q3 2014.
      * @link http://msdn.microsoft.com/en-us/library/dn743774(v=msads.90).aspx UpdateTargetsInLibrary2 Response Object
-     * 
+     *
      * @used-by BingAdsCampaignManagementService::UpdateTargetsInLibrary2
      */
     final class UpdateTargetsInLibrary2Response
