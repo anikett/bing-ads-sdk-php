@@ -1,4 +1,4 @@
-bing-ads-sdk-php
+bing-ads-sdk-php [![SensioLabsInsight](https://insight.sensiolabs.com/projects/92f8f567-9661-4590-a473-953c511c40b4/mini.png)](https://insight.sensiolabs.com/projects/92f8f567-9661-4590-a473-953c511c40b4)
 ================
 
 Composer friendly version of the Bing Ads SDK for PHP. API Version 9. 
